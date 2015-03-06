@@ -1,3 +1,6 @@
+<?php
+	header("Content-Type:text/html;charset=GB2312")
+?>
 <!DOCTYPE html>
 <html>
 <head>
