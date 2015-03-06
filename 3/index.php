@@ -105,11 +105,7 @@
 	</div>
 	<div id="user_container">
 		<?php require("./check_login.php"); ?>
-        <?php 
-        	echo "<span>";
-			echo var_dump(is_writeable(ini_get("session.save_path")));
-			echo "</span>"
-        ?>
+        <?php phpinfo(); ?>
 	</div>
 
 	<ul id="menu">
