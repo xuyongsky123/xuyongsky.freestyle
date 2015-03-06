@@ -65,6 +65,8 @@ class OperateDB{
 				return $callback_array;
 			}
 		}else if($sqltype=="update"||$sqltype=="delete"||$sqltype=="insert"){
+            echo $sqltype;
+            
 			if($result){
 				return true;
 			}else{
