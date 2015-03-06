@@ -36,9 +36,10 @@
 					//echo '点击此处 <a href="login.php?action=logout">注销</a> 登录!<br />';
 					//exit;
 					//echo "登陆成功";
-					echo "<script language='javascript'>alert('ok');history.back();</script>";
-					header('refresh:0;url=./index.php');
-					exit;	
+                    
+                    echo $_SESSION['username'];
+                    //header('refresh:0;url=./index.php');
+                    //exit;	
 				}
 			}else{
 				echo "<script language='javascript'>alert('username and password can't be null');history.back();</script>";
