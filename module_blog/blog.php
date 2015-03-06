@@ -1,7 +1,9 @@
+<?php
+	header("Content-Type:text/html;charset=utf-8");
+?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="gb2312" />
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 		<title>myblog网站主页</title>
 		<link rel="stylesheet" href="../module_blog/style.css" />
