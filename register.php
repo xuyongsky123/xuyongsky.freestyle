@@ -19,7 +19,7 @@
 					echo "<script language='javascript'>alert('username is repeat,register again...');history.back();</script>";
 			}else{
 				if($user&&$pwd&&$sex){
-					$sql="INSERT user (username,password,sex) VALUES ('$user','$pwd','$sex')";
+					$sql="insert user (username,password,sex) values ('$user','$pwd','$sex')";
 					$result=$operatedb->Execsql($sql,$conn);
 					
 					if(!$result){
