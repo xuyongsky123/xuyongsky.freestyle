@@ -36,6 +36,7 @@
 						
                         header('refresh:0;url=./index.php');
 						exit;	
+                        ob_end_flush();
 					}
 				}else{
 					echo "<script language='javascript'>alert('username,password,sex can't be null');history.back();</script>";
