@@ -47,7 +47,7 @@ class OperateDB{
 		//执行sql语句
 		$result=mysql_query($sql,$conn);
         
-        echo $result;
+        echo $result[0];
 
 		//定义二维数组
 		$callback_array=array();
