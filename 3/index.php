@@ -1,2 +1,2 @@
 <?php
-echo '<strong>Hello, SAE!</strong>';
+require("./mysite/index.php");
