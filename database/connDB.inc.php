@@ -1,5 +1,5 @@
 <?php
-header("Content-Type:text/html;charset=utf-8");
+	header("Content-Type:text/html;charset=utf-8");
 	require("ConnDB.class.inc.php");
 
 	$host=SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT;
