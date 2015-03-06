@@ -12,7 +12,7 @@
 			
 			require("./database/connDB.inc.php");
 			
-			$sql_check="SELECT * FROM USER WHERE username='$user'";
+			$sql_check="select * from user where username='$user'";
 			$result_check=$operatedb->Execsql($sql_check,$conn);
         
 			if($result_check){
@@ -27,7 +27,7 @@
 					}else{
 						echo "<script language='javascript'>alert('register ok');</script>";
 						
-						$sql_item="SELECT * FROM USER WHERE username='$user'";
+						$sql_item="select * from user where username='$user'";
 						$result_item=$operatedb->Execsql($sql_item,$conn);
 						
 						$_SESSION['username']=$user;
