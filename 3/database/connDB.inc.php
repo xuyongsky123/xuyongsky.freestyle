@@ -7,7 +7,7 @@
 	$dbpwd=SAE_MYSQL_PASS;
 	$dbname=SAE_MYSQL_DB;
 
-	$connClass=new ConnDB("mysql","$host","$dbuser","$dbpwd","$dbname");
+	$connClass=new ConnDB("mysql","$host","$dbuser","$dbpwd","app_xuyongsky");
 	$operatedb=new OperateDB();
 	$conn=$connClass->GetConn();
 ?>
