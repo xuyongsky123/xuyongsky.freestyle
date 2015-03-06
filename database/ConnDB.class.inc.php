@@ -1,5 +1,4 @@
 <?php
-header("Content-Type:text/html;charset=utf-8");
 //连接数据库的类
 class ConnDB{
 	var $dbtype;
