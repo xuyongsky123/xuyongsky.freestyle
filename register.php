@@ -16,7 +16,7 @@
 			$result_check=$operatedb->Execsql($sql_check,$conn);
 			
 			if($result_check){
-					echo "<script language='javascript'>alert('username is repeat，register again...');history.back();</script>";
+					echo "<script language='javascript'>alert('username is repeat,register again...');history.back();</script>";
 			}else{
 				if($user&&$pwd&&$sex){
 					$sql="INSERT USER (username,password,sex) VALUES ('$user','$pwd','$sex')";
