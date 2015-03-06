@@ -22,6 +22,8 @@
 					$sql="INSERT USER (username,password,sex) VALUES ('$user','$pwd','$sex')";
 					$result=$operatedb->Execsql($sql,$conn);
 					
+                    echo $result;
+                    
 					if(!$result){
 						echo "<script language='javascript'>alert('register wrong,please register again...');history.back();</script>";
 					}else{
