@@ -28,7 +28,7 @@
 				$result=$operatedb->Execsql($sql,$conn);
 				
 				if(!$result){
-					echo "<script language='javascript'>alert('用户名和密码错误');history.back();</script>";
+					echo "<script language='javascript'>alert('username and password wrong');history.back();</script>";
 				}else{
 					$_SESSION['username']=$user;
 					$_SESSION['id']=$result[0]['id'];
@@ -41,7 +41,7 @@
 					exit;	
 				}
 			}else{
-				echo "<script language='javascript'>alert('用户名和密码不能为空');history.back();</script>";
+				echo "<script language='javascript'>alert('username and password can't be null');history.back();</script>";
 			}
 			//可写可不写，因为php有自动垃圾回收机制
 			//$connClass->_destruct();
