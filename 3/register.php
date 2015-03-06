@@ -16,16 +16,16 @@
 			$result_check=$operatedb->Execsql($sql_check,$conn);
 			
 			if($result_check){
-					echo "<script language='javascript'>alert('用户名重复，请重新注册...');history.back();</script>";
+					echo "<script language='javascript'>alert('username is repeat，register again...');history.back();</script>";
 			}else{
 				if($user&&$pwd&&$sex){
 					$sql="INSERT USER (username,password,sex) VALUES ('$user','$pwd','$sex')";
 					$result=$operatedb->Execsql($sql,$conn);
 					
 					if(!$result){
-						echo "<script language='javascript'>alert('注册出错，请重新注册...');history.back();</script>";
+						echo "<script language='javascript'>alert('register wrong，please register again...');history.back();</script>";
 					}else{
-						echo "<script language='javascript'>alert('注册成功');</script>";
+						echo "<script language='javascript'>alert('register ok');</script>";
 						
 						$sql_item="SELECT * FROM USER WHERE username='$user'";
 						$result_item=$operatedb->Execsql($sql_item,$conn);
@@ -37,7 +37,7 @@
 						exit;	
 					}
 				}else{
-					echo "<script language='javascript'>alert('用户名、密码、性别不能为空');history.back();</script>";
+					echo "<script language='javascript'>alert('username,password,sex can't be null');history.back();</script>";
 				}
 			}
 			
