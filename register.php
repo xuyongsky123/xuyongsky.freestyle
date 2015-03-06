@@ -33,7 +33,7 @@
 						$_SESSION['username']=$user;
 						$_SESSION['id']=$result_item[0]['id'];
 						
-						header('refresh:0;url=./index.php');
+                        //header('refresh:0;url=./index.php');
 						exit;	
 					}
 				}else{
