@@ -23,7 +23,7 @@
 					$result=$operatedb->Execsql($sql,$conn);
 					
 					if(!$result){
-						echo "<script language='javascript'>alert('register wrong，please register again...');history.back();</script>";
+						echo "<script language='javascript'>alert('register wrong,please register again...');history.back();</script>";
 					}else{
 						echo "<script language='javascript'>alert('register ok');</script>";
 						
