@@ -1,0 +1,13 @@
+/*首页样式*/
+/*登录模块*/
+#user_container{position:fixed;top:15px;right:15px;z-index:100;font-size:1.5rem;}
+#user_container span{float:left;}
+#user_container span a{text-decoration:none;text-align:center;display:block;color:#0A0A0A;}
+#user_container span a:hover{color:#00CDCD;}
+
+/*QQ联系模块*/
+#contact{position:fixed;top:100px;right:15px;z-index:120;font-size:1.5rem;}
+#contact #contact_title{position:absolute;right:0;top:0;text-align:center;}
+#contact #contact_content{display:none;position:absolute;right:22px;top:0;border:none;}
+#contact:hover #contact_content{display:block;}
+#contact #contact_title:hover{color:#00CDCD;}
