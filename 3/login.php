@@ -37,7 +37,7 @@
 					//exit;
 					//echo "登陆成功";
 					
-                    header('Location:index.php');
+					header('refresh:0;url=./index.php');
 					exit;	
 				}
 			}else{
