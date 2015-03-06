@@ -34,7 +34,7 @@
 						$_SESSION['id']=$result_item[0]['id'];
 						
                         header('refresh:0;url=./index.php');
-						exit;	
+						exit();	
 					}
 				}else{
 					echo "<script language='javascript'>alert('username,password,sex can't be null');history.back();</script>";
