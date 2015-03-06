@@ -1,2 +1,4 @@
 name: xuyongsky
 version: 3
+handle:
+- directoryindex:  mysite 
