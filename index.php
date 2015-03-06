@@ -105,7 +105,6 @@
 	</div>
 	<div id="user_container">
 		<?php require("./check_login.php"); ?>
-        <?php phpinfo(); ?>
 	</div>
 
 	<ul id="menu">
