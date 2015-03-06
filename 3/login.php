@@ -24,7 +24,7 @@
 			require("./database/connDB.inc.php");
 			
 			if($user&&$pwd){
-				$sql="SELECT * FROM USER WHERE username='$user' and password='$pwd'";
+				$sql="select * from user where username='$user' and password='$pwd'";
 				$result=$operatedb->Execsql($sql,$conn);
 				
 				if(!$result){
