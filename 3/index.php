@@ -104,7 +104,7 @@
 		</div>
 	</div>
 	<div id="user_container">
-		<?PHP require("./check_login.php"); ?>
+		<?PHP session_start(); require("./check_login.php"); ?>
 	</div>
 
 	<ul id="menu">
