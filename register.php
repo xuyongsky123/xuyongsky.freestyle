@@ -15,6 +15,8 @@
 			$sql_check="SELECT * FROM USER WHERE username='$user'";
 			$result_check=$operatedb->Execsql($sql_check,$conn);
 			
+        	echo $result_check[0];
+        
 			if($result_check){
 					echo "<script language='javascript'>alert('username is repeat,register again...');history.back();</script>";
 			}else{
