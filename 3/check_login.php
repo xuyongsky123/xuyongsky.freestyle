@@ -1,7 +1,8 @@
 <?php 
-	if(isset($_SESSION['id'])){
+	if(isset($GLOBALS['id'])){
 		echo '<span>';
-		echo '欢迎您，'.$_SESSION['username'].'&nbsp';
+        //echo '欢迎您，'.$_SESSION['username'].'&nbsp';
+        echo '欢迎您，'.$GLOBALS['username'].'&nbsp';
 		echo '</span>';
 		echo '<span>|</span>';
 		echo '<span>';
