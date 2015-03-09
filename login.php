@@ -39,19 +39,6 @@
 					$_SESSION['username']=$user;
 					$_SESSION['id']=$result[0]['id'];
                     
-                    setCookie('id',"$result[0]['id']",time()+300);
-                    setCookie('username',"$user",time()+300);
-                    
-                    $mmc=memcache_init();
-                    if($mmc==false){
-                    	echo "mc init faileed";
-                    }else{
-                    	memcache_set($mmc,"id",$result[0]['id']);
-                        memcache_set($mmc,"username",$user);
-                    }
-                    
-                    //echo memcache_get($mmc,"id");
-                    //echo memcache_get($mmc,"username");
                     
                     echo "<script language='javascript'>alert('login is ok');window.location.href='./index.php';</script>";
                     //header('refresh:0;url=./index.php');
