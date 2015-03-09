@@ -6,7 +6,7 @@
             echo '</span>';
             echo '<span>|</span>';
             echo '<span>';
-            echo '<a href="login.php?action=logout">&nbsp注销</a>';
+            echo '<a href="./login.php?action=logout">&nbsp注销</a>';
             echo '</span>';
         }else{
             echo '<span>';
