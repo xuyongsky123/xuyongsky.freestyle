@@ -1,4 +1,5 @@
 <?php 
+echo $GLOBALS['id'];
 	if(isset($GLOBALS['id'])){
 		echo '<span>';
         //echo '欢迎您，'.$_SESSION['username'].'&nbsp';
