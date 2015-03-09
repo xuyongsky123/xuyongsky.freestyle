@@ -31,7 +31,7 @@
 		<section>
 			<aside>
 				<article>
-					<div id="upload">
+                    <div id="upload" style="display:none;">
 						<em>在此上传您的blog文章：</em>
 						<form enctype="multipart/form-data" name="upload_form" method="post" action="handle_upload.php">
 							<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
