@@ -39,11 +39,6 @@
 				}else{
 					$_SESSION['username']=$user;
 					$_SESSION['id']=$result[0]['id'];
-					//echo $user.'欢迎你！进入<a href="user_center.php">用户中心</a><br />';
-					//echo '点击此处 <a href="login.php?action=logout">注销</a> 登录!<br />';
-					//exit;
-					//echo "登陆成功";
-                    
 					header('refresh:0;url=./index.php');
 					exit;	
 				}
