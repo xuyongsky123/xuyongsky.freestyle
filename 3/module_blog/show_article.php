@@ -1,5 +1,5 @@
 <?php
-	require("/database/connDB.inc.php");
+	require("../database/connDB.inc.php");
 	
 	
 	if(isset($_SESSION['id'])){
@@ -10,7 +10,7 @@
 		
 		foreach($array as $item){
 				
-			echo "<li><a href='/module_blog/blog.php?filename=".$item['filename']."'>".$item['filename']."</a></li>";
+			echo "<li><a href='../module_blog/blog.php?filename=".$item['filename']."'>".$item['filename']."</a></li>";
 				
 		} 	
 	}else{
