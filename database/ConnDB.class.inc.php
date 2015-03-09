@@ -45,7 +45,6 @@ class OperateDB{
 		$sqltype=strtolower(substr(trim($sql),0,6));
 		
                             $mysql_query("SET NAMES 'UTF8'");
-							$mysql_query("set character set utf8");
 		//执行sql语句
 		$result=mysql_query($sql,$conn);
         
