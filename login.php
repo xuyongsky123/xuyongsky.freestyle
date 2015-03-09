@@ -6,6 +6,7 @@
         mkdir($path);
     }
     session_save_path($path);
+
 	session_start();
 	if(isset($_GET['action'])){
 		//注销登录
