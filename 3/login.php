@@ -1,4 +1,6 @@
 <?php 
+	
+	session_start();
 	header("Content-Type=text/html;charset=UTF-8");
     
     $path='./session_files/';
@@ -7,7 +9,6 @@
     }
     session_save_path($path);
 
-	session_start();
 	if(isset($_GET['action'])){
 		//注销登录
 		if($_GET['action'] == "logout"){
