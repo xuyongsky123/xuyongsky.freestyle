@@ -46,7 +46,7 @@
                     if($mmc==false){
                     	echo "mc init faileed";
                     }else{
-                    	memcache_set($mmc,"id","$result[0]['id']");
+                    	memcache_set($mmc,"id",$result[0]['id']);
                         memcache_set($mmc,"username","$user");
                     }
                     
