@@ -7,7 +7,15 @@
 		echo '<span>';
 		echo '<a href="./login.php?action=logout">&nbsp注销</a>';
 		echo '</span>';
-	}else{
+    }else if(isset($_Cookie['id'])){
+    	echo '<span>';
+		echo '欢迎您，'.$_Cookie['username'].'&nbsp';
+		echo '</span>';
+		echo '<span>|</span>';
+		echo '<span>';
+		echo '<a href="./login.php?action=logout">&nbsp注销</a>';
+		echo '</span>';
+    }else{
 		echo '<span>';
 		echo '<a href="./login.html">登录&nbsp</a>';
 		echo '</span>';
