@@ -24,14 +24,14 @@
 					if(!$result){
 						echo "<script language='javascript'>alert('register wrong,please register again...');history.back();</script>";
 					}else{
-						echo "<script language='javascript'>alert('register ok');</script>";
+						
 						
 						$sql_item="select * from user where username='$user'";
 						$result_item=$operatedb->Execsql($sql_item,$conn);
 						
 						$_SESSION['username']=$user;
 						$_SESSION['id']=$result_item[0]['id'];
-						
+						echo "<script language='javascript'>alert('register ok');</script>";
                         header('Location:index.php');
 						exit;	
 					}
