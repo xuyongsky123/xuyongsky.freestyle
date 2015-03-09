@@ -1,5 +1,5 @@
 <?php 
-	header("Content-Type=text/html;charset=UTF-8");
+	
     
     $path='./session_files/';
     if(!is_dir($path)){
@@ -8,6 +8,7 @@
     session_save_path($path);
     
 	session_start();
+header("Content-Type=text/html;charset=UTF-8");
 	if(isset($_GET['action'])){
 		//注销登录
 		if($_GET['action'] == "logout"){
