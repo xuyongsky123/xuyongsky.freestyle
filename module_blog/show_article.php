@@ -1,6 +1,6 @@
 <?php
 	require("../database/connDB.inc.php");
-	session_start();
+	
 	
 	if(isset($_SESSION['id'])){
 		
