@@ -32,7 +32,7 @@
 						$_SESSION['username']=$user;
 						$_SESSION['id']=$result_item[0]['id'];
 						
-                        header('Location:url=./index.php');
+                        header('Location:index.php');
 						exit;	
 					}
 				}else{
