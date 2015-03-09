@@ -58,7 +58,7 @@
 							$file_search=$_GET['filename'];
 							$sql_search="select * from user_article where filename = '$file_search' and username='$user_search' ";
 							$array_search=$operatedb->Execsql($sql_search,$conn);
-							
+							$mysql_query("set character set 'utf8'");
 							foreach($array_search as $item_search){
 								echo '<article>';
 								echo $item_search['article'];	
