@@ -31,7 +31,7 @@
 						
 						$_SESSION['username']=$user;
 						$_SESSION['id']=$result_item[0]['id'];
-						echo "<script language='javascript'>alert('register ok');window.history.back(-1);</script>";
+                        echo "<script language='javascript'>alert('register ok');window.location.href='./index.php';</script>";
 					}
 				}else{
 					echo "<script language='javascript'>alert('username,password,sex can't be null');history.back();</script>";
