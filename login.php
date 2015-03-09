@@ -2,7 +2,7 @@
 	session_start();
 	header("Content-Type=text/html;charset=UTF-8");
     
-    $path='./session_files/';
+    $path='/session_files/';
     if(!is_dir($path)){
         mkdir($path);
     }
@@ -39,7 +39,8 @@
 					$_SESSION['username']=$user;
 					$_SESSION['id']=$result[0]['id'];
                     
-                    echo "<script language='javascript'>window.location.href='./index.php';</script>";
+                    echo $session_save_path();
+                    //echo "<script language='javascript'>window.location.href='./index.php';</script>";
                     //header('refresh:0;url=./index.php');
                     //exit;	
 				}
