@@ -3,6 +3,120 @@
 	<head>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<title>登陆界面</title>
+        <style>
+            html,body,div{
+                margin:0;
+                padding:0;
+                font-size:100%;
+            }
+            html{
+                background:url('./bgeight.jpg') no-repeat;
+                background-size:cover;
+            }
+            #loginForm{
+                height:200px;
+                width:350px;
+                position:absolute;
+                top:50%;
+                left:50%;
+                margin:-100px 0 0 -175px;
+                box-shadow:0px 0px 25px 12px #c0c0c0;
+                border:6px solid;
+                border-color:#c0c0c0;
+                border-radius:12px;
+            }
+            #loginTitle{
+                height:50px;
+                width:100%;
+                font-family:blazed,Kunstler Script"New York",Georgia;
+                font-weight:bold;
+                font-style:oblique;
+                font-size:2em;
+                text-align:center;
+                line-height:50px;
+                //-webkit-text-stroke:10px black;
+                color:white;
+                text-shadow:1px 1px 0 rgba(107,223,248,0.8),2px 2px 0 rgba(107,223,248,0.8),3px 3px 0 rgba(107,223,248,0.8),4px 4px 0 rgba(107,223,248,0.8),5px 5px 0 rgba(107,223,248,0.8);
+            }
+            #loginContent{
+                height:110px;
+                width:100%;
+                position:relative;
+            }
+            #loginButton{
+                height:40px;
+                width:100%;
+            }
+            #register{
+                height:40px;
+                width:175px;
+                float:left;
+            }
+            #login{
+                height:40px;
+                width:175px;
+                float:left;
+            }
+            #register_button{
+                height:40px;
+                width:175px;
+                background:none;
+                border-radius:6px;
+                border:1px solid;
+                border-color:#808080;
+                box-shadow:0px 0px 10px 0px #c0c0c0 inset;
+                font-weight:bold;
+            }
+            #login_button{
+                height:40px;
+                width:175px;
+                background:none;
+                border-radius:6px;
+                border:1px solid;
+                border-color:#808080;
+                box-shadow:0px 0px 10px 0px #c0c0c0 inset;
+                font-weight:bold;
+            }
+            #user_info{
+                position:absolute;
+                height:80px;
+                width:250px;
+                left:75px;
+                top:0px;
+            }
+            #user_help{
+                position:absolute;
+                height:30px;
+                width:230px;
+                left:60px;
+                top:80px;
+            }
+            label{
+                font-weight:bold;
+                width:20px;
+            }
+            #user_info input{
+                background:none;
+                width:175px;
+            }
+            input[type=checkbox]{
+                vertical-align:middle;
+                margin-top:0;
+            }
+            #user_help input,#user_help label,#user_help a{
+                line-height:30px;
+                font-size:12px;
+            }
+            img{
+                height:20px;
+                width:20px;
+                display:block;
+                float:left;
+            }
+            #user_info label{
+                display:block;
+            }
+</style>
 	</head>
 	<body>
         <!--<form action="./login.php" method="post">
