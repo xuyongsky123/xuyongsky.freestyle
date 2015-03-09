@@ -12,7 +12,7 @@
 			$data=$_POST['content'];
 			$article=addslashes($data);
 			
-			require("../database/connDB.inc.php");
+			require("/database/connDB.inc.php");
 			
 			$sql="insert into user_article(description,article,filename,filesize,filetype,username) values('test','$data','$blog_title','test','test','$user')";
 			$result=$operatedb->Execsql($sql,$conn);
