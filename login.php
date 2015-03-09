@@ -2,11 +2,11 @@
 	session_start();
 	header("Content-Type=text/html;charset=UTF-8");
     
-    $path='/session_files/';
+/*$path='/session_files/';
     if(!is_dir($path)){
         mkdir($path);
     }
-    session_save_path($path);
+    session_save_path($path);*/
 
 	if(isset($_GET['action'])){
 		//注销登录
