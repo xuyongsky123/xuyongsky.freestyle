@@ -50,10 +50,10 @@
                         memcache_set($mmc,"username",$user);
                     }
                     
-                    echo memcache_get($mmc,"id");
-                    echo memcache_get($mmc,"username");
+                    //echo memcache_get($mmc,"id");
+                    //echo memcache_get($mmc,"username");
                     
-                    //echo "<script language='javascript'>alert('login is ok');window.location.href='./index.php';</script>";
+                    echo "<script language='javascript'>alert('login is ok');window.location.href='./index.php';</script>";
                     //header('refresh:0;url=./index.php');
                     //exit;	
 				}
