@@ -39,7 +39,7 @@
 					$_SESSION['username']=$user;
 					$_SESSION['id']=$result[0]['id'];
                     
-                    echo $session_save_path();
+                    echo "$session_save_path()";
                     //echo "<script language='javascript'>window.location.href='./index.php';</script>";
                     //header('refresh:0;url=./index.php');
                     //exit;	
