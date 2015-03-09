@@ -14,7 +14,7 @@
 					</a>
 				</div>
 				<div id="login">
-					<?php require("$_SERVER['DOCUMENT_ROOT']/check_login.php") ?>
+					<?php require($_SERVER['DOCUMENT_ROOT']."/check_login.php") ?>
 				</div>
 				<div class="clearfix"></div>
 			<div>
