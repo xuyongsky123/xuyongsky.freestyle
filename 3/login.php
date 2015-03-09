@@ -41,9 +41,7 @@
                     
                     $GLOBALS['username']=$user;
                     $GLOBALS['id']=$result[0]['id'];
-                    
-                    echo $GLOBALS['username'];
-                    //echo "<script language='javascript'>alert('login is ok');window.location.href='./index.php';</script>";
+                    echo "<script language='javascript'>alert('login is ok');window.location.href='./index.php';</script>";
                     //header('refresh:0;url=./index.php');
                     //exit;	
 				}
