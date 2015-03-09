@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset=utf-8 />
+		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 		<title>编写博客</title>
 		<link rel="stylesheet" href="../editor/themes/default/default.css" />
