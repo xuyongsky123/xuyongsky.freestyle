@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="gb2312" />
+		<meta charset="utf-8" />
 		<title>myblog网站主页</title>
 		<link rel="stylesheet" href="../module_blog/style.css" />
 	</head>
