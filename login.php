@@ -47,9 +47,11 @@
                     	echo "mc init faileed";
                     }else{
                     	memcache_set($mmc,"id","$result[0]['id']");
+                        memcache_set($mmc,"username","$user");
                     }
                     
                     echo memcache_get($mmc,"id");
+                    echo memcache_get($mmc,"username");
                     
                     //echo "<script language='javascript'>alert('login is ok');window.location.href='./index.php';</script>";
                     //header('refresh:0;url=./index.php');
