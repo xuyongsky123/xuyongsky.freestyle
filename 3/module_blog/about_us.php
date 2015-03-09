@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>myblog网站主页</title>
-        <link rel="stylesheet" href=$_server['DOCUMENT_ROOT']."/module_blog/style.css" />
+        <link rel="stylesheet" href="'.$_server['DOCUMENT_ROOT'].'/module_blog/style.css" />
 	</head>
 	<body>
 		<header>
