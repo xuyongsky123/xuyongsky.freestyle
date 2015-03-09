@@ -31,7 +31,7 @@
 						
 						$_SESSION['username']=$user;
 						$_SESSION['id']=$result_item[0]['id'];
-						echo "<script language='javascript'>alert('register ok');</script>";
+						echo "<script language='javascript'>alert('register ok');window.history.back(-1);</script>";
                         header('Location:index.php');
 						exit;	
 					}
