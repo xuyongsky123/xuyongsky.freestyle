@@ -47,7 +47,6 @@ class OperateDB{
                             
 		//执行sql语句
 		$result=mysql_query($sql,$conn);
-        $mysql_query("SET NAMES UTF-8");
 
 		//定义二维数组
 		$callback_array=array();
