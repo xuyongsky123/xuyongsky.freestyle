@@ -39,8 +39,8 @@
 					$_SESSION['username']=$user;
 					$_SESSION['id']=$result[0]['id'];
                     
-                    setCookie('id',$result[0]['id'],time()+300);
-                    setCookie('username',$user,time()+300);
+                    setCookie('id',"$result[0]['id']",time()+300);
+                    setCookie('username',"$user",time()+300);
                     
                     echo $_COOKIE['username'];
                     
