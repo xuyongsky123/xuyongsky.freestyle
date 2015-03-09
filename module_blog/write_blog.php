@@ -4,10 +4,10 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 		<title>编写博客</title>
-		<link rel="stylesheet" href="/editor/themes/default/default.css" />
-		<link rel="stylesheet" href="/module_blog/style.css" />
-		<script charset="utf-8" src="/editor/kindeditor-min.js"></script>
-		<script charset="utf-8" src="/editor/lang/zh_CN.js"></script>
+		<link rel="stylesheet" href="../editor/themes/default/default.css" />
+		<link rel="stylesheet" href="../module_blog/style.css" />
+		<script charset="utf-8" src="../editor/kindeditor-min.js"></script>
+		<script charset="utf-8" src="../editor/lang/zh_CN.js"></script>
 		<script>
 			var editor;
 			KindEditor.ready(function(K) {
@@ -49,19 +49,19 @@
 		<header>
 			<div id="header">
 				<div id="logo">
-					<a href="/module_blog/blog.php">
-						<img alt="myblog" src="/images/logo.png" />
+					<a href="../module_blog/blog.php">
+						<img alt="myblog" src="../images/logo.png" />
 					</a>
 				</div>
 				<div id="login">
-					<?php require("/check_login.php"); ?>
+					<?php require("../module_blog/check_login.php"); ?>
 				</div>
 				<div class="clearfix"></div>
 			<div>
 		</header>
 		<nav>
 			<ul>
-				<li><a href="/index.php">Home</a></li><li><a href="/module_blog/write_blog.php">Post</a></li><li><a href="#">Contact</a></li><li><a href="../module_blog/about_us.php">About</a></li>
+				<li><a href="../index.php">Home</a></li><li><a href="../module_blog/write_blog.php">Post</a></li><li><a href="#">Contact</a></li><li><a href="../module_blog/about_us.php">About</a></li>
 			</ul>
 		</nav>
 		<section>
@@ -69,7 +69,7 @@
 				<article>
 					<div id="upload">
 						<em>在此上传您的blog文章：</em>
-                        <form enctype="multipart/form-data" name="upload_form" method="post" action="/module_blog/handle_upload.php">
+						<form enctype="multipart/form-data" name="upload_form" method="post" action="handle_upload.php">
 							<input type="hidden" name="MAX_FILE_SIZE" value="100000" />
 							<input type="file" name="upload_file" />
 							<input type="submit" value="上传文件" />
@@ -78,7 +78,7 @@
 					<h3>文章列表：</h3>
 					<div id="article">
 						<ul>
-							<?php require("/module_blog/show_article.php"); ?>
+							<?php require("../module_blog/show_article.php"); ?>
 						</ul>
 					</div>
 				</article>	
@@ -86,7 +86,7 @@
 			<div id="content">
 				<article>
 					<h3>编写博客：</h3>
-					<form method="post" action="/module_blog/save_article.php">
+					<form method="post" action="../module_blog/save_article.php">
 						<div id="container">
 							<label for="blog_title">请输入博客标题:</label>
 							<input type="text" name="blog_title"  />
