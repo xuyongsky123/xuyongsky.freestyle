@@ -1,6 +1,6 @@
 <?php
 	require("../database/connDB.inc.php");
-	
+	header("Content-Type:text/html;charset=utf-8");
 	
 	if(isset($_SESSION['id'])){
 		
