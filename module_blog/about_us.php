@@ -10,7 +10,7 @@
 			<div id="header">
 				<div id="logo">
 					<a href="/module_blog/blog.php">
-						<img alt="myblog" src="/images/logo.gif" />
+						<img alt="myblog" src="/images/logo.png" />
 					</a>
 				</div>
 				<div id="login">
