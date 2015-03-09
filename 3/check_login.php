@@ -1,5 +1,5 @@
 <?php 
-	if(!isset($_SESSION['id'])){
+	if(isset($_SESSION['id'])){
 		echo '<span>';
 		echo '欢迎您，'.$_SESSION['username'].'&nbsp';
 		echo '</span>';
