@@ -122,7 +122,7 @@
 		
 		
 		<div class="section section1">
-			<h3>About us</h3>
+			<h3>Home</h3>
 			<p>网站功能模块尚且处于开发中...</p>
 		</div>
         <div class="section section2">
