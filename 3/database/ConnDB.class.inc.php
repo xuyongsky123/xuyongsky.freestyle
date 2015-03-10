@@ -45,8 +45,7 @@ class OperateDB{
 		$sqltype=strtolower(substr(trim($sql),0,6));
 		
                             
-		mysql_query("SET NAMES GB2312");
-        //执行sql语句
+		//执行sql语句
 		$result=mysql_query($sql,$conn);
 
 		//定义二维数组
