@@ -42,7 +42,7 @@
 					<h3>文章列表：</h3>
 					<div id="article">
 						<ul>
-							<?php include("../module_blog/show_article.php"); ?>
+							<?php require("../module_blog/show_article.php"); ?>
 						</ul>
 					</div>
 				</article>	
