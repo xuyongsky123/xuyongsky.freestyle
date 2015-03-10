@@ -116,6 +116,7 @@
 		<li data-menuanchor="page2"><a href="#page2">ABOUT</a></li>
 		<li data-menuanchor="page3"><a href="#page3">CONTACT</a></li>
 		<li data-menuanchor="page4"><a href="#page4">...</a></li>
+		<li data-menuanchor="page5"><a href="#page5">...</a></li>
 	</ul>
 
 	<div id="dowebok">
