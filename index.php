@@ -61,6 +61,9 @@
 							bottom: '-120%'
 						}, 1500, 'easeOutExpo');
 					}
+                    if(index == '2'){
+						$('.section4').find('p').fadeOut(2000);
+					}
 				}
 
 				//项目导航栏
@@ -116,9 +119,11 @@
 	</ul>
 
 	<div id="dowebok">
-        <div class="section section1">
-			<h3>第四屏</h3>
-			<p>滚动到第四屏后的回调函数执行的效果</p>
+		<div class="section section1">
+			<div class="slide"><h3><a href="./module_blog_blog.php">POST&nbsp;&nbsp;编写博客文章</a></h3></div>
+			<div class="slide"><h3>功能模块示例一</h3></div>
+			<div class="slide"><h3>功能模块示例二</h3></div>
+            <p>请点击这里...</p>
 		</div>
 		
 		<div class="section section2">
@@ -131,11 +136,9 @@
 				<a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=1845082157&site=qq&menu=yes">如果你有什么疑问或者建议请与我们联系...</a>
 			</p>
 		</div>
-		<div class="section section4">
-			<div class="slide"><h3><a href="./module_blog_blog.php">POST&nbsp;&nbsp;编写博客文章</a></h3></div>
-			<div class="slide"><h3>功能模块示例一</h3></div>
-			<div class="slide"><h3>功能模块示例二</h3></div>
-            <p>请点击这里...</p>
+        <div class="section section4">
+			<h3>第四屏</h3>
+			<p>滚动到第四屏后的回调函数执行的效果</p>
 		</div>
 	</div>
 
