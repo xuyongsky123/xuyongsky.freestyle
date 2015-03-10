@@ -52,14 +52,14 @@
 					}
 				},
 				onLeave: function(index, direction){
-                    
 					if(index == '1'){
-						$('.section1').find('p').fadeOut(2000);
-					}
-					if(index == '2'){
-						$('.section2').find('p').delay(500).animate({
+						$('.section1').find('p').delay(500).animate({
 							left: '-120%'
 						}, 1500, 'easeOutExpo');
+					}
+                    
+					if(index == '2'){
+						$('.section2').find('p').fadeOut(2000);
 					}
 					if(index == '3'){
 						$('.section3').find('p').delay(500).animate({
