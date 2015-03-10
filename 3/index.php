@@ -36,8 +36,8 @@
 
 				//屏幕内容呈现动态（回调函数）
 				afterLoad: function(anchorLink, index){
-					if(index == 2){
-						$('.section2').find('p').delay(500).animate({
+					if(index == 1){
+						$('.section1').find('p').delay(500).animate({
 							left: '0'
 						}, 1500, 'easeOutExpo');
 					}
@@ -51,8 +51,8 @@
 					}
 				},
 				onLeave: function(index, direction){
-					if(index == '2'){
-						$('.section2').find('p').delay(500).animate({
+					if(index == '1'){
+						$('.section1').find('p').delay(500).animate({
 							left: '-120%'
 						}, 1500, 'easeOutExpo');
 					}
@@ -119,8 +119,6 @@
 	</ul>
 
 	<div id="dowebok">
-		
-		
 		<div class="section section1">
 			<h3>Home</h3>
 			<p>网站功能模块尚且处于开发中...</p>
