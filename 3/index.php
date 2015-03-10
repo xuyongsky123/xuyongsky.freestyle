@@ -36,7 +36,10 @@
 
 				//屏幕内容呈现动态（回调函数）
 				afterLoad: function(anchorLink, index){
-					if(index == ){
+                    if(index == 1){
+						$('.section1').find('p').fadeIn(2000);
+					}
+					if(index == 2){
 						$('.section2').find('p').delay(500).animate({
 							left: '0'
 						}, 1500, 'easeOutExpo');
@@ -51,7 +54,10 @@
 					}
 				},
 				onLeave: function(index, direction){
-					if(index == ''){
+					if(index == '1'){
+						$('.section1').find('p').fadeOut(2000);
+					}
+					if(index == '2'){
 						$('.section2').find('p').delay(500).animate({
 							left: '-120%'
 						}, 1500, 'easeOutExpo');
@@ -120,10 +126,10 @@
 
 	<div id="dowebok">
 		<div class="section section1">
-			<!--<h3>第一屏</h3>-->
 			<div class="slide"><h3><a href="./module_blog_blog.php">POST&nbsp;&nbsp;编写博客文章</a></h3></div>
 			<div class="slide"><h3>功能模块示例一</h3></div>
 			<div class="slide"><h3>功能模块示例二</h3></div>
+            <div class="location"></div>
 		</div>
 		<div class="section section2">
 			<h3>About us</h3>
