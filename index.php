@@ -37,7 +37,7 @@
 				//屏幕内容呈现动态（回调函数）
 				afterLoad: function(anchorLink, index){
                     if(index == 1){
-						$('.section1').find('p').fadeIn(2000);
+						$('.section1').find('.location').fadeIn(2000);
 					}
 					if(index == 2){
 						$('.section2').find('p').delay(500).animate({
@@ -55,7 +55,7 @@
 				},
 				onLeave: function(index, direction){
 					if(index == '1'){
-						$('.section1').find('p').fadeOut(2000);
+						$('.section1').find('.location').fadeOut(2000);
 					}
 					if(index == '2'){
 						$('.section2').find('p').delay(500).animate({
