@@ -13,7 +13,7 @@
 				echo "<li><a href='./module_blog_blog.php?filename=".$item['filename']."'>".$item['filename']."</a></li>";
 			}
         }else{
-        	echo "您暂时还没有写过文章...";
+        	echo "暂时还没有文章...";
         }
 		
 		 	
