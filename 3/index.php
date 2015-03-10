@@ -119,16 +119,17 @@
 	</ul>
 
 	<div id="dowebok">
+		
+		
 		<div class="section section1">
+			<h3>About us</h3>
+			<p>网站功能模块尚且处于开发中...</p>
+		</div>
+        <div class="section section2">
 			<div class="slide"><h3><a href="./module_blog_blog.php">POST&nbsp;&nbsp;编写博客文章</a></h3></div>
 			<div class="slide"><h3>功能模块示例一</h3></div>
 			<div class="slide"><h3>功能模块示例二</h3></div>
             <p>请点击这里...</p>
-		</div>
-		
-		<div class="section section2">
-			<h3>About us</h3>
-			<p>网站功能模块尚且处于开发中...</p>
 		</div>
 		<div class="section section3">
 			<h3>Contact</h3>
