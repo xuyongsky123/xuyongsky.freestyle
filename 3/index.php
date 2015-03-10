@@ -61,7 +61,7 @@
 							bottom: '-120%'
 						}, 1500, 'easeOutExpo');
 					}
-                    if(index == '2'){
+                    if(index == '4'){
 						$('.section4').find('p').fadeOut(2000);
 					}
 				}
