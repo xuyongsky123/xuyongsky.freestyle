@@ -36,6 +36,9 @@
 
 				//屏幕内容呈现动态（回调函数）
 				afterLoad: function(anchorLink, index){
+					if(index == 1){
+						$('.section1').find('p').fadeIn(2000);
+					}
 					if(index == 2){
 						$('.section2').find('p').delay(500).animate({
 							left: '0'
@@ -46,11 +49,12 @@
 							bottom: '0'
 						}, 1500, 'easeOutExpo');
 					}
-					if(index == 4){
-						$('.section4').find('p').fadeIn(2000);
-					}
 				},
 				onLeave: function(index, direction){
+                    
+					if(index == '1'){
+						$('.section1').find('p').fadeOut(2000);
+					}
 					if(index == '2'){
 						$('.section2').find('p').delay(500).animate({
 							left: '-120%'
@@ -60,9 +64,6 @@
 						$('.section3').find('p').delay(500).animate({
 							bottom: '-120%'
 						}, 1500, 'easeOutExpo');
-					}
-					if(index == '4'){
-						$('.section4').find('p').fadeOut(2000);
 					}
 				}
 
@@ -119,12 +120,11 @@
 	</ul>
 
 	<div id="dowebok">
-		<div class="section section1">
-			<div class="slide"><h3><a href="./module_blog_blog.php">POST&nbsp;&nbsp;编写博客文章</a></h3></div>
-			<div class="slide"><h3>功能模块示例一</h3></div>
-			<div class="slide"><h3>功能模块示例二</h3></div>
-            <p>请点击这里...</p>
+        <div class="section section1">
+			<h3>第四屏</h3>
+			<p>滚动到第四屏后的回调函数执行的效果</p>
 		</div>
+		
 		<div class="section section2">
 			<h3>About us</h3>
 			<p>网站功能模块尚且处于开发中...</p>
@@ -136,8 +136,10 @@
 			</p>
 		</div>
 		<div class="section section4">
-			<h3>第四屏</h3>
-			<p>滚动到第四屏后的回调函数执行的效果</p>
+			<div class="slide"><h3><a href="./module_blog_blog.php">POST&nbsp;&nbsp;编写博客文章</a></h3></div>
+			<div class="slide"><h3>功能模块示例一</h3></div>
+			<div class="slide"><h3>功能模块示例二</h3></div>
+            <p>请点击这里...</p>
 		</div>
 	</div>
 
