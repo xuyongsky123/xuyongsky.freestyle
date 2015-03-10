@@ -4,4 +4,4 @@
 .section2 p { position: relative; left: -120%;}
 .section3 p { position: relative; bottom: -120%;}
 .section4 p { display: none;}
-.section1 .location { display: none;}
+.section1 span { display: none;}
