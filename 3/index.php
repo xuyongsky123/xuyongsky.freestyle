@@ -129,7 +129,7 @@
 			<div class="slide"><h3><a href="./module_blog_blog.php">POST&nbsp;&nbsp;编写博客文章</a></h3></div>
 			<div class="slide"><h3>功能模块示例一</h3></div>
 			<div class="slide"><h3>功能模块示例二</h3></div>
-            <div class="location"></div>
+            <div class="location">请点击这里...</div>
 		</div>
 		<div class="section section2">
 			<h3>About us</h3>
