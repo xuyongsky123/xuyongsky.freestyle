@@ -27,7 +27,7 @@ class ConnDB{
 		mysql_select_db($this->dbname,$this->conn) or die("数据库访问错误".mysql_error());
 
 		//设置编码格式
-		mysql_query("SET NAMES UTF-8");
+		mysql_query("SET NAMES UTF8");
 		return $this->conn;
 	}
 	function _destruct(){
