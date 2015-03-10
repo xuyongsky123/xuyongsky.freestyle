@@ -120,10 +120,12 @@
 	</ul>
 
 	<div id="dowebok">
-		
-		
-		<div class="section section1">
+		<div class="section section0">
 			<h3>Home</h3>
+			<p>滚动到第四屏后的回调函数执行的效果</p>
+		</div>
+		<div class="section section1">
+			<h3>...</h3>
 			<p>网站功能模块尚且处于开发中...</p>
 		</div>
         <div class="section section2">
