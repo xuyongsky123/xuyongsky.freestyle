@@ -6,6 +6,7 @@
 		
 		$user=$_SESSION['username'];
 		$sql="select * from user_article where username = '$user' ";
+        $mysql_query("set names gb2312");
 		$array=$operatedb->Execsql($sql,$conn);
 		
 		foreach($array as $item){
