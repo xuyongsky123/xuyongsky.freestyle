@@ -14,7 +14,7 @@
 					</a>
 				</div>
 				<div id="login">
-					<?php require("./check_login.php") ?>
+					<?php require("./check_login.php"); ?>
 				</div>
 				<div class="clearfix"></div>
 			<div>
