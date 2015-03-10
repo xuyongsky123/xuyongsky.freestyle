@@ -3,25 +3,25 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>myblog网站主页</title>
-        <link rel="stylesheet" href="/module_blog/style.css" />
+        <link rel="stylesheet" href="./css/module_blog_style.css" />
 	</head>
 	<body>
 		<header>
 			<div id="header">
 				<div id="logo">
-					<a href="/module_blog/blog.php">
-						<img alt="myblog" src="/images/logo.png" />
+					<a href="./module_blog_blog.php">
+						<img alt="myblog" src="./images/logo.png" />
 					</a>
 				</div>
 				<div id="login">
-					<?php require($_SERVER['DOCUMENT_ROOT']."/check_login.php") ?>
+					<?php require("./check_login.php") ?>
 				</div>
 				<div class="clearfix"></div>
 			<div>
 		</header>
 		<nav>
 			<ul>
-				<li><a href="/index.php">Home</a></li><li><a href="/module_blog/write_blog.php">Post</a></li><li><a href="#">Contact</a></li><li><a href="../module_blog/about_us.php">About</a></li>
+				<li><a href="./index.php">Home</a></li><li><a href="./module_blog_writeblog.php">Post</a></li><li><a href="#">Contact</a></li><li><a href="../module_blog/about_us.php">About</a></li>
 			</ul>
 		</nav>
 		<section>
