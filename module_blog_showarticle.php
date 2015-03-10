@@ -5,6 +5,7 @@
 	if(isset($_SESSION['id'])){
 		
 		$user=$_SESSION['username'];
+        $mysql_query("SET NAMES GBK");
 		$sql="select * from user_article where username = '$user' ";
 		$array=$operatedb->Execsql($sql,$conn);
 		
