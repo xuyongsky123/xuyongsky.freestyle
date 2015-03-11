@@ -7,4 +7,8 @@
 }
 #graduation_login a{
     text-decoration:none;
+    color:#48A770;
+}
+#graduation_login a:hover,#graduation_login a:focus{
+	color:
 }
