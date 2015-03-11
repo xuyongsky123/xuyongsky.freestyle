@@ -578,6 +578,10 @@ body,
     line-height:400px;
     font-size:2rem;
 }
+.fixstyle #st-trigger-effects{
+	width:700px;
+}
 .fixstyle{
 	background:lightgreen;
 }
+
