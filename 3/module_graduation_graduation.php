@@ -5,7 +5,7 @@
         <link href="./css/module_graduation_css/home_page/animate.css" rel="stylesheet">
     </head>
     <body>
-        <div id="login">
+        <div id="graduation_login">
 			<?php require("./check_login.php"); ?>
 		</div>
 		<div id="st-container" class="st-container">
