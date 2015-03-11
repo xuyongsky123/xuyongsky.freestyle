@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="./css/jquery.fullPage.css">
 	<link rel="stylesheet" href="./css/content.fullPage.css">
     <link rel="stylesheet" href="./css/navigation.fullPage.css">
-    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/button.css" media="screen">
 	<link rel="stylesheet" href="./css/homebg.fullPage.css">
 	<link rel="stylesheet" href="./css/callback.content.fullPage.css">
 	<link rel="stylesheet" href="./css/index.style.css">
