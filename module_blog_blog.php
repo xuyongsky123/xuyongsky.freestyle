@@ -73,6 +73,10 @@
 					?>
 			</div>
 		</section>
+                
+        <!--footer-->
+           <?php include("./module_blog_templetfooter.php"); ?>
+                
 		<div id="top">
 			<a href="javascript:window.scrollTo(0,0);" >回到顶部</a>
 		</div>
