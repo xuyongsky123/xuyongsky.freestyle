@@ -12,6 +12,7 @@
 					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
 						<div class="main clearfix fixstyle">
                              <section id="animate_style" class="col-1-1" style="z-index=2000;">
+                                <h2>Playground</h2>
                                 <div class="playground grid">
                                   <div class="col-1-1 viewport">
                                       <div class="tlt">
