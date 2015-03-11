@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="./css/footer_link_style.css" />
-<footer style="display:none;">
+<footer>
 	<div>@Copyright|About us</div>
       	<ul class="tt-wrapper">
 			<li><a class="tt-gplus" href="#"><span>Google Plus</span></a></li>
