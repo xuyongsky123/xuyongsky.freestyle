@@ -112,7 +112,9 @@
 				</article>
 			</div>
 		</section>
+                
         <!--footer-->
            <?php include("./module_blog_templetfooter.php"); ?>
+                
 	</body>
 </html>
