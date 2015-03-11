@@ -11,7 +11,7 @@
 				<div class="st-content"><!-- this is the wrapper for the content -->
 					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
 						<div class="main clearfix fixstyle">
-                            <!--文字动画容器-->
+                            <!--文字动画容器Begin-->
                              <section id="animate_style" class="col-1-1" style="z-index=2000;">
                                 <div class="playground grid">
                                   <div class="col-1-1 viewport">
@@ -47,6 +47,7 @@
                                   </div>
                                 </div>
                             </section>
+                            <!--文字动画容器End-->
 							<!--<div id="title_content">还在为自己的毕业设计而担忧吗？赶快行动吧~~</div>-->
                         	<div id="st-trigger-effects" class="column">
 								<button data-effect="st-effect-12">点我~开始自己的毕业设计制作之旅吧~</button>
