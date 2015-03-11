@@ -5,7 +5,7 @@
 <meta name="description" content="Sidebar Transitions: Transition effects for off-canvas views" />
 <meta name="keywords" content="transition, off-canvas, navigation, effect, 3d, css3, smooth" />
 <meta name="author" content="Codrops" />
-<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="./module_graduation_css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="./module_graduation_css/demo.css" />
 <link rel="stylesheet" type="text/css" href="css/component.css" />
 <script src="./module_graduation_js/modernizr.custom.js"></script>
