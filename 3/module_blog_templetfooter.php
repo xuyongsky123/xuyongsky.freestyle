@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./css/footer_link_style.css" />
 <footer>
 	<div>@Copyright|About us</div>
       	<ul class="tt-wrapper">
