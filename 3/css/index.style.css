@@ -1,6 +1,6 @@
 /*首页样式*/
 /*登录模块*/
-#user_container{position:fixed;top:15px;right:15px;z-index:100;font-size:1.5rem;}
+#user_container{position:fixed;top:1em;right:1em;z-index:100;font-size:1.5rem;}
 #user_container span{float:left;}
 #user_container span a{text-decoration:none;text-align:center;display:block;color:#0A0A0A;}
 #user_container span a:hover{color:#00CDCD;}
