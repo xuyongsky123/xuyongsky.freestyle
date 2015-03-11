@@ -81,7 +81,7 @@
 				<li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
 				<li><a class="tt-linkedin" href="#"><span>LinkedIn</span></a></li>
 				<li><a class="tt-forrst" href="#"><span>Forrst</span></a></li>
-			</ul>s
+			</ul>
 		</footer>
 		<div id="top">
 			<a href="javascript:window.scrollTo(0,0);" >回到顶部</a>
