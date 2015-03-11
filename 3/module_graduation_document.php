@@ -5,9 +5,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    	<?php include("./module_graduation_templethead.php") ?>
         <link href="./css/module_graduation_css/module_graduation_style.css" rel="stylesheet">
-        <link href="./css/module_graduation_css/home_page/animate.css" rel="stylesheet">
     </head>
     <body>
     	<div id="graduation_login">
