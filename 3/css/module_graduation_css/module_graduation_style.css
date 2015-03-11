@@ -4,5 +4,7 @@
     right:1em;
     z-index:100;
     font-size:1.5rem;
+}
+#graduation_login a{
     text-decoration:none;
 }
