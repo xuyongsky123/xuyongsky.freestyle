@@ -11,43 +11,43 @@
 				<div class="st-content"><!-- this is the wrapper for the content -->
 					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
 						<div class="main clearfix fixstyle">
-                            <section class="col-1-1">
-                            <h2>Playground</h2>
-                            <div class="playground grid">
-                              <div class="col-1-1 viewport">
-                                  <div class="tlt">
-                                    <ul class="texts" style="display: none">
-                                      <li>Grumpy wizards make toxic brew for the evil Queen and Jack.</li>
-                                      <li>The quick brown fox jumps over the lazy dog.</li>
-                                    </ul>
+                             <section class="col-1-1">
+                                <h2>Playground</h2>
+                                <div class="playground grid">
+                                  <div class="col-1-1 viewport">
+                                      <div class="tlt">
+                                        <ul class="texts" style="display: none">
+                                          <li>Grumpy wizards make toxic brew for the evil Queen and Jack.</li>
+                                          <li>The quick brown fox jumps over the lazy dog.</li>
+                                        </ul>
+                                      </div>
                                   </div>
-                              </div>
-                              <div class="col-1-1 controls" style="padding-right: 0;display:none;">
-                                <form class="grid grid-pad">
-                                  <div class="control col-1-2">
-                                    <label>In Animation</label>
-                                    <select data-key="effect" data-type="in"></select>
-                                    <select data-key="type" data-type="in">
-                                      <option value="">sequence</option>
-                                      <option value="reverse">reverse</option>
-                                      <option value="sync">sync</option>
-                                      <option value="shuffle">shuffle</option>
-                                    </select>
+                                  <div class="col-1-1 controls" style="padding-right: 0;display:none;">
+                                    <form class="grid grid-pad">
+                                      <div class="control col-1-2">
+                                        <label>In Animation</label>
+                                        <select data-key="effect" data-type="in"></select>
+                                        <select data-key="type" data-type="in">
+                                          <option value="">sequence</option>
+                                          <option value="reverse">reverse</option>
+                                          <option value="sync">sync</option>
+                                          <option value="shuffle">shuffle</option>
+                                        </select>
+                                      </div>
+                                      <div class="control col-1-2">
+                                        <label>Out Animation</label>
+                                        <select data-key="effect" data-type="out"></select>
+                                        <select data-key="type" data-type="out">
+                                          <option value="">sequence</option>
+                                          <option value="reverse">reverse</option>
+                                          <option value="sync">sync</option>
+                                          <option selected="selected" value="shuffle">shuffle</option>
+                                        </select>
+                                      </div>
+                                    </form>
                                   </div>
-                                  <div class="control col-1-2">
-                                    <label>Out Animation</label>
-                                    <select data-key="effect" data-type="out"></select>
-                                    <select data-key="type" data-type="out">
-                                      <option value="">sequence</option>
-                                      <option value="reverse">reverse</option>
-                                      <option value="sync">sync</option>
-                                      <option selected="selected" value="shuffle">shuffle</option>
-                                    </select>
-                                  </div>
-                                </form>
-                              </div>
-                            </div>
-                        </section>
+                                </div>
+                            </section>
 							<div id="title_content">还在为自己的毕业设计而担忧吗？赶快行动吧~~</div>
                         	<div id="st-trigger-effects" class="column">
 								<button data-effect="st-effect-12">点我~开始自己的毕业设计制作之旅吧~</button>
