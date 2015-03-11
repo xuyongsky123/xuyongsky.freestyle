@@ -5,6 +5,9 @@
         <link href="./css/module_graduation_css/home_page/animate.css" rel="stylesheet">
     </head>
     <body>
+        <div id="login">
+			<?php require("./check_login.php"); ?>
+		</div>
 		<div id="st-container" class="st-container">
 			<?php include("./module_graduation_templetmenu.php") ?>
 			<div class="st-pusher">
