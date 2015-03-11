@@ -8,6 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 		<title>myblog网站主页</title>
         <link rel="stylesheet" href="./css/module_blog_style.css" />
+        <link rel="stylesheet" href="./css/footer_link_style.css" />
 	</head>
 	<body>
 		<header>
