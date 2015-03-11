@@ -16,6 +16,43 @@
 								<button data-effect="st-effect-12">点我~开始自己的毕业设计制作之旅吧~</button>
 							</div>
 						</div><!-- /main -->
+                        <section class="col-1-1">
+                            <h2>Playground</h2>
+                            <div class="playground grid">
+                              <div class="col-1-1 viewport">
+                                  <div class="tlt">
+                                    <ul class="texts" style="display: none">
+                                      <li>Grumpy wizards make toxic brew for the evil Queen and Jack.</li>
+                                      <li>The quick brown fox jumps over the lazy dog.</li>
+                                    </ul>
+                                  </div>
+                              </div>
+                              <div class="col-1-1 controls" style="padding-right: 0;display:none;">
+                                <form class="grid grid-pad">
+                                  <div class="control col-1-2">
+                                    <label>In Animation</label>
+                                    <select data-key="effect" data-type="in"></select>
+                                    <select data-key="type" data-type="in">
+                                      <option value="">sequence</option>
+                                      <option value="reverse">reverse</option>
+                                      <option value="sync">sync</option>
+                                      <option value="shuffle">shuffle</option>
+                                    </select>
+                                  </div>
+                                  <div class="control col-1-2">
+                                    <label>Out Animation</label>
+                                    <select data-key="effect" data-type="out"></select>
+                                    <select data-key="type" data-type="out">
+                                      <option value="">sequence</option>
+                                      <option value="reverse">reverse</option>
+                                      <option value="sync">sync</option>
+                                      <option selected="selected" value="shuffle">shuffle</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                        </section>
 					</div><!-- /st-content-inner -->
 				</div><!-- /st-content -->
 			</div><!-- /st-pusher -->
