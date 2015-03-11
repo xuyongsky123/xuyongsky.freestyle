@@ -570,11 +570,11 @@ body,
 
 /*Edit by xuyong*/
 #title_content{
-	height:100px;
+	height:200px;
     width:400px;
     background:yellow;
     margin:0 auto;
     text-align:center;
-    line-height:100px;
+    line-height:200px;
     font-size:2rem;
 }
