@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<?php require("./module_graduation_templethead.php") ?>
+    	<?php include("./module_graduation_templethead.php") ?>
     </head>
     <body>
 		<div id="st-container" class="st-container">
@@ -29,7 +29,7 @@
 				</div><!-- /st-content -->
 			</div><!-- /st-pusher -->
 		</div><!-- /st-container -->
-		<?php require("./module_graduation_templeteffect.php") ?>
+		<?php include("./module_graduation_templeteffect.php") ?>
 	</body>
 </html>
 
