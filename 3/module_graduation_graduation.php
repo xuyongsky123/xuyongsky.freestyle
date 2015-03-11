@@ -7,7 +7,8 @@
     <body>
 		<div id="st-container" class="st-container">
 			<?php include("./module_graduation_templetmenu.php") ?>
-            <section class="col-1-1">
+			<div class="st-pusher">
+                <section class="col-1-1">
                             <h2>Playground</h2>
                             <div class="playground grid">
                               <div class="col-1-1 viewport">
@@ -44,7 +45,6 @@
                               </div>
                             </div>
                         </section>
-			<div class="st-pusher">
 				<div class="st-content"><!-- this is the wrapper for the content -->
 					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
 						<div class="main clearfix fixstyle">
