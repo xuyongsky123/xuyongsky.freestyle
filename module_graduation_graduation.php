@@ -11,6 +11,7 @@
 				<div class="st-content"><!-- this is the wrapper for the content -->
 					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
 						<div class="main clearfix fixstyle">
+                            <!--文字动画容器-->
                              <section id="animate_style" class="col-1-1" style="z-index=2000;">
                                 <div class="playground grid">
                                   <div class="col-1-1 viewport">
