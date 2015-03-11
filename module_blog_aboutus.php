@@ -37,8 +37,9 @@
 				</article>
 			</div>
 		</section>
-		<footer>
-			<div>@Copyright|About us</div>
-		</footer>
+                
+        <!--footer-->
+           <?php include("./module_blog_templetfooter.php"); ?>
+                
 	</body>
 </html>
