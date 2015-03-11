@@ -17,8 +17,7 @@
                                   <div class="col-1-1 viewport">
                                       <div class="tlt">
                                         <ul class="texts" style="display: none">
-                                          <li>Grumpy wizards make toxic brew for the evil Queen and Jack.</li>
-                                          <li>The quick brown fox jumps over the lazy dog.</li>
+                                          <li>还在为自己的毕业设计而担忧吗？赶快行动吧~~</li>
                                         </ul>
                                       </div>
                                   </div>
