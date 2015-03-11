@@ -12,8 +12,7 @@
 						<div>content is here...</div>
 						<div class="main clearfix">
 							<div id="st-trigger-effects" class="column">
-								<button data-effect="st-effect-12">毕业设计制作</button>
-                                <input type="button" data-effect="xuyong">test</div>
+								<button data-effect="xuyong">毕业设计制作</button>
 							</div>
 						</div><!-- /main -->
 					</div><!-- /st-content-inner -->
