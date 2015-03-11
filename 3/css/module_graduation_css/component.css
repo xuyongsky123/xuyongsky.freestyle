@@ -572,7 +572,6 @@ body,
 #title_content{
 	height:400px;
     width:700px;
-    background:yellow;
     margin:0 auto;
     text-align:center;
     line-height:400px;
@@ -581,8 +580,5 @@ body,
 .fixstyle #st-trigger-effects{
 	width:700px;
     margin:0 auto;
-}
-.fixstyle{
-	background:lightgreen;
 }
 
