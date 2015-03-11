@@ -580,6 +580,7 @@ body,
 }
 .fixstyle #st-trigger-effects{
 	width:700px;
+    margin:0 auto;
 }
 .fixstyle{
 	background:lightgreen;
