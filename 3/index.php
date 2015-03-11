@@ -121,7 +121,6 @@
 
 	<div id="dowebok">
 		<div class="section section1">
-            <div id="tip"><h3>请选择：</h3><div>
 			<div class="slide"><h3><a href="./module_blog_blog.php">Make Graduation Project!&nbsp;&nbsp;毕业设计专栏</a></h3></div>
 			<div class="slide"><h3><a href="./module_blog_blog.php">Write Blog!&nbsp;&nbsp;博客文章专栏</a></h3></div>
 			<div class="slide"><h3>功能模块示例一</h3></div>
