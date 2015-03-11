@@ -29,9 +29,7 @@
 				</div><!-- /st-content -->
 			</div><!-- /st-pusher -->
 		</div><!-- /st-container -->
-		<script src="js/classie.js"></script>
-		<script src="js/sidebarEffects.js"></script>
+		<?php include("./module_graduation_templeteffect.php") ?>
 	</body>
 </html>
 
-<?php include("./module_graduation_templeteffect.php") ?>
