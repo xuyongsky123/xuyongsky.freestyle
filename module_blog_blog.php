@@ -73,17 +73,7 @@
 					?>
 			</div>
 		</section>
-		<footer>
-			<div>@Copyright|About us</div>
-            <ul class="tt-wrapper">
-				<li><a class="tt-gplus" href="#"><span>Google Plus</span></a></li>
-				<li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
-				<li><a class="tt-dribbble" href="#"><span>Dribbble</span></a></li>
-				<li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
-				<li><a class="tt-linkedin" href="#"><span>LinkedIn</span></a></li>
-				<li><a class="tt-forrst" href="#"><span>Forrst</span></a></li>
-			</ul>
-		</footer>
+		
 		<div id="top">
 			<a href="javascript:window.scrollTo(0,0);" >回到顶部</a>
 		</div>
