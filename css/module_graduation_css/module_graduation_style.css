@@ -1,7 +1,7 @@
 #graduation_login{
 	position:fixed;
     top:15px;
-    right:15px;
+    right:30px;
     z-index:100;
     font-size:1.5rem;
 }
