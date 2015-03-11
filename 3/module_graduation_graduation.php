@@ -10,7 +10,7 @@
 			<div class="st-pusher">
 				<div class="st-content"><!-- this is the wrapper for the content -->
 					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
-                        <section class="col-1-1">
+                        <div class="col-1-1">
                             <h2>Playground</h2>
                             <div class="playground grid">
                               <div class="col-1-1 viewport">
@@ -26,7 +26,7 @@
                                   </div>
                               </div>
                             </div>
-                        </section>
+                        </div>
 					</div><!-- /st-content-inner -->
 				</div><!-- /st-content -->
 			</div><!-- /st-pusher -->
