@@ -5,4 +5,4 @@
 #menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
 #menu li { float: left;font-size: 1rem;font-weight:bold;}
 #menu a { float: left;color: #333; text-decoration: none;}
-#menu .active span { color:#fff; background-color: #483D8B;}
+#menu .active span { color:#fff; background-color: #551A8B;}
