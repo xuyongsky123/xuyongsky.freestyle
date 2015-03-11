@@ -5,9 +5,19 @@
         <link href="./css/module_graduation_css/home_page/animate.css" rel="stylesheet">
     </head>
     <body>
-        <div id="login">
-			<?php require("./check_login.php"); ?>
-		</div>
+        <header>
+			<div id="header">
+				<div id="logo">
+					<a href="./module_blog_blog.php">
+						<img alt="myblog" src="./images/logo.png" />
+					</a>
+				</div>
+				<div id="login">
+					<?php require("./check_login.php"); ?>
+				</div>
+				<div class="clearfix"></div>
+			<div>
+		</header>
 		<div id="st-container" class="st-container">
 			<?php include("./module_graduation_templetmenu.php") ?>
 			<div class="st-pusher">
