@@ -570,5 +570,8 @@ body,
 
 /*Edit by xuyong*/
 #title_content{
-	
+	height:100px;
+    width:400px;
+    background:yellow;
+    margin:0 auto;
 }
