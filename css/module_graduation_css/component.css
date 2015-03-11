@@ -574,4 +574,6 @@ body,
     width:400px;
     background:yellow;
     margin:0 auto;
+    text-align:center;
+    line-height:100px;
 }
