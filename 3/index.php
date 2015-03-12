@@ -7,8 +7,8 @@
 <head>
 	<meta charset="gb2312" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="keywords" content="mysite网站主页,xuyongsky,徐勇个人网站,徐勇综合网站,dream,sinaapp.com,SAE" />
-    <meta name="description" content="徐勇个人开发网站,xuyongsky官方网站">
+    <meta name="keywords" content="自由风,dream,sinaapp.com,SAE" />
+    <meta name="description" content="自由风,freestyle,徐勇个人开发网站,xuyongsky官方网站">
     <meta name="baidu-site-verification" content="a7UcQrkB9A" />
 	<title>mysite网站主页</title>
 	<link rel="stylesheet" href="./css/jquery.fullPage.css">
