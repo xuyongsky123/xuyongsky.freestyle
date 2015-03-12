@@ -25,11 +25,9 @@
 				<div class="clearfix"></div>
 			<div>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="./index.php">Home</a></li><li><a href="./module_blog_writeblog.php">Post</a></li><li><a href="#">Contact</a></li><li><a href="./module_blog_aboutus.php">About</a></li>
-			</ul>
-		</nav>
+		<?php
+                
+        ?>
 		<section>
 			<aside>
 				<article>
