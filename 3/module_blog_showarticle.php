@@ -18,7 +18,7 @@
 		
 		 	
 	}else{
-		echo "公共bolg标题，不属于具体私人的...";	
+		$public_sql="select * from public_article";	
 	}	
 	
 ?>
