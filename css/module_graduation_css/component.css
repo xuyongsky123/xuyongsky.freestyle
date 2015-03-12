@@ -582,11 +582,11 @@ body,
     margin:0 auto;
 }
 #animate_style{
-	height:400px;
+	height:300px;
     width:700px;
     margin:0 auto;
     text-align:center;
-    line-height:400px;
+    line-height:300px;
     font-size:2rem;
 }
 
