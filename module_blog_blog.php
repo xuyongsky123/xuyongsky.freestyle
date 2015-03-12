@@ -25,9 +25,7 @@
 				<div class="clearfix"></div>
 			<div>
 		</header>
-		<?php
-                
-        ?>
+		<?php include("./module_blog_templetmenu.php"); ?>
 		<section>
 			<aside>
 				<article>
