@@ -21,8 +21,6 @@
 		$public_sql="select * from public_article";
         $public_array=$operatedb->Execsql($public_sql,$conn);
         
-        echo $sub_item['public_filename'];
-        
         if($public_array){
             foreach($public_array as $sub_item){
             	echo "<li><a href='./module_blog_blog.php?public_filename=".$sub_item['public_filename']."'>".$sub_item['public_filename']."</a></li>";
