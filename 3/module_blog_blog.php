@@ -80,6 +80,10 @@
                                     echo $item_public['public_filename'];
                                     echo '</article>';
                                 }
+                            }else{
+                            	echo '<article>';
+                                echo "查询数据库中文章时出错，我们会尽快处理，请谅解...";	
+                                echo '</article>';
                             }
                         }else{
 							echo '<article>';
