@@ -74,6 +74,10 @@
                             $public_sql="select * from user_article where public_filename = '$public_filename'";
                             $public_array=$operatedb->Execsql($public_sql,$conn);
                             
+                            
+                            echo $item_public['public_filename'];
+                            
+                            
                             if($public_array){
                                 foreach($public_array as $item_public){
                                 	echo '<article>';
