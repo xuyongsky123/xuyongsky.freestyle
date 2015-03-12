@@ -26,7 +26,7 @@
             	echo "<li><a href='./module_blog_blog.php?public_filename=".$sub_item['public_filename']."'>".$sub_item['public_filename']."</a></li>"
             }
         }else{
-        	echo "数据库暂时未存储blog文章，敬请期待..."
+        	echo "数据库暂时未存储供欣赏的blog文章，敬请期待..."
         }
 	}	
 	
