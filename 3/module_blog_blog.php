@@ -71,6 +71,9 @@
 							
                         }else if(isset($_GET['public_filename'])){
                         	$public_filename=$GET['public_filename'];
+                            
+                            echo $public_filename;
+                            
                             $public_sql="select * from public_article where public_filename = '$public_filename'";
                             $public_array=$operatedb->Execsql($public_sql,$conn);
 
