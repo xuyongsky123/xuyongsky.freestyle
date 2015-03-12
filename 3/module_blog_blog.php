@@ -77,7 +77,7 @@
                             
                             if($public_array){
                                 	echo '<article>';
-                                    echo $item_public['public_filename'];
+                                    echo "test";
                                     echo '</article>';
                             }else{
                             	echo '<article>';
