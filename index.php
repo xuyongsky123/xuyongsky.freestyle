@@ -10,7 +10,7 @@
     <meta name="keywords" content="自由风,dream,sinaapp.com,SAE,大学生电商,大学淘宝店,大学京东店" />
     <meta name="description" content="自由风,freestyle,徐勇个人开发网站,xuyongsky官方网站,大学生电商,大学淘宝店,大学京东店">
     <meta name="baidu-site-verification" content="a7UcQrkB9A" />
-	<title>mysite网站主页</title>
+	<title>自由风</title>
 	<link rel="stylesheet" href="./css/jquery.fullPage.css">
 	<link rel="stylesheet" href="./css/content.fullPage.css">
     <link rel="stylesheet" href="./css/navigation.fullPage.css">
