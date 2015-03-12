@@ -59,11 +59,15 @@
             <div id="register_container">
                 <div id="registerTitle">注&nbsp;&nbsp;册</div>
                 <div id="registerContent">
-                	username:<input type="text" name="user" /><br />
-                    password:<input type="password" name="pwd" /><br />
-                    sex:
-                    <input type="radio" name="sex" value="man" checked="checked"/>男
-                    <input type="radio" name="sex" value="woman" />女<br />
+                    <div id="user_info">
+                        <label>Username:</label><img src="./images/user.png" /><input id="register_username" type="text" name="user" maxlength="32" placeholder="Username" /><br />
+                    	<label>Password:</label><img src="./images/pwd.png" /><input id="register_password" type="password" name="pwd" maxlength="32" placeholder="Password"  /><br />
+                    </div>
+                    <div id="detail_info">
+                    	<label>sex:</label>
+                    	<input type="radio" name="sex" value="man" checked="checked"/>男
+                    	<input type="radio" name="sex" value="woman" />女<br />
+                    </div>
                 </div>
                 <div id="registerButton">
                 	<input id="register_button" type="submit" name="submit" value="注册"/>
