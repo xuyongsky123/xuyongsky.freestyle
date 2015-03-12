@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <meta name="keywords" content="自由风,dream,sinaapp.com,SAE,大学生电商,大学淘宝店,大学京东店" />
     	<meta name="description" content="自由风,freestyle,徐勇个人开发网站,xuyongsky官方网站,大学生电商,大学淘宝店,大学京东店">
-		<title>myblog网站主页</title>
+		<title>博客文章专栏</title>
         <link rel="stylesheet" href="./css/module_blog_style.css" />
 	</head>
 	<body>
