@@ -18,7 +18,8 @@
 		
 		 	
 	}else{
-		$public_sql="select * from public_article";	
+		$public_sql="select * from public_article";
+        $array=$operatedb->Execsql($public_sql,$conn);
 	}	
 	
 ?>
