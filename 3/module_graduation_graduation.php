@@ -8,11 +8,11 @@
         <link href="./css/module_graduation_css/module_graduation_style.css" rel="stylesheet">
         <link href="./css/module_graduation_css/home_page/animate.css" rel="stylesheet">
         <!--使IE各版本浏览器支持HTML5-->
-        <!–[if IE]> 
+        <!–-[if IE]> 
         <script> 
         	(function(){if(!/*@cc_on!@*/0)return;var e = “abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video”.split(’,'),i=e.length;while(i–){document.createElement(e[i])}})() 
         </script> 
-        <![endif]–> 
+        <![endif]–-> 
     </head>
     <body>
         <div id="graduation_login">
@@ -50,10 +50,10 @@
                                         <label>Out Animation</label>
                                         <select data-key="effect" data-type="out"></select>
                                         <select data-key="type" data-type="out">
-                                          <option value="">sequence</option>
+                                          <option selected="selected" value="">sequence</option>
                                           <option value="reverse">reverse</option>
                                           <option value="sync">sync</option>
-                                          <option selected="selected" value="shuffle">shuffle</option>
+                                          <option value="shuffle">shuffle</option>
                                         </select>
                                       </div>
                                     </form>
