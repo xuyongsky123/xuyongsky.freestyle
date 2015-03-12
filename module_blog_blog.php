@@ -76,9 +76,11 @@
 
                             
                             if($public_array){
+                                foreach($public_array as $item_public){
                                 	echo '<article>';
-                                    echo "test";
+                                    echo $item_public['public_filename'];
                                     echo '</article>';
+                                }
                             }else{
                             	echo '<article>';
                                 echo "查询数据库中文章时出错，我们会尽快处理，请谅解...";	
