@@ -18,7 +18,7 @@ nav{height:50px;margin-bottom:5px;font-size:36px;}
 nav ul{height:50px;background:#6E6E6E url(../images/background.png) repeat top left;min-width:30.5rem;}
 nav ul li{display:inline-block;line-height:50px;}
 nav ul li a{display:block;padding:0 1rem;}
-nav ul li a:hover{background:#383838;color:white;}
+nav ul li a:hover{background:#CDAA7D;color:white;}
 
 aside{width:200px;float:right;}
 #upload{line-height:2rem;padding:0.5rem;}
