@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>myblog网站主页</title>
+		<title>博客文章专栏介绍</title>
         <link rel="stylesheet" href="./css/module_blog_style.css" />
 	</head>
 	<body>
