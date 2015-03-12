@@ -80,7 +80,17 @@
                             $public_array=$operatedb->Execsql($public_sql,$conn);
 
                             
-                            
+                            if($public_array){
+                                foreach($public_array as $item_public){
+                                	echo '<article>';
+                                    echo $item_public['public_article'];
+                                    echo '</article>';
+                                }
+                            }else{
+                            	echo '<article>';
+                                echo "查询数据库中文章时出错，我们会尽快处理，请谅解...";	
+                                echo '</article>';
+                            }
                         }else{
 							echo '<article>';
 							echo "公共文章，不属于具体某人所有...";
