@@ -91,9 +91,28 @@
                 left:75px;
             }
         </style>
+        <script>
+            function checkUser(){
+                var Username=document.getElementById('register_username').value;
+                var Password=document.getElementById('register_password').value;
+                
+                if(Username==""||Username==null){
+                    alert("The Username can't be null");
+                    return false;
+                }
+                if(Password==""||Password==null){
+                    alert("The Password can't be null");
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+		</script>
 	</head>
 	<body>
-		<form action="./register.php" method="post">
+		<form id="form_rg" name="form_rg" action="./register.php" method="post" onsubmit="return checkUser()">
             <div id="register_container">
                 <div id="registerTitle">注&nbsp;&nbsp;册</div>
                 <div id="registerContent">
