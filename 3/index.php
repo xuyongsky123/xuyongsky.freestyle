@@ -123,7 +123,7 @@
 		<div class="section section1">
             <div class="slide"><h3><a href="./module_graduation_graduation.php">Make Graduation Project!<br />毕业设计专栏</a></h3></div>
             <div class="slide"><h3><a href="./module_blog_blog.php">Write Blog!<br />博客文章专栏</a></h3></div>
-			<div class="slide"><h3><a href="./module_blog_blog.php">University Business!<br />大学电商专栏</a></h3></div>
+			<div class="slide"><h3><a href="./module_shop_shop.php">University Business!<br />大学电商专栏</a></h3></div>
 			<div class="slide"><h3>功能模块示例二</h3></div>
 		</div>
 		<div class="section section2">
