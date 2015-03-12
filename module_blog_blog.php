@@ -62,7 +62,10 @@
 								echo $item_search['article'];	
 								echo '</article>';
 							}
-						}else{
+                        }else if(isset($_GET['public_filename'])){
+                        	$public_filename=$GET['public_filename'];
+                            $public_sql="select * from user_article where filename = '$file_search' and username='$user_search' ";
+                        }else{
 							echo '<article>';
 							echo "公共文章，不属于具体某人所有...";
 							echo '</article>';
