@@ -14,8 +14,8 @@
 			
 			require("./database/connDB.inc.php");
 			
-            //$sql="insert into user_article(description,article,filename,filesize,filetype,username) values('test','$data','$blog_title','test','test','$user')";
-            $sql="insert into public_article(public_filename,public_article,public_author) values('$blog_title','$data','$user')";
+            $sql="insert into user_article(description,article,filename,filesize,filetype,username) values('test','$data','$blog_title','test','test','$user')";
+            //$sql="insert into public_article(public_filename,public_article,public_author) values('$blog_title','$data','$user')";
 			$result=$operatedb->Execsql($sql,$conn);
 			
 			if($result){
