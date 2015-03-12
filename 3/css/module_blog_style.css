@@ -43,4 +43,4 @@ textarea {display: block;}
 #top a{display:block;position:fixed;bottom:0px;right:0px;width:2.2rem;background:#B5B5B5;text-align:center;padding:0.3rem 0;height:7.2rem;font-size:1.5rem;}
 #top a:hover{background:#383838;color:white;}
 
-#article ul li{line-height:2em;}
+#article ul li{line-height:1.5rem;}
