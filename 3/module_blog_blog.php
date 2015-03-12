@@ -75,7 +75,7 @@
                             $public_array=$operatedb->Execsql($public_sql,$conn);
                             
                             
-                            echo $item_public['public_filename'];
+                            echo $public_array[0];
                             
                             
                             if($public_array){
