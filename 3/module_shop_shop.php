@@ -6,9 +6,7 @@
 <html>
     <head></head>
     <body>
-        <div style="background:lightgreen;font-size:2rem;margin-top:15%;padding:50px;text-align:center;">
-            大学网上商城模块，针对大学校园内的电商，功能开发中...
-        </div>
+        
     	<!--HTML5背景动态云效果-Begin-->
         <script type="text/javascript" src="./js/webgl_clouds_js/three.min.js"></script>
             <script type="text/javascript" src="./js/webgl_clouds_js/Detector.js"></script>
@@ -24,7 +22,9 @@
                 }
     
             </script>
-    
+    		<div style="background:lightgreen;font-size:2rem;margin-top:15%;padding:50px;text-align:center;">
+            大学网上商城模块，针对大学校园内的电商，功能开发中...
+        </div>
             <script id="fs" type="x-shader/x-fragment">
     
                 uniform sampler2D map;
