@@ -6,6 +6,7 @@ echo '<div style="z-index:100;background:lightgreen;margin-top:15%;font-size:2re
 <html lang="zh-CN">
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
+      <link href="./css/bootstrap_css/bootstrap.min.css" rel="stylesheet" />
 	<title>大学电商专栏</title>
   </head>
   <body>
