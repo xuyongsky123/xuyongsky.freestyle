@@ -10,8 +10,21 @@
 	<title>大学电商专栏</title>
   </head>
   <body>
-      <header style="height:100px;font-size:5rem;text-align:left;padding:7px 0 7px 7px;">
-          College Mall 
+    <header style="height:100px;font-size:5rem;">
+        <div id="logo" style="text-align:left;padding:7px 0 7px 7px;">
+        	College Mall
+        </div>
+        <div id="header">
+				<div id="logo">
+					<a href="./module_blog_blog.php">
+						<img alt="myblog" src="./images/logo.png" />
+					</a>
+				</div>
+				<div id="login">
+					<?php require("./check_login.php"); ?>
+				</div>
+				<div class="clearfix"></div>
+			<div>
     </header>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
