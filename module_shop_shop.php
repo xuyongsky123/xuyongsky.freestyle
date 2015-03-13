@@ -10,16 +10,19 @@
 	<title>大学电商专栏</title>
   </head>
   <body>
+      <div>
+      	<div id="shop_header">
+			<div id="login">
+				<?php require("./check_login.php"); ?>
+			</div>
+			<div class="clearfix"></div>
+		<div>
+      </div>
     <header style="height:100px;font-size:5rem;">
         <div id="logo" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;">
         	College Mall
         </div>
-        <div id="shop_header">
-				<div id="login">
-					<?php require("./check_login.php"); ?>
-				</div>
-				<div class="clearfix"></div>
-			<div>
+        
     </header>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
