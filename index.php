@@ -3,7 +3,7 @@
 	header("Content-Type:text/html;charset=utf-8");
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
 	<meta charset="gb2312" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
