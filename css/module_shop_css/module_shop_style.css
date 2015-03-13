@@ -9,7 +9,5 @@
 	background-color:#48C9B0 !important;
 }
 #shop_header{
-	position:fixed;
-    top:0.1em;
-    right:0.5em;
+    float:right;
 }
