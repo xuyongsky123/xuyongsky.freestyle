@@ -10,8 +10,5 @@ echo '<div style="z-index:100;background:lightgreen;margin-top:15%;font-size:2re
     </head>
     <body>
         
-        
-            
-        
     </body>
 </html>
