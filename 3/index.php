@@ -99,8 +99,6 @@
 			autoScrolling();
 		});
 	</script>
-</head>
-<body>
     <!--HTML5背景动态云效果-Begin-->
     <script type="text/javascript" src="./js/webgl_clouds_js/three.min.js"></script>
 		<script type="text/javascript" src="./js/webgl_clouds_js/Detector.js"></script>
@@ -274,6 +272,9 @@
 
 		</script>
     <!--HTML5背景动态云效果-End-->
+</head>
+<body>
+    
     
 	<div id="contact">
 		<div id="contact_title">联系我们</div>
