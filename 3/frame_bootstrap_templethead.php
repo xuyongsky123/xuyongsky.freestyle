@@ -7,3 +7,8 @@
 <script src="./js/jquery-1.9.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="./js/bootstrap_js/bootstrap.min.js"></script>
+
+
+<!-- Loading Flat UI -->
+<link href="./css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet">
+<link href="./css/bootstrap_css/flat_ui_css/demo.css" rel="stylesheet">
