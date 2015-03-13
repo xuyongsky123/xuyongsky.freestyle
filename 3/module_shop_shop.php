@@ -44,7 +44,7 @@
                 }
     
             </script>
-        <div style="z-index:10000;background:lightgreen;font-size:2rem;margin-top:15%;padding:50px;text-align:center;">
+        <div style="z-index:100;background:lightgreen;font-size:2rem;margin-top:15%;padding:50px;text-align:center;">
             大学网上商城模块，针对大学校园内的电商，功能开发中...
         </div>
             <script type="text/javascript">
