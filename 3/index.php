@@ -101,47 +101,7 @@
 	</script>
 </head>
 <body>
-	<div id="contact">
-		<div id="contact_title">联系我们</div>
-		<div id="contact_content">
-			<a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=1845082157&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:1845082157:51 alt="点击这里给我发消息"></a>
-			<a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=821594487&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:821594487:51 alt="点击这里给我发消息"></a>
-		</div>
-	</div>
-	<div id="user_container">
-		<?php require("./check_login.php"); ?>
-	</div>
-
-	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1"><span class="button purple"><span class="shine"></span>HOME</span></a></li>
-		<li data-menuanchor="page2"><a href="#page2"><span class="button purple"><span class="shine"></span>ABOUT</span></a></li>
-		<li data-menuanchor="page3"><a href="#page3"><span class="button purple"><span class="shine"></span>CONTACT</span></a></li>
-		<li data-menuanchor="page4"><a href="#page4"><span class="button purple"><span class="shine"></span>...</span></a></li>
-	</ul>
-
-	<div id="dowebok">
-		<div class="section section1">
-            <div class="slide"><h3><a href="./module_graduation_graduation.php">Make Graduation Project!<br />毕业设计专栏</a></h3></div>
-            <div class="slide"><h3><a href="./module_blog_blog.php">Write Blog!<br />博客文章专栏</a></h3></div>
-			<div class="slide"><h3><a href="./module_shop_shop.php">University Business!<br />大学电商专栏</a></h3></div>
-			<div class="slide"><h3>功能模块示例二</h3></div>
-		</div>
-		<div class="section section2">
-			<h3>About us</h3>
-			<p>网站功能模块尚且处于开发中...</p>
-		</div>
-		<div class="section section3">
-			<h3>Contact</h3>
-			<p>
-				<a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=1845082157&site=qq&menu=yes">如果你有什么疑问或者建议请与我们联系...</a>
-			</p>
-		</div>
-		<div class="section section4">
-			<h3>第四屏</h3>
-			<p>滚动到第四屏后的回调函数执行的效果</p>
-		</div>
-	</div>
-	<!--HTML5背景动态云效果-Begin-->
+    <!--HTML5背景动态云效果-Begin-->
     <script type="text/javascript" src="./js/webgl_clouds_js/three.min.js"></script>
 		<script type="text/javascript" src="./js/webgl_clouds_js/Detector.js"></script>
 		<script id="vs" type="x-shader/x-vertex">
@@ -314,5 +274,46 @@
 
 		</script>
     <!--HTML5背景动态云效果-End-->
+	<div id="contact">
+		<div id="contact_title">联系我们</div>
+		<div id="contact_content">
+			<a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=1845082157&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:1845082157:51 alt="点击这里给我发消息"></a>
+			<a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=821594487&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:821594487:51 alt="点击这里给我发消息"></a>
+		</div>
+	</div>
+	<div id="user_container">
+		<?php require("./check_login.php"); ?>
+	</div>
+
+	<ul id="menu">
+		<li data-menuanchor="page1" class="active"><a href="#page1"><span class="button purple"><span class="shine"></span>HOME</span></a></li>
+		<li data-menuanchor="page2"><a href="#page2"><span class="button purple"><span class="shine"></span>ABOUT</span></a></li>
+		<li data-menuanchor="page3"><a href="#page3"><span class="button purple"><span class="shine"></span>CONTACT</span></a></li>
+		<li data-menuanchor="page4"><a href="#page4"><span class="button purple"><span class="shine"></span>...</span></a></li>
+	</ul>
+
+	<div id="dowebok">
+		<div class="section section1">
+            <div class="slide"><h3><a href="./module_graduation_graduation.php">Make Graduation Project!<br />毕业设计专栏</a></h3></div>
+            <div class="slide"><h3><a href="./module_blog_blog.php">Write Blog!<br />博客文章专栏</a></h3></div>
+			<div class="slide"><h3><a href="./module_shop_shop.php">University Business!<br />大学电商专栏</a></h3></div>
+			<div class="slide"><h3>功能模块示例二</h3></div>
+		</div>
+		<div class="section section2">
+			<h3>About us</h3>
+			<p>网站功能模块尚且处于开发中...</p>
+		</div>
+		<div class="section section3">
+			<h3>Contact</h3>
+			<p>
+				<a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=1845082157&site=qq&menu=yes">如果你有什么疑问或者建议请与我们联系...</a>
+			</p>
+		</div>
+		<div class="section section4">
+			<h3>第四屏</h3>
+			<p>滚动到第四屏后的回调函数执行的效果</p>
+		</div>
+	</div>
+	
 </body>
 </html>
