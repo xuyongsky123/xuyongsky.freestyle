@@ -3,7 +3,7 @@
 	header("Content-Type:text/html;charset=utf-8");
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <meta name="keywords" content="自由风,dream,sinaapp.com,SAE,大学生电商,大学淘宝店,大学京东店" />
