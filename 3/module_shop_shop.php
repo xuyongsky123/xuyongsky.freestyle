@@ -13,11 +13,11 @@
   <body>
       <div id="shop_container">
           <div id="link_help">
-              <span><a>邀请好友</a></span>
+              <span><a href="#">邀请好友</a></span>
               <span>|</span>
-              <span><a>加入收藏</a></span>
+              <span><a href="#">加入收藏</a></span>
               <span>|</span>
-              <span><a>关注“自由风”</a></span>
+              <span><a href="#">关注“自由风”</a></span>
           </div>
       	<div id="shop_header">
 			<div id="login">
