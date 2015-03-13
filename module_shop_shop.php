@@ -11,6 +11,9 @@ echo '<div style="z-index:100;background:lightgreen;margin-top:15%;font-size:2re
   <body>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
             <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                <span class="sr-only">Toggle navigation</span>
+              </button>
               <a class="navbar-brand" href="#">Flat UI</a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
