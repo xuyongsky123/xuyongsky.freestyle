@@ -23,8 +23,8 @@
                 <div id="login">
                     <?php require("./check_login.php"); ?>
                 </div>
-                <div class="clearfix"></div>
             </div>
+          <div class="clearfix"></div>
       </div>
     <header style="height:100px;font-size:5rem;">
         <div id="logo" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;">
