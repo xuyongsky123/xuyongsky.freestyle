@@ -14,7 +14,7 @@
         <div id="logo" style="text-align:left;padding:7px 0 7px 7px;">
         	College Mall
         </div>
-        <div id="header">
+        <div id="shop_header" style="background:red;display:inline-block;">
 				<div id="login">
 					<?php require("./check_login.php"); ?>
 				</div>
