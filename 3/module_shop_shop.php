@@ -39,8 +39,8 @@
                 <div class="form-group">
                   <div class="input-group">
                     <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
-                    <span class="input-group-btn">
-                      <button type="submit" class="btn xuyong_fix">
+                    <span class="input-group-btn xuyong_fix">
+                      <button type="submit" class="btn">
                         搜索
                       </button>
                     </span>
