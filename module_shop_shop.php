@@ -13,7 +13,7 @@
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
               <ul class="nav navbar-nav navbar-left">
-                  <li><a href="./module_shop_shop.php">Home</a></li>
+                <li><a href="./module_shop_shop.php">Home</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages</a>
                   <ul class="dropdown-menu">
