@@ -2,7 +2,7 @@
     session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head>
     	<?php include("./module_graduation_templethead.php") ?>
         <link href="./css/module_graduation_css/module_graduation_style.css" rel="stylesheet">
