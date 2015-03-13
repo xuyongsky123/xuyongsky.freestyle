@@ -18,6 +18,14 @@
         <div id="graduation_login">
 			<?php require("./check_login.php"); ?>
 		</div>
+        <header id="nav_menu">
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>about</li>
+                <li>Primary-Home</li>
+            </ul>
+        </header>
 		<div id="st-container" class="st-container">
 			<?php include("./module_graduation_templetmenu.php") ?>
 			<div class="st-pusher">
