@@ -5,7 +5,7 @@ echo '<div style="z-index:100;background:lightgreen;margin-top:15%;font-size:2re
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head> 
-      <?php include('./frame_bootstrap_templethead.php'); ?>
+    <?php include('./frame_bootstrap_templethead.php'); ?>
 	<title>大学电商专栏</title>
   </head>
   <body>
