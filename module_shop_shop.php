@@ -10,7 +10,7 @@
 	<title>大学电商专栏</title>
   </head>
   <body>
-      <header style="height:100px;font-size:5rem;text-align:center;padding:7px 0;">
+      <header style="height:100px;font-size:5rem;text-align:left;padding:7px 0;">
           College Mall 
     </header>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
