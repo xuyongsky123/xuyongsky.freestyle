@@ -18,6 +18,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages</a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
+                    <li class="divider"></li>
                     <li><a href="#">Another action</a></li>
                     <li class="divider"></li>
                     <li><a href="#">Something else here</a></li>
