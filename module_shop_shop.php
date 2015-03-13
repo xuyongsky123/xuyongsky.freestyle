@@ -22,6 +22,10 @@
             <div id="shop_header">
                 <div id="login">
                     <?php require("./check_login.php"); ?>
+                    <span>|</span>
+              		<span><a href="#">QQ登录</a></span>
+              		<span>|</span>
+              		<span><a href="#">微博登陆</a></span>
                 </div>
             </div>
           <div class="clearfix"></div>
