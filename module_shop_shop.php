@@ -15,7 +15,7 @@
               <ul class="nav navbar-nav navbar-left">
                 <li><a href="./module_shop_shop.php">Home</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages</a>
+                  Messages
                   <ul class="dropdown-menu">
                     <li><a href="#">sub menu one</a></li>
                     <li class="divider"></li>
