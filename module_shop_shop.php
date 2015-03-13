@@ -16,8 +16,7 @@ echo '<div style="z-index:100;background:lightgreen;margin-top:15%;font-size:2re
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
               <ul class="nav navbar-nav navbar-left">
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages <b class="caret"></b></a>
-                  <span class="dropdown-arrow"></span>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages</a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
                     <li><a href="#">Another action</a></li>
@@ -28,6 +27,9 @@ echo '<div style="z-index:100;background:lightgreen;margin-top:15%;font-size:2re
                 </li>
                 <li><a href="#fakelink">About Us</a></li>
                </ul>
+                
+                
+                
                <form class="navbar-form navbar-right" action="#" role="search">
                 <div class="form-group">
                   <div class="input-group">
