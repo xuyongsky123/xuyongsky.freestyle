@@ -4,7 +4,10 @@
 ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head></head>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
     <body>
         
     	<!--HTML5背景动态云效果-Begin-->
