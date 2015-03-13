@@ -10,4 +10,5 @@
 }
 #shop_header{
     float:right;
+    display:inline-block;
 }
