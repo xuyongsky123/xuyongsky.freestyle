@@ -13,7 +13,8 @@
   <body>
       <div id="shop_container">
           <div id="link_help">
-          	
+              <span><a>邀请好友</a></span>
+              <span><a>加入收藏</a></span>
           </div>
       	<div id="shop_header">
 			<div id="login">
