@@ -7,7 +7,7 @@
 <html lang="zh-CN">
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
-      <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
+    <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
 	<title>大学电商专栏</title>
   </head>
   <body>
