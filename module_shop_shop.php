@@ -40,7 +40,7 @@
                   <div class="input-group">
                     <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
                     <span class="input-group-btn">
-                      <button type="submit" class="btn"><span class="fui-search"></span></button>
+                      <button type="submit" class="btn"><a href="#fakelink" class="btn btn-block btn-lg btn-inverse">Inverse Button</a></button>
                     </span>
                   </div>
                 </div>
