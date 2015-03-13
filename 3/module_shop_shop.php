@@ -11,8 +11,7 @@
   </head>
   <body>
       <header style="height:100px;font-size:5rem;text-align:center;padding:7px 0;">
-          College Mall
-    	The way to the future !  
+          College Mall 
     </header>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
