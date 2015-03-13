@@ -7,6 +7,7 @@
 <head>
 	<meta charset="gb2312" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="自由风,dream,sinaapp.com,SAE,大学生电商,大学淘宝店,大学京东店" />
     <meta name="description" content="自由风,freestyle,徐勇个人开发网站,xuyongsky官方网站,大学生电商,大学淘宝店,大学京东店">
     <meta name="baidu-site-verification" content="a7UcQrkB9A" />
