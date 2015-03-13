@@ -27,7 +27,7 @@
                   </ul>
                 </li>
                 <li><a href="#fakelink">About Us</a></li>
-                <li><a href="#fakelink">Primary-Home</a></li>
+                <li><a href="./index.php">Primary-Home</a></li>
               </ul>
                 
                 
