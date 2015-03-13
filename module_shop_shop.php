@@ -10,7 +10,7 @@
 	<title>大学电商专栏</title>
   </head>
   <body>
-    <header style="height:100px;">
+      <header style="height:100px;font-size:2rem;text-align:center;">
     	The way to the future !  
     </header>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
