@@ -17,13 +17,13 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
+                    <li><a href="#">sub menu one</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">sub menu two</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">sub menu three</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">sub menu four</a></li>
                   </ul>
                 </li>
                 <li><a href="#fakelink">About Us</a></li>
