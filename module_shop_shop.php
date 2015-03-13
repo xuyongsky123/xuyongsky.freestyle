@@ -11,6 +11,7 @@
   </head>
   <body>
       <header style="height:100px;font-size:5rem;text-align:center;padding:7px 0;">
+          College Mall
     	The way to the future !  
     </header>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
