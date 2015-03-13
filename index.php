@@ -26,7 +26,7 @@
 		$(function(){
 			$('#dowebok').fullpage({
 				//屏幕背景颜色（如果不指定背景图片的情况下）
-                //sectionsColor : ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+                sectionsColor : ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
 
 				//到最后一屏时循环
 				continuousVertical: true,
@@ -274,6 +274,7 @@
 
 		</script>
     <!--HTML5背景动态云效果-End-->
+    
 	<div id="contact">
 		<div id="contact_title">联系我们</div>
 		<div id="contact_content">
