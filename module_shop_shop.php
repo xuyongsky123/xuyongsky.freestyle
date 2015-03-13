@@ -3,7 +3,7 @@
 	echo "";
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head></head>
     <body>
         
