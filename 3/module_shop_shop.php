@@ -41,7 +41,7 @@
                     <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
                     <span class="input-group-btn">
                       <button type="submit" class="btn">
-                        search
+                        搜索
                       </button>
                     </span>
                   </div>
