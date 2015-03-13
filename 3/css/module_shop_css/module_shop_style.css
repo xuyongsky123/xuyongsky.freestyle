@@ -8,12 +8,14 @@
 .xuyong_fix:hover{
 	background-color:#48C9B0 !important;
 }
+#link_help{
+	display:inline-block;
+    margin-left:0.5rem;
+}
 #shop_header{
     float:right;
     display:inline-block;
-}
-#link_help{
-	display:inline-block;
+    margin-right:0.5rem;
 }
 .clearfix{
 	clear:both;
