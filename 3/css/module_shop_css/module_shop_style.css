@@ -8,6 +8,9 @@
 .xuyong_fix:hover{
 	background-color:#48C9B0 !important;
 }
+#shop_container{
+	background:#d5dbdb;
+}
 #link_help{
 	display:inline-block;
     margin-left:0.5rem;
