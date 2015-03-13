@@ -8,3 +8,8 @@
 .xuyong_fix:hover{
 	background-color:#48C9B0 !important;
 }
+#shop_header{
+	position:fixed;
+    top:1em;
+    right:1em;
+}
