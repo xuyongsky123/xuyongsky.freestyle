@@ -84,9 +84,8 @@
                 <div class="todo-icon fui-eye"></div>
                 <div class="todo-content">
                   <h4 class="todo-name">
-                    Watch <strong>Iron Man</strong>
+                    电子设备类
                   </h4>
-                  1998 Broadway
                 </div>
               </li>
               <li class="todo-done">
