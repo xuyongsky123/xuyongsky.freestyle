@@ -24,7 +24,6 @@
 .clearfix{
 	clear:both;
 }
-.todo ul li:after｛
-	display:none !important;
-	background:none;        
-｝
+.todo ul li{
+	position:static;
+}
