@@ -84,18 +84,16 @@
                 <div class="todo-icon fui-user"></div>
                 <div class="todo-content">
                   <h4 class="todo-name">
-                    Meet <strong>Adrian</strong> at <strong>6pm</strong>
+                    服装类
                   </h4>
-                  Times Square
                 </div>
               </li>
               <li>
                 <div class="todo-icon fui-list"></div>
                 <div class="todo-content">
                   <h4 class="todo-name">
-                    Chat with <strong>V.Kudinov</strong>
+                    食品类
                   </h4>
-                  Skype conference an 9 am
                 </div>
               </li>
               <li>
