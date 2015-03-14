@@ -77,7 +77,7 @@
         <div class="col-xs-4">
           <div class="todo">
             <div class="todo-search">
-              <input class="todo-search-field" type="search" value="" placeholder="Search" />
+              <input class="todo-search-field" type="search" value="" placeholder="Searchddddddd" />
             </div>
             <ul>
               <li class="todo-done">
