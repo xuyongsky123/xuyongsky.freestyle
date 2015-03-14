@@ -32,9 +32,6 @@
 .todo li::after{
 	display:none;
 }
-.fui-user::before{
-	display:none;
-}
-.fui-eye::before{
+.fui-list::before{
 	display:none;
 }
