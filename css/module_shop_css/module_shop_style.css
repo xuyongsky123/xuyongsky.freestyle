@@ -24,7 +24,7 @@
 .clearfix{
 	clear:both;
 }
-.todo li:after｛
+.todo ul li:after｛
 	display:none !important;
 	background:none;        
 ｝
