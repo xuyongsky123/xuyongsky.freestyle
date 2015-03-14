@@ -80,6 +80,15 @@
               <input class="todo-search-field" type="search" value="" placeholder="店铺类型" />
             </div>
             <ul>
+              <li>
+                <div class="todo-icon fui-eye"></div>
+                <div class="todo-content">
+                  <h4 class="todo-name">
+                    Watch <strong>Iron Man</strong>
+                  </h4>
+                  1998 Broadway
+                </div>
+              </li>
               <li class="todo-done">
                 <div class="todo-icon fui-user"></div>
                 <div class="todo-content">
@@ -94,15 +103,6 @@
                   <h4 class="todo-name">
                     食品类
                   </h4>
-                </div>
-              </li>
-              <li>
-                <div class="todo-icon fui-eye"></div>
-                <div class="todo-content">
-                  <h4 class="todo-name">
-                    Watch <strong>Iron Man</strong>
-                  </h4>
-                  1998 Broadway
                 </div>
               </li>
               <li>
