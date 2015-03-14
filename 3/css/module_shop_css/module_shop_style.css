@@ -26,4 +26,5 @@
 }
 .todo li:after｛
 	display:none !important;
+	content:'';
 ｝
