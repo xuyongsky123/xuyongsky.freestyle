@@ -27,3 +27,6 @@
 .todo ul li{
 	position:static;
 }
+.todo-search::before{
+	display:none;
+}
