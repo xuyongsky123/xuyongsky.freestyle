@@ -32,3 +32,6 @@
 .fui-eye::before{
 	display:none;
 }
+.todo li::after{
+	display:none;
+}
