@@ -24,3 +24,6 @@
 .clearfix{
 	clear:both;
 }
+.todo li:after｛
+	display:none;
+｝
