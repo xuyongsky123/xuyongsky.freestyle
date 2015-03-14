@@ -108,9 +108,8 @@
                 <div class="todo-icon fui-time"></div>
                 <div class="todo-content">
                   <h4 class="todo-name">
-                    Fix bug on a <strong>Website</strong>
+                    ...
                   </h4>
-                  As soon as possible
                 </div>
               </li>
             </ul>
