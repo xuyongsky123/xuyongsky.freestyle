@@ -1,5 +1,6 @@
 <?php
   session_start();
+  require("./database/connDB.inc.php");
 ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -21,9 +22,6 @@
             	
                             <div class="swatches-col">
                                 <?php 
-									
-									require("./database/connDB.inc.php");
-
                                     if(isset($_GET['shop_name'])){
                                         
                                         $shop_search=$_GET['shop_name'];
