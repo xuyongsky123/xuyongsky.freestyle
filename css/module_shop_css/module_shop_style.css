@@ -17,6 +17,7 @@
     min-width:60rem;
 }
 #link_help{
+	float:left;
 	display:inline-block;
     margin-left:0.5rem;
 }
@@ -24,9 +25,6 @@
     float:right;
     display:inline-block;
     margin-right:0.5rem;
-}
-#link_help{
-	float:left;
 }
 .clearfix{
 	clear:both;
