@@ -12,13 +12,16 @@
       <?php include("./module_shop_templetheader.php"); ?>
       
       <div class="row demo-samples">
-                <div class="col-xs-3">
+                <div class="col-xs-1">
                     
-                </div><!-- /.col-xs-3 -->
+                </div><!-- /.col-xs-1-->
                   
-                <div class="col-xs-9 xuyong_fixrow">
+                <div class="col-xs-10 xuyong_fixrow">
                     
                 </div> <!-- /.col-xs-9 -->
+          		<div class="col-xs-1">
+                    
+                </div><!-- /.col-xs-1-->
       </div>
       
       <?php include("./module_shop_templetfooter.php"); ?>
