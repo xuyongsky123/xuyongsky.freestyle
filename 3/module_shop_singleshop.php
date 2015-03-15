@@ -18,7 +18,7 @@
               <input class="todo-search-field" type="search" value="" readonly="readonly" placeholder="店铺宝贝" />
             </div>
             <ul>
-                <?php include("./module_shop_singleshopshowlist.php"); ?>
+                <?php require("./module_shop_singleshopshowlist.php"); ?>
             </ul>
           </div><!-- /.todo -->
         </div><!-- /.col-xs-3 -->
