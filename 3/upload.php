@@ -3,6 +3,8 @@
 	header("Content-Type:text/html;charset=utf-8");
 
 			$data=$_POST['upload_file'];
+			$PSize = filesize($data); 
+			$mysqlPicture = addslashes(fread(fopen($data, "r"), $PSize)); 
 			$article = addslashes(fread(fopen($data, "r"), filesize($data))); 
 			require("./database/connDB.inc.php");
 			
