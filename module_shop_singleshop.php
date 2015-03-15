@@ -66,7 +66,7 @@
                                 
                                 
                                 
-                                <div class="pallete-item">
+                                <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-turquoise">
                                 <dt>#1abc9c</dt>
                                 <dd>Turquoise</dd>
@@ -76,7 +76,7 @@
                                 <dd>Green sea</dd>
                               </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-emerald">
                                   <dt>#2ecc71</dt>
                                   <dd>Emerald</dd>
@@ -86,7 +86,7 @@
                                   <dd>Nephritis</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-peter-river">
                                   <dt>#3498db</dt>
                                   <dd>Peter river</dd>
@@ -96,7 +96,7 @@
                                   <dd>Belize hole</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-amethyst">
                                   <dt>#9b59b6</dt>
                                   <dd>Amethyst</dd>
@@ -106,7 +106,7 @@
                                   <dd>Wisteria</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-wet-asphalt">
                                   <dt>#34495e</dt>
                                   <dd>Wet asphalt</dd>
@@ -116,7 +116,7 @@
                                   <dd>Midnight blue</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-sun-flower">
                                   <dt>#f1c40f</dt>
                                   <dd>Sun flower</dd>
@@ -126,7 +126,7 @@
                                   <dd>Orange</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-carrot">
                                   <dt>#e67e22</dt>
                                   <dd>Carrot</dd>
@@ -136,7 +136,7 @@
                                   <dd>Pumpkin</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-alizarin">
                                   <dt>#e74c3c</dt>
                                   <dd>Alizarin</dd>
@@ -146,7 +146,7 @@
                                   <dd>Pomegranate</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-clouds">
                                   <dt>#ecf0f1</dt>
                                   <dd>Clouds</dd>
@@ -156,7 +156,7 @@
                                   <dd>Silver</dd>
                                 </dl>
                           </div>
-                          <div class="pallete-item">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-concrete">
                                   <dt>#95a5a6</dt>
                                   <dd>Concrete</dd>
