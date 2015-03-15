@@ -21,6 +21,9 @@
             	
                             <div class="swatches-col">
                                 <?php 
+									
+									require("./database/connDB.inc.php");
+
                                     if(isset($_GET['shop_name'])){
                                         
                                         $file_search=$_GET['shop_name'];
