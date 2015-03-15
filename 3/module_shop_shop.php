@@ -39,7 +39,7 @@
                                         echo '<div class="pallete-item">';
                                         echo '<dl class="palette '.$item_search["shop_style_top"].'">';
                                         echo '<dt>';
-                                        echo '<a href="./module_shop_singleshop.php?shop_name='.$item_search["shop_name"].'">';
+                                        echo '<a href="./module_shop_singleshop.php?shop_name='.$item_search["shop_name"].'&shop_keeper='.$item_search["shop_keeper"].'">';
                                         echo $item_search["shop_name"];
                                         echo '</a>';
                                         echo '</dt>';
