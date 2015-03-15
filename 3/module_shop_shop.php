@@ -115,6 +115,9 @@
                                     echo $item_search["shop_name"];
                                     echo '</a>';
                                     echo '</dt>';
+                                    echo '<dd>';
+                                    echo $item_search["shop_keeper"];
+                                    echo '</dd>';
                                     echo '</dl>';
                                     echo '</div>';
                                 }
