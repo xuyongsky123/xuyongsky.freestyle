@@ -240,7 +240,6 @@
             <p class="pvl">
                 <h3>We want you JOIN US:</h3>
               <a href="http://xuyongsky.sinaapp.com" class="twitter-share-button" data-url="http://designmodo.com/flat-free/" data-text="Flat UI Free - PSD&amp;amp;HTML User Interface Kit" data-via="designmodo">Free Style</a>
-							
             </p>
           </div> <!-- /col-xs-7 -->
 
