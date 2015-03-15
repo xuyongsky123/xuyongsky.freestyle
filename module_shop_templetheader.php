@@ -27,7 +27,7 @@
             <span>店主名</span>
             <span>店家联系方式</span>
         </div>
-    } 
+    <?php } ?> 
     
     <div id="clear" style="clear:both;"></div>
         
