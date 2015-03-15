@@ -238,7 +238,7 @@
             </p>
 
             <p class="pvl">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://xuyongsky.sinaapp.com" data-text="Flat UI Free - PSD&amp;amp;HTML User Interface Kit" data-via="designmodo">Free Style</a>
+              <a href="http://xuyongsky.sinaapp.com" class="twitter-share-button" data-url="http://designmodo.com/flat-free/" data-text="Flat UI Free - PSD&amp;amp;HTML User Interface Kit" data-via="designmodo">Free Style</a>
 							
               <iframe src="http://ghbtns.com/github-btn.html?user=designmodo&repo=Flat-UI&type=watch&count=true" height="20" width="107" frameborder="0" scrolling="0" style="width:105px; height: 20px;" allowTransparency="true"></iframe>
               <iframe src="http://ghbtns.com/github-btn.html?user=designmodo&repo=Flat-UI&type=fork&count=true" height="20" width="107" frameborder="0" scrolling="0" style="width:105px; height: 20px;" allowTransparency="true"></iframe>
