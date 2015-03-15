@@ -22,7 +22,7 @@
         	College Mall
         </div>
     <?php if(isset($_GET["shop_name"])){ ?>
-    <div id="shop_detail" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:right;font-size:16px;">
+    <div id="shop_detail" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:right;font-size:16px;margin-top:55px;">
             <span><?php echo $_GET["shop_name"]; ?></span>
             <span><?php echo $_GET["shop_keeper"]; ?></span>
         	<span style="display:none;">店家联系方式</span>
