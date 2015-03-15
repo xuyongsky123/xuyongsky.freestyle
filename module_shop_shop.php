@@ -139,7 +139,7 @@
         </div> <!-- /.col-xs-9 -->
       </div>
       
-      
+      <?php include("./module_shop_templetfooter.php"); ?>
       <footer class="footer">
       <div class="container">
         <div class="row">
