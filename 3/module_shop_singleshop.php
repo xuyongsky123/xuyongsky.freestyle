@@ -66,7 +66,7 @@
                                 
                                 
                                 
-                                <div class="pallete-item xuyong_fixitem">
+                          <div class="pallete-item xuyong_fixitem">
                               <dl class="palette palette-turquoise">
                                 <dt>#1abc9c</dt>
                                 <dd>Turquoise</dd>
