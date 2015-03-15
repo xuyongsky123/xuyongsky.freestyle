@@ -56,9 +56,16 @@
 .content_container{
 	width:100%;
 }
+.ptl, .pvl, .pal{
+	padding-top:0;
+    padding-bottom:0;
+}
 
 
 /*内容区样式*/
 .pallete-item{
 	width:160px;
 }
+
+
+
