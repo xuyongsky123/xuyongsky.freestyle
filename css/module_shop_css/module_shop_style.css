@@ -25,6 +25,9 @@
     display:inline-block;
     margin-right:0.5rem;
 }
+#link_help{
+	float:left;
+}
 .clearfix{
 	clear:both;
 }
