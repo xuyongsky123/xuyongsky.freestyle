@@ -78,5 +78,8 @@
 .fix_style a,.pallete-item a{
 	color:#fff;
 }
+.todo li{
+	cursor:default;
+}
 
 
