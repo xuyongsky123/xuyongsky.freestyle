@@ -81,38 +81,6 @@
             </div>
             <ul>
                 <?php include("./module_shop_showshoptype.php"); ?>
-                <li>
-                <div class="todo-icon fui-list"></div>
-                <div class="todo-content">
-                  <h4 class="todo-name">
-                    电子设备类
-                  </h4>
-                </div>
-              </li>
-              <li class="todo-done">
-                <div class="todo-icon fui-list"></div>
-                <div class="todo-content">
-                  <h4 class="todo-name">
-                    服装类
-                  </h4>
-                </div>
-              </li>
-              <li>
-                <div class="todo-icon fui-list"></div>
-                <div class="todo-content">
-                  <h4 class="todo-name">
-                    食品类
-                  </h4>
-                </div>
-              </li>
-              <li>
-                <div class="todo-icon fui-list"></div>
-                <div class="todo-content">
-                  <h4 class="todo-name">
-                    ...
-                  </h4>
-                </div>
-              </li>
             </ul>
           </div><!-- /.todo -->
         </div><!-- /.col-xs-3 -->
