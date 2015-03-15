@@ -85,6 +85,7 @@
                                 <dl class="palette palette-nephritis">
                                   <dt>#27ae60</dt>
                                   <dd>Nephritis</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -95,6 +96,7 @@
                                 <dl class="palette palette-belize-hole">
                                   <dt>#2980b9</dt>
                                   <dd>Belize hole</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -105,6 +107,7 @@
                                 <dl class="palette palette-wisteria">
                                   <dt>#8e44ad</dt>
                                   <dd>Wisteria</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -115,6 +118,7 @@
                                 <dl class="palette palette-midnight-blue">
                                   <dt>#2c3e50</dt>
                                   <dd>Midnight blue</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -125,6 +129,7 @@
                                 <dl class="palette palette-orange">
                                   <dt>#f39c12</dt>
                                   <dd>Orange</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -135,6 +140,7 @@
                                 <dl class="palette palette-pumpkin">
                                   <dt>#d35400</dt>
                                   <dd>Pumpkin</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -145,6 +151,7 @@
                                 <dl class="palette palette-pomegranate">
                                   <dt>#c0392b</dt>
                                   <dd>Pomegranate</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -155,6 +162,7 @@
                                 <dl class="palette palette-silver">
                                   <dt>#bdc3c7</dt>
                                   <dd>Silver</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
@@ -165,6 +173,7 @@
                                 <dl class="palette palette-asbestos">
                                   <dt>#7f8c8d</dt>
                                   <dd>Asbestos</dd>
+                                  <img src="./images/1.jpg"/>
                                 </dl>
                           </div>
                                 
