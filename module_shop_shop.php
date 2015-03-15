@@ -110,7 +110,11 @@
                                     echo '</dd>';
                                     echo '</dl>';
                                     echo '<dl class="palette '.$item_search["shop_style_bottom"].'">';
-                                    echo '<dt>#16a085</dt>';
+                                    echo '<dt>';
+                                    echo '<a>';
+                                    echo $item_search["shop_name"];
+                                    echo '</a>';
+                                    echo '</dt>';
                                     echo '</dl>';
                                     echo '</div>';
                                 }
