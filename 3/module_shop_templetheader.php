@@ -22,8 +22,10 @@
         	College Mall
         </div>
     <div id="shop_detail" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:right;">
-        	College Mall
-        </div>
+        <div>店铺名</div>
+        <div>店主名</div>
+        <div>店家联系方式</div>
+    </div>
     <div id="clear" style="clear:both;"></div>
         
     </header>
