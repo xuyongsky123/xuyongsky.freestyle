@@ -32,7 +32,7 @@
                                         
                                         if($array_search){
                                             foreach($array_search as $item_search){
-                                                echo '<div class="pallete-item">';
+                                                echo '<div class="pallete-item xuyong_fixitem">';
                                                 echo '<dt>';
                                                 //echo '<a href="./module_shop_singleshop.php?shop_name='.$item_search["goods_name"].'&shop_keeper='.$item_search["shop_keeper"].'">';
                                                 echo $item_search["goods_name"];
