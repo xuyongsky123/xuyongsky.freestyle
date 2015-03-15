@@ -32,12 +32,12 @@
                                                 echo '<div class="pallete-item">';
                                                 echo '<dl class="palette '.$item_search["shop_style_top"].'">';
                                                 echo '<dt>';
-                                                echo '<a href="./module_shop_singleshop.php?shop_name='.$item_search["goods_name"].'&shop_keeper='.$item_search["shop_keeper"].'">';
-                                                echo $item_search["shop_name"];
-                                                echo '</a>';
+                                                //echo '<a href="./module_shop_singleshop.php?shop_name='.$item_search["goods_name"].'&shop_keeper='.$item_search["shop_keeper"].'">';
+                                                echo $item_search["goods_name"];
+                                                //echo '</a>';
                                                 echo '</dt>';
                                                 echo '<dd>';
-                                                echo $item_search["shop_keeper"];
+                                                echo $item_search["goods_price"];
                                                 echo '</dd>';
                                                 echo '</dl>';
                                                 echo '<dl class="palette '.$item_search["shop_style_bottom"].'">';
@@ -47,7 +47,7 @@
                                                 //echo '</a>';
                                                 echo '</dt>';
                                                 echo '<dd>';
-                                                echo $item_search["shop_keeper"];
+                                                echo $item_search["goods_detail"];
                                                 echo '</dd>';
                                                 echo '</dl>';
                                                 echo '</div>';
