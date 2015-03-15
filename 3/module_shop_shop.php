@@ -248,7 +248,7 @@
 
           <div class="col-xs-5">
             <div class="footer-banner">
-              <h3 class="footer-title">Get Flat UI Pro</h3>
+              <h3 class="footer-title">College Mall</h3>
               <ul>
                 <li>Tons of Basic and Custom UI Elements</li>
                 <li>A Lot of Useful Samples</li>
