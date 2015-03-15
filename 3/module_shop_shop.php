@@ -135,10 +135,6 @@
               <iframe src="http://ghbtns.com/github-btn.html?user=designmodo&repo=Flat-UI&type=fork&count=true" height="20" width="107" frameborder="0" scrolling="0" style="width:105px; height: 20px;" allowTransparency="true"></iframe>
               <iframe src="http://ghbtns.com/github-btn.html?user=designmodo&type=follow&count=true" height="20" width="195" frameborder="0" scrolling="0" style="width:195px; height: 20px;" allowTransparency="true"></iframe>
             </p>
-
-            <a class="footer-brand" href="http://designmodo.com" target="_blank">
-              <img src="docs/assets/img/footer/logo.png" alt="Designmodo.com" />
-            </a>
           </div> <!-- /col-xs-7 -->
 
           <div class="col-xs-5">
