@@ -234,7 +234,7 @@
             <h3 class="footer-title">Free Style</h3>
             <p>Do you know this site about Free Style? Want to get more info or give more suggestion like this?<br/>
               Bring into action!!!<br/>
-              Go to: <a href="http://designmodo.com/flat-free" target="_blank">designmodo.com/flat-free</a>
+              Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">designmodo.com/flat-free</a>
             </p>
 
             <p class="pvl">
