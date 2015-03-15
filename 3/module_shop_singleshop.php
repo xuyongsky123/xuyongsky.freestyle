@@ -38,7 +38,7 @@
                                                 echo '</dl>';
                                                 echo '<dl class="palette '.$item_search["goods_style_bottom"].'">';
                                                 echo '<dt>';
-                                                echo '商品名称'
+                                                echo '商品名称';
                                                 echo '</dt>';
                                                 echo '<dd>';
                                                 echo '商品价格';
