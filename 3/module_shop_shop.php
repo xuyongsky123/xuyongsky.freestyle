@@ -232,8 +232,8 @@
         <div class="row">
           <div class="col-xs-7">
             <h3 class="footer-title">Free Style</h3>
-            <p>Do you know this Free Style? Want to get more info like this?<br/>
-              Subscribe to designmodo news and updates to stay tuned on great designs.<br/>
+            <p>Do you know this site about Free Style? Want to get more info or give more suggestion like this?<br/>
+              Bring into action!!!<br/>
               Go to: <a href="http://designmodo.com/flat-free" target="_blank">designmodo.com/flat-free</a>
             </p>
 
