@@ -93,7 +93,7 @@
 						if(isset($_GET['shop_type'])){
                             
 							$file_search=$_GET['shop_type'];
-							$sql_search="select * from shop_info where shop_type = '$file_search';
+							$sql_search="select * from shop_info where shop_type = '$file_search'";
 							$array_search=$operatedb->Execsql($sql_search,$conn);
                             
                             if($array_search){
