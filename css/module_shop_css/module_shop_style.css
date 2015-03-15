@@ -76,6 +76,9 @@
 .xuyong_fixitem{
 	width:300px;
 }
+.xuyong_fixitem img{
+	width:100%;
+}
 .fix_style{
 	padding:0 20px;
 }
