@@ -74,6 +74,7 @@
                               <dl class="palette palette-green-sea">
                                 <dt>#16a085</dt>
                                 <dd>Green sea</dd>
+                                  <img src="./images/1.jpg"/>
                               </dl>
                           </div>
                           <div class="pallete-item xuyong_fixitem">
