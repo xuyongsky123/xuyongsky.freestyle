@@ -80,7 +80,7 @@
               <input class="todo-search-field" type="search" value="" placeholder="店铺类型" />
             </div>
             <ul>
-                <?php include("./module_shop_showshoptype.php") ?>
+                <?php include("./module_shop_showshoptype.php"); ?>
                 <li>
                 <div class="todo-icon fui-list"></div>
                 <div class="todo-content">
