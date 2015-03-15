@@ -27,7 +27,7 @@
                                         $sql_search="select * from shop_single_detail where shop_name = '$file_search'";
                                         $array_search=$operatedb->Execsql($sql_search,$conn);
                                         
-                                        echo $array_search;
+                                        echo $array_search[0];
                                         
                                         if($array_search){
                                             foreach($array_search as $item_search){
