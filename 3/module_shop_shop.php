@@ -234,7 +234,7 @@
             <h3 class="footer-title">Free Style</h3>
             <p>Do you know this site about Free Style? Want to get more info or give more suggestion like this?<br/>
               Bring into action!!!<br/>
-              Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">designmodo.com/flat-free</a>
+              Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">Free Style</a>
             </p>
 
             <p class="pvl">
@@ -254,7 +254,7 @@
                 <li>A Lot of Modules from Free Style</li>
                 <li>More Sections</li>
                 <li>Pro Module Swatches</li>
-                <li>Free Style Based Your Ideas</li>
+                <li>Free Style Based Your JOIN!</li>
               </ul>
               Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">Free Style</a>
             </div>
