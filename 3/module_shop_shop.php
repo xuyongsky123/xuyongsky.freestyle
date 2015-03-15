@@ -116,7 +116,7 @@
           </div><!-- /.todo -->
         </div><!-- /.col-xs-3 -->
           
-        <div class="col-xs-9">
+        <div class="col-xs-9 xuyong_fixrow">
             <div class="content_container">
             	
                 	<div class="swatches-col">
