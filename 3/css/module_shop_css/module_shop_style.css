@@ -37,7 +37,7 @@
 	display:none;
 }
 .todo{
-	margin-bottom:0
+	margin-bottom:0;
 }
 .fui-list::before{
 	display:none;
