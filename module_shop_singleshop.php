@@ -36,22 +36,14 @@
                                                 echo '<dl class="palette palette-turquoise">';
                                                 echo '<img src="" />';
                                                 echo '</dl>';
+                                                echo '<dl class="palette palette-green-sea">';
                                                 echo '<dt>';
-                                                //echo '<a href="./module_shop_singleshop.php?shop_name='.$item_search["goods_name"].'&shop_keeper='.$item_search["shop_keeper"].'">';
-                                                echo $item_search["goods_name"];
-                                                //echo '</a>';
+                                                echo '商品名称'
                                                 echo '</dt>';
                                                 echo '<dd>';
-                                                echo $item_search["goods_price"];
+                                                echo '商品价格';
                                                 echo '</dd>';
-                                                echo '<dt>';
-                                                //echo '<a>';
-                                                //echo $item_search["shop_name"];
-                                                //echo '</a>';
-                                                echo '</dt>';
-                                                echo '<dd>';
-                                                echo $item_search["goods_detail"];
-                                                echo '</dd>';
+                                                echo '</dl>';
                                                 echo '</div>';
                                             }
                                         }else{
