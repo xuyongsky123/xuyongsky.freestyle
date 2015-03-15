@@ -21,12 +21,6 @@
     <div id="logo" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:left;">
         	College Mall
         </div>
-    <div id="shop_detail" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:right;">
-        <span>店铺名</span>
-        <span>店主名</span>
-        <span>店家联系方式</span>
-    </div>
-    <div id="clear" style="clear:both;"></div>
         
     </header>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
