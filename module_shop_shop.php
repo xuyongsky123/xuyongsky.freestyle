@@ -117,7 +117,9 @@
         </div><!-- /.col-xs-4 -->
           
         <div class="col-xs-9">
-            <div class="content_container"></div>
+            <div class="content_container">
+            	
+            </div>
         </div> <!-- /video -->
       </div>
       
