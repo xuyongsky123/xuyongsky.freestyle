@@ -236,6 +236,7 @@
               Bring into action!!!<br/>
               Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">Free Style</a>
             </p>
+              <hr />
             <p class="pvl">
                 <h5>Open Online Store:</h5>
               	<h6>We want you JOIN US:</h6>
