@@ -74,7 +74,7 @@
           </nav><!-- /navbar -->
       
       <div class="row demo-samples">
-        <div class="col-xs-4">
+        <div class="col-xs-3">
           <div class="todo">
             <div class="todo-search">
               <input class="todo-search-field" type="search" value="" placeholder="店铺类型" />
