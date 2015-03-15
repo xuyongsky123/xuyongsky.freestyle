@@ -75,7 +75,7 @@
 .fix_style{
 	padding:0 20px;
 }
-.fix_style a{
+.fix_style a,.pallete-item a{
 	color:#fff;
 }
 
