@@ -102,7 +102,7 @@
                                     echo '<dl class="palette '.$item_search["shop_style_top"].'">';
                                     echo '<dt>';
                                     echo '<a>';
-                                    echo $
+                                    echo $item_search["shop_name"];
                                     echo '</a>';
                                     echo '</dt>';
                                     echo '</dl>';
