@@ -1,3 +1,4 @@
+<?php header("Content-Type='charset=utf-8'") ?>
 <div id="upload" >
 						<em>在此上传您的blog文章：</em>
 						<form enctype="multipart/form-data" name="upload_form" method="post" action="module_blog_handleupload.php">
