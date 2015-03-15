@@ -17,7 +17,7 @@
             </div>
           <div class="clearfix"></div>
       </div>
-<header style="height:100px;font-size:5rem;min-width:970px;">
+<header style="height:100px;font-size:5rem;min-width:700px;">
     <div id="logo" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:left;">
         	College Mall
         </div>
