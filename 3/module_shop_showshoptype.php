@@ -14,7 +14,7 @@
 			echo $item["filename"];
 			echo '</a>';
 			echo '</h4>';
-			echo '</div>'；
+			echo '</div>';
 			echo '</li>';
 		}
     }else{
