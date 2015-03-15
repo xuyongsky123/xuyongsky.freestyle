@@ -24,7 +24,7 @@
                                     if(isset($_GET['shop_name'])){
                                         
                                         $file_search=$_GET['shop_name'];
-                                        $sql_search="select * from shop_single_detail where shop_type = '$file_search'";
+                                        $sql_search="select * from shop_single_detail where shop_name = '$file_search'";
                                         $array_search=$operatedb->Execsql($sql_search,$conn);
                                         
                                         if($array_search){
