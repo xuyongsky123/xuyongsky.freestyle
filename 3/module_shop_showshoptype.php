@@ -9,7 +9,7 @@
         foreach($array as $item){
 			echo '<li>';
 			echo '<div class="fix_style">';
-			echo '<h4 class="todo-name">';
+            echo '<h4 class="todo-name" style="color:#fff;">';
 			echo '<a href="./module_blog_blog.php?filename='.$item["shop_type"].'">';
 			echo $item["shop_type"];
 			echo '</a>';
