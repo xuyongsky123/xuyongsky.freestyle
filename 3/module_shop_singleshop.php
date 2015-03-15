@@ -6,7 +6,7 @@
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
-	<title>店铺</title>
+	<title><?php echo $_GET["shop_name"]; ?></title>
   </head>
   <body>
       <?php include("./module_shop_templetheader.php"); ?>
