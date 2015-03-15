@@ -40,6 +40,10 @@
 }
 
 
+.row{
+	min-width:970px;
+}
+
 
 .footer{
 	min-width:970px;
