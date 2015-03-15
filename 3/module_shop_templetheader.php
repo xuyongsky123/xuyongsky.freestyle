@@ -23,7 +23,7 @@
         </div>
     <?php if(isset($_GET["shop_name"])){ ?>
     <div id="shop_detail" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:right;font-size:16px;">
-            <span>店铺名</span>
+            <span><?php echo $_GET["shop_name"] ?></span>
             <span>店主名</span>
             <span>店家联系方式</span>
         </div>
