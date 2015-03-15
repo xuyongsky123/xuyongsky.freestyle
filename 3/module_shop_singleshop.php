@@ -22,6 +22,7 @@
             	
                             <div class="swatches-col">
                                 <?php 
+
                                     if(isset($_GET['shop_name'])){
                                         
                                         $shop_search=$_GET['shop_name'];
