@@ -5,14 +5,6 @@
 <html lang="zh-CN">
     <head>
     	<?php include("./module_graduation_templethead.php") ?>
-        <link href="./css/module_graduation_css/module_graduation_style.css" rel="stylesheet">
-        <link href="./css/module_graduation_css/home_page/animate.css" rel="stylesheet">
-        <!--使IE各版本浏览器支持HTML5-->
-        <!–-[if IE]> 
-        <script> 
-        	(function(){if(!/*@cc_on!@*/0)return;var e = “abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video”.split(’,'),i=e.length;while(i–){document.createElement(e[i])}})() 
-        </script> 
-        <![endif]–-> 
     </head>
     <body>
         <div id="graduation_login">
