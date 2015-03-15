@@ -105,6 +105,9 @@
                                     echo $item_search["shop_name"];
                                     echo '</a>';
                                     echo '</dt>';
+                                    echo '<dd>';
+                                    echo $item_search["shop_keeper"];
+                                    echo '</dd>';
                                     echo '</dl>';
                                     echo '<dl class="palette palette-green-sea">';
                                     echo '<dt>#16a085</dt>';
