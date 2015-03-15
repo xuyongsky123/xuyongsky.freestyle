@@ -23,7 +23,7 @@
                                   <div class="col-1-1 viewport">
                                       <div class="tlt">
                                         <ul class="texts" style="display: none">
-                                          <li>还在为自己的毕业设计而担忧吗？赶快行动吧~~</li>
+                                          <li>毕业设计文档模块功能正在开发中，敬请期待...</li>
                                         </ul>
                                       </div>
                                   </div>
