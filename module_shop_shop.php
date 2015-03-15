@@ -18,7 +18,7 @@
               <input class="todo-search-field" type="search" value="" readonly="readonly" placeholder="店铺类型" />
             </div>
             <ul>
-                <?php include("./module_shop_showshoptype.php"); ?>
+                <?php include("./module_shop_showshoptypelist.php"); ?>
             </ul>
           </div><!-- /.todo -->
         </div><!-- /.col-xs-3 -->
