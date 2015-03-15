@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 	header("Content-Type:text/html;charset=utf-8");
-
+if(isset())
 			$data=$_POST['upload_file'];
 			$PSize = filesize($data); 
 			$article = addslashes(fread(fopen($data, "r"), $PSize)); 
