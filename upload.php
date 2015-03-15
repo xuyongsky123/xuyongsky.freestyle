@@ -4,6 +4,7 @@
  * 向数据库中插入图片
  * 编辑：www.jbxue.com
  */
+header("Content-Type:text/html;charset=utf-8");
  $imgfile=$_FILES['imgfile'];
  $submitbtn=$_POST['submitbtn'];
  if($submitbtn=='OK' and is_array($imgfile)){
