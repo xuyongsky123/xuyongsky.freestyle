@@ -21,13 +21,43 @@
             	
                             <div class="swatches-col">
                                 <?php 
-require('./database/connDB.inc.php');
                                     if(isset($_GET['shop_name'])){
                                         
                                         $file_search=$_GET['shop_name'];
                                         $shop_keeper=$_GET['shop_keeper'];
                                         $sql_search="select * from shop_single_detail where shop_name = '$file_search' and shop_keeper='$shop_keeper'";
                                         $array_search=$operatedb->Execsql($sql_search,$conn);
+                                        
+                                        if($array_search){
+                                            foreach($array_search as $item_search){
+                                                echo '<div class="pallete-item">';
+                                                echo '<dl class="palette '.$item_search["shop_style_top"].'">';
+                                                echo '<dt>';
+                                                //echo '<a href="./module_shop_singleshop.php?shop_name='.$item_search["goods_name"].'&shop_keeper='.$item_search["shop_keeper"].'">';
+                                                echo $item_search["goods_name"];
+                                                //echo '</a>';
+                                                echo '</dt>';
+                                                echo '<dd>';
+                                                echo $item_search["goods_price"];
+                                                echo '</dd>';
+                                                echo '</dl>';
+                                                echo '<dl class="palette '.$item_search["shop_style_bottom"].'">';
+                                                echo '<dt>';
+                                                //echo '<a>';
+                                                //echo $item_search["shop_name"];
+                                                //echo '</a>';
+                                                echo '</dt>';
+                                                echo '<dd>';
+                                                echo $item_search["goods_detail"];
+                                                echo '</dd>';
+                                                echo '</dl>';
+                                                echo '</div>';
+                                            }
+                                        }else{
+                                            echo '<div>';
+                                            echo "对不起，您所选择的商店种类暂时没有，请选择其他种类商店...";	
+                                            echo '</div>';
+                                        }
                                         
                                     }else{
                                         echo '<div>';
