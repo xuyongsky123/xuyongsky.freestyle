@@ -28,7 +28,7 @@
             	
                 	<div class="swatches-col">
                         <?php 
-                            if(isset($_GET['shop_type'])){
+                            if(isset($_GET['shop_name'])){
                                 
                                 $file_search=$_GET['shop_type'];
                                 $sql_search="select * from shop_info where shop_type = '$file_search'";
