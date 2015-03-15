@@ -35,3 +35,9 @@
 .fui-list::before{
 	display:none;
 }
+
+
+
+.footer{
+	min-width:970px;
+}
