@@ -24,10 +24,9 @@
                                     if(isset($_GET['shop_name'])){
                                         
                                         $file_search=$_GET['shop_name'];
-                                        $sql_search="select * from shop_single_detail where shop_name = '$file_search'";
+                                        $shop_keeper=$_GET['shop_keeper'];
+                                        $sql_search="select * from shop_single_detail where shop_name = '$file_search' and shop_keeper='$file_'";
                                         $array_search=$operatedb->Execsql($sql_search,$conn);
-                                        
-                                        echo $array_search[0];
                                         
                                         if($array_search){
                                             foreach($array_search as $item_search){
