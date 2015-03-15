@@ -256,7 +256,7 @@
                 <li>Pro Color Swatches</li>
                 <li>Bootstrap Based HTML/CSS/JS Layout</li>
               </ul>
-              Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">designmodo.com/flat</a>
+              Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">Free Style</a>
             </div>
           </div>
         </div>
