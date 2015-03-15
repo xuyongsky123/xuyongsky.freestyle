@@ -17,6 +17,6 @@ if(isset($_POST['upload_file'])){
 				echo "<script language='javascript'>alert('保存编辑到数据库失败');history.back();</script>";	
 			}
 }else{
-	"<script language='javascript'>alert('没有数据');history.back();</script>";
+	echo "<script language='javascript'>alert('没有数据');history.back();</script>";
 }
 ?>
