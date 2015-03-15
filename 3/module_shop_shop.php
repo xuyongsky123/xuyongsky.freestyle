@@ -82,6 +82,7 @@
             <ul>
                 <?php include("./module_shop_showshoptype.php"); ?>
                 <li>
+                <div class="todo-icon fui-list"></div>
                 <div class="todo-content">
                   <h4 class="todo-name">
                     电子设备类
