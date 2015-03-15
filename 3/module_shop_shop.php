@@ -231,8 +231,8 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-7">
-            <h3 class="footer-title">Subscribe</h3>
-            <p>Do you like this freebie? Want to get more stuff like this?<br/>
+            <h3 class="footer-title">Free Style</h3>
+            <p>Do you know this Free Style? Want to get more info like this?<br/>
               Subscribe to designmodo news and updates to stay tuned on great designs.<br/>
               Go to: <a href="http://designmodo.com/flat-free" target="_blank">designmodo.com/flat-free</a>
             </p>
@@ -250,11 +250,11 @@
             <div class="footer-banner">
               <h3 class="footer-title">College Mall</h3>
               <ul>
-                <li>Tons of Basic and Custom UI Elements</li>
-                <li>A Lot of Useful Samples</li>
-                <li>More Vector Icons and Glyphs</li>
-                <li>Pro Color Swatches</li>
-                <li>Bootstrap Based HTML/CSS/JS Layout</li>
+                <li>Item of Free Style</li>
+                <li>A Lot of Modules from Free Style</li>
+                <li>More Sections</li>
+                <li>Pro Module Swatches</li>
+                <li>Free Style Based Your Ideas</li>
               </ul>
               Go to: <a href="http://xuyongsky.sinaapp.com" target="_blank">Free Style</a>
             </div>
