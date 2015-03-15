@@ -229,7 +229,7 @@
       
       <footer class="footer">
       <div class="container">
-        <div class="row">
+        <div class="row xuyong_row">
           <div class="col-xs-7">
             <h3 class="footer-title">Free Style</h3>
             <p>Do you know this site about Free Style? Want to get more info or give more suggestion like this?<br/>
