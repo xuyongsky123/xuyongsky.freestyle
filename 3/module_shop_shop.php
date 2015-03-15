@@ -99,13 +99,15 @@
                             if($array_search){
                             	foreach($array_search as $item_search){
                                     echo '<div class="pallete-item">';
-                                    echo '<dl class="palette palette-turquoise">';
-                                    echo '<dt>#1abc9c</dt>';
-                                    echo '<dd>Turquoise</dd>';
+                                    echo '<dl class="palette '.$item_search["shop_style_top"].'">';
+                                    echo '<dt>';
+                                    echo '<a>';
+                                    echo $
+                                    echo '</a>';
+                                    echo '</dt>';
                                     echo '</dl>';
                                     echo '<dl class="palette palette-green-sea">';
                                     echo '<dt>#16a085</dt>';
-                                    echo '<dd>Green sea</dd>';
                                     echo '</dl>';
                                     echo '</div>';
                                 }
