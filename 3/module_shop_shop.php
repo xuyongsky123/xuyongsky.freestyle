@@ -116,9 +116,9 @@
                             }
 							
                         }else{
-							echo '<article>';
-							echo "公共文章，不属于具体某人所有...";
-							echo '</article>';
+							echo '<div>';
+							echo "您未选择任何商店种类，请从左边列表选择...";
+							echo '</div>';
 						}
 					?>
                           <div class="pallete-item">
