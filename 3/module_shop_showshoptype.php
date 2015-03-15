@@ -2,7 +2,7 @@
 	require("./database/connDB.inc.php");
 		
 	$user=$_SESSION['username'];
-	$sql="select shop_type from shop_info";
+	$sql="select distinct shop_type from shop_info";
 	$array=$operatedb->Execsql($sql,$conn);
         
     if($array){
