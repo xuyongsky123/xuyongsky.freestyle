@@ -30,6 +30,13 @@
 }
 
 
+
+.xuyong_fixrow{
+	min-height:500px;
+}
+
+
+
 .todo-search::before{
 	display:none;
 }
