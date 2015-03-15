@@ -238,7 +238,7 @@
             </p>
             <p class="pvl">
                 <h5>Open Online Store:</h5>
-              <h5>We want you JOIN US:</h5>
+              <h6>We want you JOIN US:</h6>
               <a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=1845082157&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:1845082157:51 alt="点击这里给我发消息"></a>
 			  <a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=821594487&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:821594487:51 alt="点击这里给我发消息"></a>
             </p>
