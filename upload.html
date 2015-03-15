@@ -1,12 +1,12 @@
+<html>
 <head>
-    <meta charset="utf-8" />
+  <title>上传图片 - www.jbxue.com</title>
 </head>
-<div id="upload" >
-						<em>在此上传您的blog文章：</em>
-   						 <form enctype="multipart/form-data" name="upload_form" method="post" action="./upload.php">
-                            
-							<input type="hidden" name="MAX_FILE_SIZE" value="2400000" />
-							<input type="file" name="upload_file" />
-							<input type="submit" value="上传文件" />
-						</form>
-					</div>
+<body>
+<form method="post" action="upload.php" enctype="multipart/form-data">
+ <input type="hidden" value="204800" name="MAX_FILE_SIZE"/>
+ File: <input type="file" name="imgfile" />
+ <input type="submit" value="OK" name="submitbtn" style="width:100px;height:23px"/></center>
+</form>
+</body>
+</html>
