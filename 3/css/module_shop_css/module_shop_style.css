@@ -36,6 +36,9 @@
 .todo li::after{
 	display:none;
 }
+.todo{
+	margin-bottom:0
+}
 .fui-list::before{
 	display:none;
 }
