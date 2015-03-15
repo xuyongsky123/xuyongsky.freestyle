@@ -238,7 +238,7 @@
             </p>
             <p class="pvl">
               <h5>We want you JOIN US:</h5>
-              <a href="http://xuyongsky.sinaapp.com" class="twitter-share-button" data-url="http://designmodo.com/flat-free/" data-text="Flat UI Free - PSD&amp;amp;HTML User Interface Kit" data-via="designmodo">Free Style</a>
+              <a href="http://xuyongsky.sinaapp.com" class="twitter-share-button" data-url="http://designmodo.com/flat-free/" data-text="Flat UI Free - PSD&amp;amp;HTML User Interface Kit" data-via="designmodo">Free Style</a>&nbsp;&nbsp;&nbsp;
               <a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=1845082157&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:1845082157:51 alt="点击这里给我发消息"></a>
 			  <a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=821594487&site=qq&menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:821594487:51 alt="点击这里给我发消息"></a>
             </p>
