@@ -43,7 +43,9 @@
 .row{
 	min-width:970px;
 }
-
+.demo-samples{
+	margin-bottom:0;
+}
 
 .footer{
 	min-width:970px;
