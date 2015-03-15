@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 	header("Content-Type:text/html;charset=utf-8");
-if(isset())
+if(isset($_POST['upload_file'])){
 			$data=$_POST['upload_file'];
 			$PSize = filesize($data); 
 			$article = addslashes(fread(fopen($data, "r"), $PSize)); 
@@ -16,4 +16,7 @@ if(isset())
 			}else{
 				echo "<script language='javascript'>alert('保存编辑到数据库失败');history.back();</script>";	
 			}
+}else{
+	"<script language='javascript'>alert('没有数据');history.back();</script>";
+}
 ?>
