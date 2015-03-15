@@ -108,10 +108,6 @@
                                     echo '<dd>Green sea</dd>';
                                     echo '</dl>';
                                     echo '</div>';
-                                    
-                                    echo '<article>';
-                                    echo $item_search['article'];	
-                                    echo '</article>';
                                 }
                             }else{
                             	echo '<article>';
