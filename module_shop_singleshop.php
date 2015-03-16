@@ -7,7 +7,6 @@
 <html lang="zh-CN">
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
-      <meta content-type="image/pjpeg"/>
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
 	<title><?php echo $_GET["shop_name"]; ?></title>
   </head>
