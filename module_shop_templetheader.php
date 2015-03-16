@@ -30,9 +30,9 @@
         </div>
     <?php } ?> 
     
-    <div id="clear" style="clear:both;"></div>
-        
+    
     </header>
+<div id="clear" style="clear:both;"></div>
     <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
             <div class="collapse navbar-collapse" id="navbar-collapse-01">
               <ul class="nav navbar-nav navbar-left">
