@@ -22,13 +22,14 @@ $size = filesize($tmpName);
 
 if($size>0){ 
 $photo = addslashes(fread(fopen($tmpName,'r'),$size)); 
-include( "class.Mysql.php" ); 
-$conn = new Mysql(); 
+    include( "./database/connDB,inc.php" ); 
+    //$conn = new Mysql(); 
 
-$conn->connect( '$host', '$dbuser', '$dbpwd','$dbname'); 
+    //$conn->connect( '$host', '$dbuser', '$dbpwd','$dbname'); 
 
 $sql="insert into shop_single_detail (shop_name,shop_keeper,goods_name,goods_price,goods_detail,goods_image,goods_style_top,goods_style_bottom) values ('品牌手机小店','闭上眼 会有好梦吗','iPad','待商定价','iPad','$photo','palette-amethyst','palette-wisteria')";
-if($conn->query( $sql )) 
+    $result=$operatedb->Execsql($sql,$conn);
+if($result) 
 
 echo "File is valid, and was successfully uploaded.\n";
 else 
