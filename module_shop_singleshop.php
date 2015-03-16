@@ -13,9 +13,9 @@
       <?php include("./module_shop_templetheader.php"); ?>
       
       <div class="row demo-samples">
-                <div class="col-xs-1">
+                <div class="col-xs-2">
                     
-                </div><!-- /.col-xs-1-->
+                </div><!-- /.col-xs-2-->
                   
                 <div class="col-xs-10 xuyong_fixrow">
                     <div class="content_container">
@@ -67,9 +67,6 @@
                     </div>
                 </div> <!-- /.col-xs-9 -->
           
-          		<div class="col-xs-1">
-                    
-                </div><!-- /.col-xs-1-->
       </div>
       
       <?php include("./module_shop_templetfooter.php"); ?>
