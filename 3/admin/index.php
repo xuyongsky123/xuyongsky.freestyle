@@ -20,7 +20,7 @@
         #login_container{
             position:fixed;
             top:50%;
-            left:55%;
+            /*left:55%;*/
             height:200px;
             width:500px;
             background:transparent;
