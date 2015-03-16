@@ -26,11 +26,18 @@
             background:#326696;
             margin-top:-200px;
         }
+        #left_container{
+            display:inline-block;
+        }
+        #right_container{
+        	display:inline-block;
+        }
 	</style>
     </head>
     <body>
         <div id="login_container">
             <div id="left_container"></div>
+            <span></span>
             <div id="right_container"></div>
         </div>
     	<!--HTML5背景动态云效果-Begin-->
