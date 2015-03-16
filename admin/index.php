@@ -47,7 +47,19 @@
         <div id="login_container">
             <div id="left_container"></div>
             <span id="line"></span>
-            <div id="right_container"></div>
+            <div id="right_container">
+                <form>
+                	<div id="user_info">
+                        <label>Username:</label><img src="./images/user.png" /><input id="login_username" type="text" name="user" maxlength="32" placeholder="Username" />
+                        <br />
+                        <label>Password:</label><img src="./images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
+                    </div>
+                    <div id="loginButton">
+                        <input id="login_button" type="submit" name="submit" value="登录" />
+                        <input id="login_button" type="reset" name="submit" value="登录" />
+                	</div>
+                </form>
+            </div>
         </div>
     	<!--HTML5背景动态云效果-Begin-->
         <script type="text/javascript" src="../js/webgl_clouds_js/three.min.js"></script>
