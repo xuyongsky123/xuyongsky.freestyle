@@ -21,8 +21,8 @@
             position:fixed;
             top:0;
             left:0;
-            height:100px;
-            width:100px;
+            height:300px;
+            width:300px;
             background:#326696;
         }
 	</style>
