@@ -23,7 +23,7 @@
             left:55%;
             height:200px;
             width:500px;
-            background:#326696;
+            background:transparent;
             margin-top:-200px;
         }
         #left_container{
