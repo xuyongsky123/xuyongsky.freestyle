@@ -30,11 +30,11 @@
                             <div class="swatches-col">
                                 <?php 
 
-                                    if(isset($_GET['goods_class'])){
-                                        $goods_class=$_GET['goods_class'];
+                                    if(isset($_GET['shop_name'])){
+                                        
                                         $shop_search=$_GET['shop_name'];
                                         $shop_keeper=$_GET['shop_keeper'];
-                                        $sql_search="select * from shop_single_detail where shop_name = '$shop_search' and goods_class='$goods_class' and shop_keeper='$shop_keeper'";
+                                        $sql_search="select * from shop_single_detail where shop_name = '$shop_search' and shop_keeper='$shop_keeper'";
                                         $array_search=$operatedb->Execsql($sql_search,$conn);
                                         
                                         if($array_search){
@@ -57,13 +57,13 @@
                                             }
                                         }else{
                                             echo '<div>';
-                                            echo "对不起，您所选择的品牌暂时没有商品，请选择其他品牌...";	
+                                            echo "对不起，您所选择的商店暂时没有商品，请选择其他商店...";	
                                             echo '</div>';
                                         }
                                         
                                     }else{
                                         echo '<div>';
-                                        echo "您未选择品牌，请从左侧列表选择...";
+                                        echo "您未选择任何商店，请从首页选择商店...";
                                         echo '</div>';
                                     }
                                 ?>
