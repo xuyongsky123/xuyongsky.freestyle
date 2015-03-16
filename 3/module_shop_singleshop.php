@@ -6,6 +6,7 @@
 <html lang="zh-CN">
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
+      <meta content-type="image/pjpeg"/>
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
 	<title><?php echo $_GET["shop_name"]; ?></title>
   </head>
@@ -34,7 +35,6 @@
                                             foreach($array_search as $item_search){
                                                 echo '<div class="pallete-item xuyong_fixitem">';
                                                 echo '<dl class="palette '.$item_search["goods_style_top"].'">';
-                                                 header("Content-Type:image/pjpeg");
                                                 echo $item_search["goods_image"];
                                                 echo '</dl>';
                                                 echo '<dl class="palette '.$item_search["goods_style_bottom"].'">';
