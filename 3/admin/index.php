@@ -55,8 +55,8 @@
                         <label>Password:</label><img src="./images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
                     </div>
                     <div id="loginButton">
-                        <input id="login_button" type="submit" name="submit" value="登录" />
-                        <input id="login_button" type="reset" name="submit" value="重置" />
+                        <input id="submit" type="submit" name="submit" value="登录" />
+                        <input id="reset" type="reset" name="reset" value="重置" />
                 	</div>
                 </form>
             </div>
