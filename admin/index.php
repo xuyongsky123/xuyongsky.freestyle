@@ -4,13 +4,20 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>后台登陆界面</title>
     <style type="text/css">
-        html,body{
-            margin:0;
-            padding:0;
-            overflow: hidden;
-            background-color: #326696;
-        }
-    </style>
+			body {
+				background-color: #326696;
+				margin: 0px;
+				overflow: hidden;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				font-weight: bold;
+				text-align:center;
+			}
+			a {
+				color:#0078ff;
+			}
+	</style>
     </head>
     <body>
         
