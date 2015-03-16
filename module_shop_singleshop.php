@@ -61,36 +61,6 @@
                                             echo '</div>';
                                         }
                                         
-                                    }else if(isset($_GET['goods_class'])){
-                                    	$goods_class=$_GET['goods_class'];
-                                        $shop_keeper=$_GET['shop_keeper'];
-                                        $shop_name=$_GET['shop_name'];
-                                        $sql_search="select * from shop_single_detail where goods_class = '$goods_class' and shop_name='$shop_name' and shop_keeper='$shop_keeper'";
-                                        $array_search=$operatedb->Execsql($sql_search,$conn);
-                                        
-                                        if($array_search){
-                                            foreach($array_search as $item_search){
-                                                echo '<div class="pallete-item xuyong_fixitem">';
-                                                echo '<dl class="palette '.$item_search["goods_style_top"].'">';
-                                                //echo $item_search["goods_image"];
-                                                echo '<img src="'.$item_search["goods_image_url"].'" />';
-                                                echo '</dl>';
-                                                echo '<dl class="palette '.$item_search["goods_style_bottom"].'">';
-                                                echo '<dt>';
-                                                echo $item_search["goods_name"];
-                                                echo '</dt>';
-                                                echo '<dd>';
-                                                echo $item_search["goods_price"];
-                                                echo '</dd>';
-                                                echo '</dl>';
-                                                echo '</div>';
-                                                
-                                            }
-                                        }else{
-                                            echo '<div>';
-                                            echo "对不起，您所选择的商店暂时没有商品，请选择其他商店...";	
-                                            echo '</div>';
-                                        }
                                     }else{
                                         echo '<div>';
                                         echo "您未选择任何商店，请从首页选择商店...";
