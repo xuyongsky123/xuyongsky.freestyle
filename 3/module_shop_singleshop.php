@@ -1,5 +1,6 @@
 <?php
   session_start();
+                                                 header("Content-Type:image/pjpeg");
   require("./database/connDB.inc.php");
 ?>
 <!DOCTYPE html>
