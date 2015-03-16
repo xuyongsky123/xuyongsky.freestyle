@@ -28,9 +28,11 @@
         }
         #left_container{
             display:inline-block;
+            background:lightgreen;
         }
         #right_container{
         	display:inline-block;
+            background:yellow;
         }
 	</style>
     </head>
