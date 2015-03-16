@@ -19,6 +19,8 @@
             <link href="../css/bootstrap_css/flat_ui_css/demo.css" rel="stylesheet" />
         <!--bootstrap_end-->
         
+        	<link href="./css/main_style.css" rel="stylesheet" />
+        
         <title>后台登陆界面</title>
         <style type="text/css">
         </style>	
