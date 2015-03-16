@@ -1,6 +1,4 @@
 <?php
-	require("./database/connDB.inc.php");
-		
 	$user=$_SESSION['username'];
 	$sql="select distinct goods_class from shop_single_detail";
 	$array=$operatedb->Execsql($sql,$conn);
