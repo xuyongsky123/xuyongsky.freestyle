@@ -23,7 +23,7 @@
             left:55%;
             height:200px;
             width:500px;
-            background:rgba(50,20,0,0.1);
+            background:transparent;
             margin-top:-200px;
             box-shadow:0px 0px 25px 12px #C0C0C0;
             border-radius:7px;
