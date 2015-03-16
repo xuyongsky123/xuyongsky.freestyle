@@ -26,7 +26,7 @@
             background:rgba(50,20,0,0.1);
             margin-top:-200px;
             box-shadow:0px 0px 25px 12px #C0C0C0;
-            border-radius:12px;
+            border-radius:5px;
         }
         #left_container{
             display:inline-block;
