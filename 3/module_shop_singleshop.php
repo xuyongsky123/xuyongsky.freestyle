@@ -61,7 +61,7 @@
                                             echo '</div>';
                                         }
                                         
-                                    }else if(isset($_GET['goods_class']){
+                                    }else if(isset($_GET['goods_class'])){
                                     	$shop_search=$_GET['goods_class'];
                                         $shop_keeper=$_GET['shop_keeper'];
                                         $shop_name=$_GET['shop_name'];
