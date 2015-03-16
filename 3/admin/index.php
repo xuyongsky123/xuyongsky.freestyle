@@ -12,8 +12,8 @@
     <body>
         
     	<!--HTML5背景动态云效果-Begin-->
-        <script type="text/javascript" src="./js/webgl_clouds_js/three.min.js"></script>
-            <script type="text/javascript" src="./js/webgl_clouds_js/Detector.js"></script>
+        <script type="text/javascript" src="../js/webgl_clouds_js/three.min.js"></script>
+            <script type="text/javascript" src="../js/webgl_clouds_js/Detector.js"></script>
             <script id="vs" type="x-shader/x-vertex">
     
                 varying vec2 vUv;
