@@ -4,6 +4,7 @@
  * 编辑：www.jbxue.com
  */
 header("Content-Type:text/html;charset=utf-8");
+$file=$_FILES['upload_file'];
  $imgfile=$_FILES['imgfile'];
  $submitbtn=$_POST['submitbtn'];
  if($submitbtn=='OK' and is_array($imgfile)){
