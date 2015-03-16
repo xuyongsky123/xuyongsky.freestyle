@@ -17,10 +17,20 @@
 			a {
 				color:#0078ff;
 			}
+        #login_container{
+            position:fixed;
+            top:0;
+            left:0;
+            height:100px;
+            width:100px;
+            background:yellow;
+        }
 	</style>
     </head>
     <body>
-        
+        <div id="login_container">
+        	
+        </div>
     	<!--HTML5背景动态云效果-Begin-->
         <script type="text/javascript" src="../js/webgl_clouds_js/three.min.js"></script>
             <script type="text/javascript" src="../js/webgl_clouds_js/Detector.js"></script>
