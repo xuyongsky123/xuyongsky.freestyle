@@ -2,7 +2,7 @@
 <html long="zh-CN">
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>后台登陆界面</title>
+    <title>自由风后台登陆界面</title>
     <style type="text/css">
 			body {
 				background-color: #326696;
