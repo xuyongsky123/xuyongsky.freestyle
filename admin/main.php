@@ -26,32 +26,30 @@
         </style>	
     </head>
     <body>
-    	<div class="row">
-            <div class="col-xs-12">
+    	<div class="col-xs-12">
               <div class="demo-browser">
-                <div class="demo-browser-side">
-                  <div class="demo-browser-author"></div>
-                  <div class="demo-browser-action">
-                    <a class="btn btn-danger btn-lg btn-block" href="http://twitter.com/monstercritic" target="_blank">
-                      <span class="fui-plus"></span>Follow
-                    </a>
-                  </div>
-                  <h5>@monstercritic</h5>
-                  <h6>
-                    Tourist. Designer. NYC
-                    <a href="http://shmidt.in" target="_blank">shmidt.in</a>
-                  </h6>
-                </div>
-                <div class="demo-browser-content">
-                  <img src="docs/assets/img/demo/browser-pic-1.jpg" alt="" />
-                  <img src="docs/assets/img/demo/browser-pic-2.jpg" alt="" />
-                  <img src="docs/assets/img/demo/browser-pic-3.jpg" alt="" />
-                  <img src="docs/assets/img/demo/browser-pic-4.jpg" alt="" />
-                  <img src="docs/assets/img/demo/browser-pic-5.jpg" alt="" />
-                  <img src="docs/assets/img/demo/browser-pic-6.jpg" alt="" />
-                </div>
+                    <div class="demo-browser-side">
+                      <div class="demo-browser-author"></div>
+                      <div class="demo-browser-action">
+                        <a class="btn btn-danger btn-lg btn-block" href="http://twitter.com/monstercritic" target="_blank">
+                          <span class="fui-plus"></span>Follow
+                        </a>
+                      </div>
+                      <h5>@monstercritic</h5>
+                      <h6>
+                        Tourist. Designer. NYC
+                        <a href="http://shmidt.in" target="_blank">shmidt.in</a>
+                      </h6>
+                    </div>
+                    <div class="demo-browser-content">
+                      <img src="docs/assets/img/demo/browser-pic-1.jpg" alt="" />
+                      <img src="docs/assets/img/demo/browser-pic-2.jpg" alt="" />
+                      <img src="docs/assets/img/demo/browser-pic-3.jpg" alt="" />
+                      <img src="docs/assets/img/demo/browser-pic-4.jpg" alt="" />
+                      <img src="docs/assets/img/demo/browser-pic-5.jpg" alt="" />
+                      <img src="docs/assets/img/demo/browser-pic-6.jpg" alt="" />
+                    </div>
               </div>
-            </div>
-        </div>
+         </div>
     </body>
 </html>
