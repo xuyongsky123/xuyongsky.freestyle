@@ -62,10 +62,10 @@
                                         }
                                         
                                     }else if(isset($_GET['goods_class'])){
-                                    	$shop_search=$_GET['goods_class'];
+                                    	$goods_class=$_GET['goods_class'];
                                         $shop_keeper=$_GET['shop_keeper'];
                                         $shop_name=$_GET['shop_name'];
-                                        $sql_search="select * from shop_single_detail where goods_class = '$shop_search' and shop_name='$shop_name' and shop_keeper='$shop_keeper'";
+                                        $sql_search="select * from shop_single_detail where goods_class = '$goods_class' and shop_name='$shop_name' and shop_keeper='$shop_keeper'";
                                         $array_search=$operatedb->Execsql($sql_search,$conn);
                                         
                                         if($array_search){
