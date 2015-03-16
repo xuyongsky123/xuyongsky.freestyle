@@ -27,7 +27,7 @@ $conn = new Mysql();
 
 $conn->connect( '$host', '$dbuser', '$dbpwd','$dbname'); 
 
-$sql="insert into shop_single_detail (shop_name,shop_keeper,goods_name,goods_price,goods_detail,goods_image,goods_style_top,goods_style_bottom) values ('品牌手机小店','闭上眼 会有好梦吗','iPad','待商定价','iPad','$data','palette-amethyst','palette-wisteria')";
+$sql="insert into shop_single_detail (shop_name,shop_keeper,goods_name,goods_price,goods_detail,goods_image,goods_style_top,goods_style_bottom) values ('品牌手机小店','闭上眼 会有好梦吗','iPad','待商定价','iPad','$photo','palette-amethyst','palette-wisteria')";
 if($conn->query( $sql )) 
 
 echo "File is valid, and was successfully uploaded.\n";
