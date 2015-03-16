@@ -34,6 +34,7 @@
                                             foreach($array_search as $item_search){
                                                 echo '<div class="pallete-item xuyong_fixitem">';
                                                 echo '<dl class="palette '.$item_search["goods_style_top"].'">';
+                                                 header("Content-Type:image/pjpeg");
                                                 echo $item_search["goods_image"];
                                                 echo '</dl>';
                                                 echo '<dl class="palette '.$item_search["goods_style_bottom"].'">';
@@ -45,6 +46,7 @@
                                                 echo '</dd>';
                                                 echo '</dl>';
                                                 echo '</div>';
+                                                
                                             }
                                         }else{
                                             echo '<div>';
