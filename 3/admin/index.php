@@ -5,6 +5,7 @@
     <title>后台登陆界面</title>
     <style type="text/css">
 			body {
+				background-color: #326696;
 				margin: 0px;
 				overflow: hidden;
 				font-family:Monospace;
