@@ -19,8 +19,8 @@
 			}
         #login_container{
             position:fixed;
-            top:0;
-            left:0;
+            top:50%;
+            left:70%;
             height:200px;
             width:500px;
             background:#326696;
