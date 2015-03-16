@@ -14,7 +14,6 @@
 }
 #shop_container{
 	background-color:#edeff1;
-    min-width:60rem;
 }
 #link_help{
 	float:left;
@@ -52,6 +51,10 @@
 }
 
 
+.row{
+	min-width:970px;
+    margin:45px -15px 45px -15px;
+}
 
 .footer{
 	min-width:970px;
