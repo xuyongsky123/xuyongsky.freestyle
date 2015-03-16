@@ -4,9 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>后台登陆界面</title>
     <style type="text/css">
+        html,body{
+            margin:0;
+            padding:0;
+        }
     </style>
-    
-    
     </head>
     <body>
         
