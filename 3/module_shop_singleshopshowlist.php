@@ -1,6 +1,6 @@
 <?php
 	$user=$_SESSION['username'];
-	$sql="select distinct goods_class from shop_single_detail where shop_name='".$_GET['shop_name']."'";
+	$sql="select distinct goods_class from shop_single_detail where shop_name='".$_GET['shop_name']."' and shop_keeper='".$_GET['shop_keeper']."'";
 	$array=$operatedb->Execsql($sql,$conn);
         
     if($array){
