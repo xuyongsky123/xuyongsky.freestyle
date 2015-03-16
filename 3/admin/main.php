@@ -25,7 +25,7 @@
     </head>
     <body>
     	<div class="row">
-            <div class="col-xs-9">
+            <div class="col-xs-12">
               <div class="demo-browser">
                 <div class="demo-browser-side">
                   <div class="demo-browser-author"></div>
