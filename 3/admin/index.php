@@ -36,7 +36,8 @@
         }
         #line{
             display:inline-block;
-            
+            border-left:1px solid black;
+            height:200px;
         }
 	</style>
     </head>
