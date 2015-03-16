@@ -24,7 +24,7 @@
             height:200px;
             width:500px;
             background:#326696;
-            margin-top:-100px;
+            margin-top:-200px;
         }
 	</style>
     </head>
