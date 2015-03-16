@@ -22,7 +22,7 @@ $size = filesize($tmpName);
 
 if($size>0){ 
 $photo = addslashes(fread(fopen($tmpName,'r'),$size)); 
-    include( "./database/connDB,inc.php" ); 
+    include( "./database/connDB.inc.php" ); 
     //$conn = new Mysql(); 
 
     //$conn->connect( '$host', '$dbuser', '$dbpwd','$dbname'); 
