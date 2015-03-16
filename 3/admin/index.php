@@ -56,7 +56,7 @@
                     </div>
                     <div id="loginButton">
                         <input id="login_button" type="submit" name="submit" value="登录" />
-                        <input id="login_button" type="reset" name="submit" value="登录" />
+                        <input id="login_button" type="reset" name="submit" value="重置" />
                 	</div>
                 </form>
             </div>
