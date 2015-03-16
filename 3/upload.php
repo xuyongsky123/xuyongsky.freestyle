@@ -1,6 +1,10 @@
 <?php 
 
- 
+ $host=SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT;
+	$dbuser=SAE_MYSQL_USER;
+	$dbpwd=SAE_MYSQL_PASS;
+	$dbname=SAE_MYSQL_DB;
+
 
 if(isset($_FILES['images'])){ 
 
@@ -21,7 +25,7 @@ $photo = addslashes(fread(fopen($tmpName,'r'),$size));
 include( "class.Mysql.php" ); 
 $conn = new Mysql(); 
 
-$conn->connect( 'localhost', 'root', '123456','test'); 
+$conn->connect( '$host', 'root', '123456','test'); 
 
 $sql = "INSERT INTO images (image) VALUES ('$photo')"; 
 if($conn->query( $sql )) 
