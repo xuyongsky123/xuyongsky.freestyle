@@ -36,7 +36,7 @@
         }
         #line{
             display:inline-block;
-            border-left:1px solid #EBEBEB;
+            border-left:1px solid #969696;
             height:200px;
         }
 	</style>
