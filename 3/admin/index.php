@@ -35,6 +35,11 @@
         #right_container{
         	display:inline-block;
             background:yellow;
+            position:absolute;
+            top:0;
+            right:0;
+            height:200px;
+            width:300px;
         }
         #line{
             display:inline-block;
