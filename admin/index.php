@@ -34,12 +34,13 @@
         	display:inline-block;
             background:yellow;
         }
+        
 	</style>
     </head>
     <body>
         <div id="login_container">
             <div id="left_container"></div>
-            <span></span>
+            <span id="line"></span>
             <div id="right_container"></div>
         </div>
     	<!--HTML5背景动态云效果-Begin-->
