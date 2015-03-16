@@ -1,5 +1,7 @@
 <?php
-	$user=$_SESSION['username'];
+	session_start();
+	$_SESSION['shop_name']=$_GET['shop_name'];
+	$_SESSION['shop_keeper']=$_GET['shop_keeper'];
 	$sql="select distinct goods_class from shop_single_detail where shop_name='".$_GET['shop_name']."' and shop_keeper='".$_GET['shop_keeper']."'";
 	$array=$operatedb->Execsql($sql,$conn);
         
