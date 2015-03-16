@@ -30,8 +30,8 @@
                             <div class="swatches-col">
                                 <?php 
 
-                                    if(isset($_GET['shop_name'])){
-                                        
+                                    if(isset($_GET['goods_class'])){
+                                        $goods_class=$_GET['goods_class'];
                                         $shop_search=$_GET['shop_name'];
                                         $shop_keeper=$_GET['shop_keeper'];
                                         $sql_search="select * from shop_single_detail where shop_name = '$shop_search' and shop_keeper='$shop_keeper'";
