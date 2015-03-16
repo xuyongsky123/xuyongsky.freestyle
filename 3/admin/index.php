@@ -25,6 +25,8 @@
             width:500px;
             background:#326696;
             margin-top:-200px;
+            min-height:200px;
+            min-width:500px;
         }
         #left_container{
             display:inline-block;
@@ -34,7 +36,10 @@
         	display:inline-block;
             background:yellow;
         }
-        
+        #line{
+            display:inline-block;
+            
+        }
 	</style>
     </head>
     <body>
