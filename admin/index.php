@@ -22,7 +22,7 @@
             top:0;
             left:0;
             height:200px;
-            width:300px;
+            width:500px;
             background:#326696;
         }
 	</style>
