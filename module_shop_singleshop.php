@@ -14,7 +14,14 @@
       
       <div class="row demo-samples">
                 <div class="col-xs-2">
-                    
+                    <div class="todo">
+                        <div class="todo-search">
+                          <input class="todo-search-field" type="search" value="" readonly="readonly" placeholder="店铺类型" />
+                        </div>
+                        <ul>
+                            <?php include("./module_shop_singleshopshowlist.php"); ?>
+                        </ul>
+                      </div><!-- /.todo -->
                 </div><!-- /.col-xs-2-->
                   
                 <div class="col-xs-10 xuyong_fixrow">
