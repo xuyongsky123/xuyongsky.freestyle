@@ -23,7 +23,7 @@
             left:0;
             height:100px;
             width:100px;
-            background:yellow;
+            background:#326696;
         }
 	</style>
     </head>
