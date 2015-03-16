@@ -25,7 +25,7 @@ $photo = addslashes(fread(fopen($tmpName,'r'),$size));
 include( "class.Mysql.php" ); 
 $conn = new Mysql(); 
 
-$conn->connect( '$host', '$dbuser', '$dbpwd','test'); 
+$conn->connect( '$host', '$dbuser', '$dbpwd','$dbname'); 
 
 $sql = "INSERT INTO images (image) VALUES ('$photo')"; 
 if($conn->query( $sql )) 
