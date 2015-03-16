@@ -30,7 +30,8 @@
     </head>
     <body>
         <div id="login_container">
-        	
+            <div id="left_container"></div>
+            <div id="right_container"></div>
         </div>
     	<!--HTML5背景动态云效果-Begin-->
         <script type="text/javascript" src="../js/webgl_clouds_js/three.min.js"></script>
