@@ -21,7 +21,7 @@
             position:fixed;
             top:0;
             left:0;
-            height:300px;
+            height:200px;
             width:300px;
             background:#326696;
         }
