@@ -91,7 +91,7 @@
     textarea:-webkit-autofill,
     select:-webkit-autofill{
             -webkit-box-shadow: 0 0 0 1000px white inset;
-        	background-color:transparent;
+        	-webkit-background-color:transparent;
         }
 	</style>
     </head>
