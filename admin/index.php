@@ -69,7 +69,7 @@
             float:left;
             width:190px;
     -webkit-background-color:transparent;
-            background:transparent;
+            background-color:transparent;
         }
         #username_info{
             position:absolute;
