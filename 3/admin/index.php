@@ -96,7 +96,7 @@
         #loginButton input{
             width:105px;
         	background:none;
-            border-radius:2px;
+            border-radius:20px;
             border:1px solid;
             border-color:#808080;
             box-shadow:0px 0px 10px 0px #c0c0c0 inset;
