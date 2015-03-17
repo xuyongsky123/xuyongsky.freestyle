@@ -64,7 +64,7 @@
             <div class="col-xs-2">
             	<div id="menu-collapse">
                     <div>
-                        <h3><a href="#">First</a></h3>
+                        <h4><a href="#">First</a></h4>
                         <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
                     </div>
                     <div>
