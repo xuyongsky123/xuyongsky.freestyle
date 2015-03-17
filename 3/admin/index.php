@@ -94,6 +94,7 @@
             -webkit-box-shadow: 0 0 0 1000px transparent inset;
         }
         #loginButton input{
+            width:105px;
         	background:none;
             border-radius:6px;
             border:1px solid;
