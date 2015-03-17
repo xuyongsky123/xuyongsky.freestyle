@@ -134,7 +134,7 @@
 
 	<script src="media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
 
-	<script src="media/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../js/bootstrap_js/bootstrap.min.js"></script>
 
 	<!--[if lt IE 9]>
 
