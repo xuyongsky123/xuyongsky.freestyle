@@ -46,6 +46,11 @@
             border-left:1px solid #969696;
             height:200px;
         }
+        #user_info label{
+            position:absolute;
+            top:65px;
+            left:65px;
+        }
 	</style>
     </head>
     <body>
