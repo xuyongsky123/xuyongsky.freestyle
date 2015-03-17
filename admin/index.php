@@ -90,7 +90,7 @@
         input:-webkit-autofill,
     textarea:-webkit-autofill,
     select:-webkit-autofill{
-            /*-webkit-box-shadow: 0 0 0 1000px white inset;*/
+            -webkit-box-shadow: 0 0 0 1000px white inset;
         	-webkit-background-color:transparent;
         }
 	</style>
