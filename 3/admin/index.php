@@ -71,7 +71,8 @@
             top:45px;
         }
         #password_info{
-            margin-top:
+            position:absolute;
+            top:85px;
         }
 	</style>
     </head>
