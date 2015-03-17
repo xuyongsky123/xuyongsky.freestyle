@@ -46,7 +46,6 @@
             border-left:1px solid #969696;
             height:200px;
             width:300px;
-            margin-right:300px;
         }
         #user_info label{
             position:absolute;
