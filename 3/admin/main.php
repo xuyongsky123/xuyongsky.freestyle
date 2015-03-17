@@ -2,31 +2,22 @@
 <html long="zh-CN">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <!-- BEGIN GLOBAL MANDATORY STYLES -->
-
-        <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/style-metro.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/style.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
-    
-        <link href="media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
-    
-        <!-- END GLOBAL MANDATORY STYLES -->
-    
-        <!-- BEGIN PAGE LEVEL STYLES --> 
-    
-    
-        <!-- END PAGE LEVEL STYLES -->
+        
+        <!--bootstrap_begin-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <!-- Bootstrap -->
+            <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" />
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="../js/jquery-1.9.1.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="../js/bootstrap_js/bootstrap.min.js"></script>
+            
+            
+            <!-- Loading Flat UI -->
+            <link href="../css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet" />
+            <link href="../css/bootstrap_css/flat_ui_css/demo.css" rel="stylesheet" />
+        <!--bootstrap_end-->
         
         	<link href="./css/main_style.css" rel="stylesheet" />
         
@@ -35,199 +26,78 @@
         </style>	
     </head>
     <body>
-        <!-- BEGIN HEADER -->
-
-	<div class="header navbar navbar-inverse navbar-fixed-top">
-
-		<!-- BEGIN TOP NAVIGATION BAR -->
-
-		<div class="navbar-inner">
-
-			<div class="container-fluid">
-
-				<!-- BEGIN LOGO -->
-
-				<a class="brand" href="index.html">
-
-				<img src="media/image/logo.png" alt="logo"/>
-
-				</a>
-
-				<!-- END LOGO -->
-
-				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
-
-				<a href="javascript:;" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
-
-				<img src="media/image/menu-toggler.png" alt="" />
-
-				</a>          
-
-				<!-- END RESPONSIVE MENU TOGGLER -->            
-
-				<!-- BEGIN TOP NAVIGATION MENU -->              
-
-				<ul class="nav pull-right">
-					<!-- BEGIN USER LOGIN DROPDOWN -->
-
-					<li class="dropdown user">
-
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-
-						<img alt="" src="media/image/avatar1_small.jpg" />
-
-						<span class="username">Bob Nilson</span>
-
-						<i class="icon-angle-down"></i>
-
-						</a>
-
-						<ul class="dropdown-menu">
-
-							<li><a href="extra_profile.html"><i class="icon-user"></i> My Profile</a></li>
-
-							<li><a href="page_calendar.html"><i class="icon-calendar"></i> My Calendar</a></li>
-
-							<li><a href="inbox.html"><i class="icon-envelope"></i> My Inbox(3)</a></li>
-
-							<li><a href="#"><i class="icon-tasks"></i> My Tasks</a></li>
-
-							<li class="divider"></li>
-
-							<li><a href="extra_lock.html"><i class="icon-lock"></i> Lock Screen</a></li>
-
-							<li><a href="login.html"><i class="icon-key"></i> Log Out</a></li>
-
-						</ul>
-
-					</li>
-
-					<!-- END USER LOGIN DROPDOWN -->
-
-				</ul>
-
-				<!-- END TOP NAVIGATION MENU --> 
-
-			</div>
-
-		</div>
-
-		<!-- END TOP NAVIGATION BAR -->
-
-	</div>
-
-	<!-- END HEADER -->
+        <div class="col-xs-12 col-xs-xuyong">
+            <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Free Style</a>
+                </div>
+                <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
+                  <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages <b class="caret"></b></a>
+                      <span class="dropdown-arrow"></span>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Another action</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                   </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav><!-- /navbar -->
+        </div>
+    	<div class="col-xs-12 col-xs-xuyong">
+            <div class="col-xs-2">
+                  <div class="todo">
+                    <div class="todo-search">
+                      <input class="todo-search-field" type="search" readonly="readonly" value="" placeholder="Search" />
+                    </div>
+                    <ul>
+                      <li class="todo-done">
+                        <div class="todo-content">
+                          <h4 class="todo-name">
+                            Meet <strong>Adrian</strong> at <strong>6pm</strong>
+                          </h4>
+                          Times Square
+                        </div>
+                      </li>
+                      <li>
+                        <div class="todo-content">
+                          <h4 class="todo-name">
+                            Chat with <strong>V.Kudinov</strong>
+                          </h4>
+                          Skype conference an 9 am
+                        </div>
+                      </li>
+                      <li>
+                        <div class="todo-content">
+                          <h4 class="todo-name">
+                            Watch <strong>Iron Man</strong>
+                          </h4>
+                          1998 Broadway
+                        </div>
+                      </li>
+                      <li>
+                        <div class="todo-content">
+                          <h4 class="todo-name">
+                            Fix bug on a <strong>Website</strong>
+                          </h4>
+                          As soon as possible
+                        </div>
+                      </li>
+                    </ul>
+                  </div><!-- /.todo -->
+              </div><!-- /.col-xs-2 -->
+         </div>
         
+        <!--flat-ui's js begin-->
+        	<script src="../js/bootstrap_js/flat_ui_js/flat-ui.min.js"></script>
+            <script src="../js/bootstrap_js/flat_ui_js/application.js"></script>
+        <!--flat-ui's js end-->
         
-        
-    <!-- END FOOTER -->
-
-	<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-
-	<!-- BEGIN CORE PLUGINS -->
-
-	<script src="../js/jquery-1.9.1.min.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
-
-	<!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-
-	<script src="media/js/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>      
-
-    <script src="../js/bootstrap_js/bootstrap.min.js"></script>
-
-	<!--[if lt IE 9]>
-
-	<script src="media/js/excanvas.min.js"></script>
-
-	<script src="media/js/respond.min.js"></script>  
-
-	<![endif]-->   
-
-	<script src="media/js/jquery.slimscroll.min.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.blockui.min.js" type="text/javascript"></script>  
-
-	<script src="media/js/jquery.cookie.min.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.uniform.min.js" type="text/javascript" ></script>
-
-	<!-- END CORE PLUGINS -->
-
-	<!-- BEGIN PAGE LEVEL PLUGINS -->
-
-	<script src="media/js/jquery.vmap.js" type="text/javascript"></script>   
-
-	<script src="media/js/jquery.vmap.russia.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.vmap.world.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.vmap.europe.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.vmap.germany.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.vmap.usa.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.vmap.sampledata.js" type="text/javascript"></script>  
-
-	<script src="media/js/jquery.flot.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.flot.resize.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.pulsate.min.js" type="text/javascript"></script>
-
-	<script src="media/js/date.js" type="text/javascript"></script>
-
-	<script src="media/js/daterangepicker.js" type="text/javascript"></script>     
-
-	<script src="media/js/jquery.gritter.js" type="text/javascript"></script>
-
-	<script src="media/js/fullcalendar.min.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.easy-pie-chart.js" type="text/javascript"></script>
-
-	<script src="media/js/jquery.sparkline.min.js" type="text/javascript"></script>  
-
-	<!-- END PAGE LEVEL PLUGINS -->
-
-	<!-- BEGIN PAGE LEVEL SCRIPTS -->
-
-	<script src="media/js/app.js" type="text/javascript"></script>
-
-	<script src="media/js/index.js" type="text/javascript"></script>        
-
-	<!-- END PAGE LEVEL SCRIPTS -->  
-
-	<script>
-
-		jQuery(document).ready(function() {    
-
-		   App.init(); // initlayout and core plugins
-
-		   Index.init();
-
-		   Index.initJQVMAP(); // init index page's custom scripts
-
-		   Index.initCalendar(); // init index page's custom scripts
-
-		   Index.initCharts(); // init index page's custom scripts
-
-		   Index.initChat();
-
-		   Index.initMiniCharts();
-
-		   Index.initDashboardDaterange();
-
-		   Index.initIntro();
-
-		});
-
-	</script>
-
-	<!-- END JAVASCRIPTS -->
-
-<script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-37564768-1']);  _gaq.push(['_setDomainName', 'keenthemes.com']);  _gaq.push(['_setAllowLinker', true]);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script></body>
-
-<!-- END BODY -->
     </body>
 </html>
