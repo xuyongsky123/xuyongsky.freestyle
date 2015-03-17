@@ -70,7 +70,7 @@
         }
         #username_info{
             position:absolute;
-            top:45px;
+            top:50px;
         }
         #password_info{
             position:absolute;
