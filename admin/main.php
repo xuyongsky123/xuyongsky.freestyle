@@ -91,8 +91,8 @@
                             Fix bug on a <strong>Web2ite</strong>
                 
         <!--flat-ui's js begin-->
-        	<script src="../js/bootrap_js/flat_ui_js/flat-ui.min.js"></script>
-            <script src="../js/bootrap_js/flat_ui_js/application.js"></script>
+        	<script src="../js/bootstrap_js/flat_ui_js/flat-ui.min.js"></script>
+            <script src="../js/bootstrap_js/flat_ui_js/application.js"></script>
             <script>
               videojs.options.flash.swf = "dist/js/vendors/video-js.swf"
             </script>
