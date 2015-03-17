@@ -66,6 +66,14 @@
                 <div class="col-xs-2 xuyong_width">
                         <div id="menu-collapse">
                             <div class="title_style">
+                                <h3><a href="#">网站用户管理</a></h3>
+                                <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+                            </div>
+                            <div class="title_style">
+                                <h3><a href="#">网站会员管理</a></h3>
+                                <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+                            </div>
+                            <div class="title_style">
                                 <h3><a href="#">毕业设计专栏</a></h3>
                                 <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
                             </div>
