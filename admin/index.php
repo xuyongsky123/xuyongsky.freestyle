@@ -93,7 +93,7 @@
     	select:-webkit-autofill{
             -webkit-box-shadow: 0 0 0 1000px transparent inset;
         }
-        #loginButton{
+        #loginButton input{
         	background:none;
             border-radius:6px;
             border:1px solid;
