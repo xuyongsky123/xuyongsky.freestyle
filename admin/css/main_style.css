@@ -40,6 +40,11 @@
 	border:none;
     border-radius:0;
 }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br,.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl,.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr,.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl{
+	border-radius:none;
+}
+
+
 
 .col-xs-xuyong .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{
 	color:white;
