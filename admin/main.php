@@ -50,50 +50,6 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-    	<div class="col-xs-12 col-xs-xuyong">
-            <div class="col-xs-2">
-                  <div class="todo">
-                    <div class="todo-search">
-                      <input class="todo-search-field" type="search" value="" placeholder="Search" />
-                    </div>
-                    <ul>
-                      <li class="todo-done">
-                        <div class="todo-content">
-                          <h4 class="todo-name">
-                            Meet <strong>Adrian</strong> at <strong>6pm</strong>
-                          </h4>
-                          Times Square
-                        </div>
-                      </li>
-                      <li>
-                        <div class="todo-content">
-                          <h4 class="todo-name">
-                            Chat with <strong>V.Kudinov</strong>
-                          </h4>
-                          Skype conference an 9 am
-                        </div>
-                      </li>
-                      <li>
-                        <div class="todo-content">
-                          <h4 class="todo-name">
-                            Watch <strong>Iron Man</strong>
-                          </h4>
-                          1998 Broadway
-                        </div>
-                      </li>
-                      <li>
-                        <div class="todo-content">
-                          <h4 class="todo-name">
-                            Fix bug on a <strong>Website</strong>
-                          </h4>
-                          As soon as possible
-                        </div>
-                      </li>
-                    </ul>
-                  </div><!-- /.todo -->
-              </div><!-- /.col-xs-2 -->
-         </div>
-        
         <!--flat-ui's js begin-->
         <!--flat-ui's js end-->
         
