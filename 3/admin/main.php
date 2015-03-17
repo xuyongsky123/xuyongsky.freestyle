@@ -69,11 +69,11 @@
                     </div>
                     <div class="title_style">
                         <h3><a href="#">Second</a></h3>
-                        <div>Phasellus mattis tincidunt nibh.</div>
+                        <div class="fix_style">Phasellus mattis tincidunt nibh.</div>
                     </div>
                     <div class="title_style">
                         <h3><a href="#">Third</a></h3>
-                        <div>Nam dui erat, auctor a, dignissim quis.</div>
+                        <div class="fix_style">Nam dui erat, auctor a, dignissim quis.</div>
                     </div>
                 </div>
             </div>
