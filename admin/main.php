@@ -91,9 +91,7 @@
                             Fix bug on a <strong>Web2ite</strong>
                 
         <!--flat-ui's js begin-->
-            <script src="dist/js/vendor/jquery.min.js"></script>
-            <script src="dist/js/vendor/video.js"></script>
-            <script src="dist/js/flat-ui.min.js"></script>
+        <script src="./jsbootrap_js/flat_ui_js/flat-ui.min.js"></script>
             <script src="docs/assets/js/application.js"></script>
         <!--flat-ui's js end-->
         
