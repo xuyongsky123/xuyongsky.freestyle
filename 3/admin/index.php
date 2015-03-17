@@ -67,7 +67,7 @@
             float:left;
         }
         #username_info{
-            margin-top:30px;
+            margin-top:35px;
         }
 	</style>
     </head>
