@@ -34,6 +34,7 @@
         }
         #right_container{
         	display:inline-block;
+            background:yellow;
             position:absolute;
             top:0;
             right:0;
@@ -44,6 +45,7 @@
             display:inline-block;
             border-left:1px solid #969696;
             height:200px;
+            margin-right:300px;
         }
         #user_info label{
             position:absolute;
