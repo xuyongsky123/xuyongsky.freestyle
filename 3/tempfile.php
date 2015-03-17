@@ -1,3 +1,6 @@
+安全色：http://www.bootcss.com/p/websafecolors/
+
+
 <div class="pallete-item">
                               <dl class="palette palette-turquoise">
                                 <dt>#1abc9c</dt>
