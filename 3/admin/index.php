@@ -68,6 +68,7 @@
         #user_info input{
             float:left;
             width:190px;
+    -webkit-background:transparent;
             background:transparent;
         }
         #username_info{
