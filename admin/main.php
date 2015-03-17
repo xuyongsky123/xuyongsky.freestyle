@@ -65,7 +65,7 @@
             	<div id="menu-collapse">
                     <div style="background:#34495e">
                         <h3><a href="#">First</a></h3>
-                        <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+                        <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
                     </div>
                     <div>
                         <h3><a href="#">Second</a></h3>
