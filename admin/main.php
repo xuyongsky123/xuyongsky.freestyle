@@ -62,22 +62,24 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-        <div class="col-xs-2 col-xs-2-xuyong">
-            	<div id="menu-collapse">
-                    <div class="title_style">
-                        <h3><a href="#">First</a></h3>
-                        <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
-                    </div>
-                    <div class="title_style">
-                        <h3><a href="#">Second</a></h3>
-                        <div class="fix_style">Phasellus mattis tincidunt nibh.</div>
-                    </div>
-                    <div class="title_style">
-                        <h3><a href="#">Third</a></h3>
-                        <div class="fix_style">Nam dui erat, auctor a, dignissim quis.</div>
-                    </div>
+            <div class="col-xs-xuyong">
+                <div class="col-xs-2">
+                        <div id="menu-collapse">
+                            <div class="title_style">
+                                <h3><a href="#">First</a></h3>
+                                <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+                            </div>
+                            <div class="title_style">
+                                <h3><a href="#">Second</a></h3>
+                                <div class="fix_style">Phasellus mattis tincidunt nibh.</div>
+                            </div>
+                            <div class="title_style">
+                                <h3><a href="#">Third</a></h3>
+                                <div class="fix_style">Nam dui erat, auctor a, dignissim quis.</div>
+                            </div>
+                        </div>
                 </div>
-        </div>
+            </div>
         <div class="col-xs-10">
         </div>
         
