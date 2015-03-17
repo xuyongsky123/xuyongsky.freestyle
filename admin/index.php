@@ -100,6 +100,7 @@
                         	<label>Password:</label>
                             <img src="../images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
                         </div>
+                        <div id="clear"></div>
                     </div>
                     <div id="loginButton">
                         <input id="submit" type="submit" name="submit" value="登录" />
