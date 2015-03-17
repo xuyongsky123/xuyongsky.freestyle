@@ -51,10 +51,10 @@
             left:65px;
         }
         #username_info label{
-            top:10px;
+            top:20px;
         }
         #password_info label{
-            top:65px;
+            top:75px;
         }
 	</style>
     </head>
