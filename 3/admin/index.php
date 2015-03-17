@@ -34,7 +34,6 @@
         }
         #right_container{
         	display:inline-block;
-            background:yellow;
             position:absolute;
             top:0;
             right:0;
