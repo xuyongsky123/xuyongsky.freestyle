@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html long="zh-CN">
     <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>自由风后台登陆界面</title>
     <style type="text/css">
 			body {
