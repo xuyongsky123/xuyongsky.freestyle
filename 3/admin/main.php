@@ -40,7 +40,7 @@
     <body>
         <div class="col-xs-12 col-xs-xuyong">
             <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
-                <div class="navbar-header">
+                <div class="navbar-header navbar_xuyong">
                   <a class="navbar-brand" href="#">Free Style</a>
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
