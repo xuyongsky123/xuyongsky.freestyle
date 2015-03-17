@@ -97,7 +97,6 @@
                         </div>
                         <div id="password_info">
                         	<label>Password:</label>
-                            <br />
                             <img src="../images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
                         </div>
                     </div>
