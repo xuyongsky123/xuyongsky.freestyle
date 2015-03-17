@@ -5,7 +5,7 @@
 .col-xs-xuyong .navbar-embossed > .navbar-collapse{
 	border-radius:0;
 }
-.col-xs-xuyong ul{
+.col-xs-xuyong ul,.col-xs-xuyong li,.col-xs-xuyong a{
 	border-radius:0;
 }
 .nav_xuyong{
@@ -13,12 +13,8 @@
     padding-right:0;
     border-radius:0;
 }
-.nav_xuyong ul li{
-	border-radius:0;
-}
-.nav_xuyong ul li a{
-	border-radius:0;
-}
+
+
 	
 .col-xs-xuyong{
 	padding:0;
