@@ -48,6 +48,9 @@ body{
 	border:none;
     border-radius:0;
 }
+.title_style{
+	border-bottom:1px solid #4a4a4a;
+}
 .xuyong_width{
 	width:225px;
 }
