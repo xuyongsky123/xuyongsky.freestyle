@@ -49,11 +49,7 @@
                    </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
-            
         </div>
-    	<div class="col-xs-12 col-xs-xuyong">
-            
-         </div>
         
         <!--flat-ui's js begin-->
         	<script src="../js/bootstrap_js/flat_ui_js/flat-ui.min.js"></script>
