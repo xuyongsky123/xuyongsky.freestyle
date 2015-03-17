@@ -67,6 +67,7 @@
         }
         #user_info input{
             float:left;
+            width:190px;
         }
         #username_info{
             position:absolute;
