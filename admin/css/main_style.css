@@ -41,6 +41,7 @@ body{
 .fix_style{
 	border:none;
     border-radius:0;
+    height:auto;
 }
 .title_style h3{
 	border:none;
