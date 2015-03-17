@@ -106,8 +106,8 @@
 	</style>
     <script>
             function checkUser(){
-                var Username=document.getElementById('login_username').value;
-                var Password=document.getElementById('login_password').value;
+                var Username=document.getElementById('admin_username').value;
+                var Password=document.getElementById('admin_password').value;
                 
                 if(Username==""||Username==null){
                     alert("The Username can't be null");
