@@ -62,7 +62,7 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-            <div class="col-xs-xuyong">
+        <div class="col-xs-xuyong">
                 <div class="col-xs-2">
                         <div id="menu-collapse">
                             <div class="title_style">
@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-xs-10">
         		</div>
-            </div>
+        </div>
         
         
         <!-- Placed at the end of the document so the pages load faster -->
