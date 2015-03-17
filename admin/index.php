@@ -50,6 +50,7 @@
             position:absolute;
             left:65px;
             font-weight:bold;
+            font-size:21px;
         }
         #username_info label{
             top:20px;
