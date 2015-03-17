@@ -56,7 +56,7 @@
             top:-25px;
         }
         #password_info label{
-            top:-10px;
+            top:-5px;
         }
         #user_info img{
             float:left;
