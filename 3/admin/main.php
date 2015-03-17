@@ -49,6 +49,22 @@
                    </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
+            <div class="col-xs-3">
+            	<div id="menu-collapse">
+                    <div>
+                        <h3><a href="#">First</a></h3>
+                        <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div>
+                        <h3><a href="#">Second</a></h3>
+                        <div>Phasellus mattis tincidunt nibh.</div>
+                    </div>
+                    <div>
+                        <h3><a href="#">Third</a></h3>
+                        <div>Nam dui erat, auctor a, dignissim quis.</div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--flat-ui's js begin-->
         <!--flat-ui's js end-->
