@@ -41,6 +41,7 @@ body{
 .fix_style{
 	border:none;
     border-radius:0;
+    overflow-y:hidden;
 }
 .title_style h3{
 	border:none;
