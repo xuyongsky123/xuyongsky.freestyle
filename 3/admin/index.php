@@ -69,6 +69,9 @@
         #username_info{
             margin-top:45px;
         }
+        #password_info{
+            margin-top:
+        }
 	</style>
     </head>
     <body>
