@@ -29,14 +29,10 @@
         <div class="col-xs-12 col-xs-xuyong">
             <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
                 <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-                    <span class="sr-only">Toggle navigation</span>
-                  </button>
-                  <a class="navbar-brand" href="#">Flat UI</a>
+                  <a class="navbar-brand" href="#">Free Style</a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbar-collapse-01">
+                <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
                   <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#fakelink">Menu Item<span class="navbar-unread">1</span></a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages <b class="caret"></b></a>
                       <span class="dropdown-arrow"></span>
@@ -48,15 +44,7 @@
                         <li><a href="#">Separated link</a></li>
                       </ul>
                     </li>
-                    <li><a href="#fakelink">About Us</a></li>
                    </ul>
-                   <form class="navbar-form navbar-right" action="#" role="search">
-                    <div class="form-group">
-                      <div class="input-group">
-                          登录显示
-                      </div>
-                    </div>
-                  </form>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
