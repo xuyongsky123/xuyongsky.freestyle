@@ -71,7 +71,7 @@
                       </li>
                     </ul>
                   </div><!-- /.todo -->
-              </div><!-- /.col-xs-4 -->
+              </div><!-- /.col-xs-3 -->
          </div>
     </body>
 </html>
