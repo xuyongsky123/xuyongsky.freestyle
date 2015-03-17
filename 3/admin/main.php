@@ -63,7 +63,7 @@
             </nav><!-- /navbar -->
             <div class="col-xs-2">
             	<div id="menu-collapse">
-                    <div style="background:#34495e">
+                    <div class="title_style">
                         <h3><a href="#">First</a></h3>
                         <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
                     </div>
