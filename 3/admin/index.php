@@ -67,7 +67,6 @@
                 	<div id="user_info">
                         <div id="username_info">
                         	<label>Username:</label>
-                            <br />
                             <img src="./images/user.png" /><input id="login_username" type="text" name="user" maxlength="32" placeholder="Username" />
                         </div>
                         <div id="password_info">
