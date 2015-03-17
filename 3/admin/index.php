@@ -63,6 +63,9 @@
             width:20px;
             margin-left:65px;
         }
+        #user_info input{
+            float:left;
+        }
 	</style>
     </head>
     <body>
