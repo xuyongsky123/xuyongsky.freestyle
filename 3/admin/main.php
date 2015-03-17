@@ -2,22 +2,40 @@
 <html long="zh-CN">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        
-        <!--bootstrap_begin-->
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <!-- Bootstrap -->
-            <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" />
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="../js/jquery-1.9.1.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="../js/bootstrap_js/bootstrap.min.js"></script>
-            
-            
-            <!-- Loading Flat UI -->
-            <link href="../css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet" />
-            <link href="../css/bootstrap_css/flat_ui_css/demo.css" rel="stylesheet" />
-        <!--bootstrap_end-->
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+
+        <link href="media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/style-metro.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/style.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+    
+        <link href="media/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+    
+        <!-- END GLOBAL MANDATORY STYLES -->
+    
+        <!-- BEGIN PAGE LEVEL STYLES --> 
+    
+        <link href="media/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/daterangepicker.css" rel="stylesheet" type="text/css" />
+    
+        <link href="media/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
+    
+        <link href="media/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen"/>
+    
+        <link href="media/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+    
+        <!-- END PAGE LEVEL STYLES -->
         
         	<link href="./css/main_style.css" rel="stylesheet" />
         
