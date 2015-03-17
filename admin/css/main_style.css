@@ -5,7 +5,7 @@
 .col-xs-xuyong .navbar-embossed > .navbar-collapse{
 	border-radius:0;
 }
-.col-xs-xuyong ul,.col-xs-xuyong li,.col-xs-xuyong a{
+.col-xs-xuyong ul,.col-xs-xuyong li,.col-xs-xuyong .dropdown-toggle a{
 	border-radius:0;
 }
 .nav_xuyong{
