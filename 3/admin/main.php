@@ -8,10 +8,6 @@
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <!-- Bootstrap -->
             <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" />
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="../js/jquery-1.9.1.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="../js/bootstrap_js/bootstrap.min.js"></script>
             
             
             <!-- Loading Flat UI -->
@@ -38,13 +34,6 @@
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
             <![endif]-->
 
-            <!-- Le fav and touch icons -->
-            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-            <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-            <link rel="shortcut icon" href="assets/ico/favicon.png">
-        
         <title>后台主界面</title>
         <style type="text/css">
         </style>	
@@ -93,8 +82,11 @@
         <!--flat-ui's js begin-->
         <!--flat-ui's js end-->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="assets/js/jquery-1.9.0.min.js" type="text/javascript"></script>
-        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="../js/jquery-1.9.1.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="../js/bootstrap_js/bootstrap.min.js"></script>
         <script src="assets/js/jquery-ui-1.10.0.custom.min.js" type="text/javascript"></script>
         <script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
         <script src="assets/js/docs.js" type="text/javascript"></script>
