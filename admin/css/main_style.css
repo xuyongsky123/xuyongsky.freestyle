@@ -5,6 +5,9 @@
 .col-xs-xuyong .navbar-embossed > .navbar-collapse{
 	border-radius:0;
 }
+.col-xs-xuyong .dropdown-menu{
+	border-radius:0;
+}
 .nav_xuyong{
 	float:right;
     padding-right:0;
