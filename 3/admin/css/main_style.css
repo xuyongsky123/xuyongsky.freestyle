@@ -1,12 +1,12 @@
-.col-xs-12{
+.col-xs-xuyong{
 	padding:0;
 }
 .demo-browser{
 	margin:0;
 }
-.col-xs-2_xuyong{
+.col-xs-xuyong .col-xs-2{
 	padding:0;
 }
-.col-xs-2_xuyong ul{
+.col-xs-xuyong .col-xs-2 ul{
 	border-radius:0;
 }
