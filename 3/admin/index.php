@@ -53,7 +53,7 @@
             font-size:21px;
         }
         #username_info label{
-            top:20px;
+            top:-25px;
         }
         #password_info label{
             top:75px;
