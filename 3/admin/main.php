@@ -21,7 +21,7 @@
         
         	<link href="./css/main_style.css" rel="stylesheet" />
         
-        <title>后台登陆界面</title>
+        <title>后台界面</title>
         <style type="text/css">
         </style>	
     </head>
