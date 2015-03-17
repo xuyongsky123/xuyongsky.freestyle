@@ -67,6 +67,7 @@
             float:left;
         }
         #username_info{
+            position:absolute;
             margin-top:45px;
         }
         #password_info{
