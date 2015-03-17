@@ -75,7 +75,7 @@
         }
         #password_info{
             position:absolute;
-            top:85px;
+            top:105px;
         }
         #loginButton{
             position:absolute;
