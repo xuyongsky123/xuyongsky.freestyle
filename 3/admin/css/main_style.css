@@ -38,7 +38,7 @@ body{
 }
 
 
-.navbar_xuyong a{
+.navbar_xuyong a.navbar-brand{
 	color:red;
 }
 
