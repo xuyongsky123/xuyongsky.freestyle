@@ -60,16 +60,16 @@ body{
 .col-xs-xuyong{
 	padding:0;
 }
-.col-xs-2-xuyong .col-xs-2{
+.col-xs-xuyong .col-xs-2{
 	padding:0;
 }
-.col-xs-2-xuyong .col-xs-2 ul{
+.col-xs-xuyong .col-xs-2 ul{
 	border-radius:0;
 }
-.col-xs-2-xuyong .todo{
+.col-xs-xuyong .todo{
 	border-radius:0;
 }
-.col-xs-2-xuyong .todo-search{
+.col-xs-xuyong .todo-search{
 	border-radius:0;
 }
 
