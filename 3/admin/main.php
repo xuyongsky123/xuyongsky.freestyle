@@ -83,7 +83,12 @@
                             </div>
                             <div class="title_style">
                                 <h3><a href="#">大学电商专栏</a></h3>
-                                <div class="fix_style">开发中...</div>
+                                <div class="fix_style">
+                                    <div class="college_mall_item">商店信息管理</div>
+                                    <div class="college_mall_item">商品信息管理</div>
+                                    <div class="college_mall_item">订单信息管理</div>
+                                    <div class="college_mall_item">...</div>
+                                </div>
                             </div>
                         </div>
                 </div>
