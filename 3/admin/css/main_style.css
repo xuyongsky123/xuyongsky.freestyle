@@ -38,6 +38,11 @@ body{
 }
 
 
+.navbar_xuyong a{
+	color:red;
+}
+
+
 .fix_style{
 	border:none;
     border-radius:0;
