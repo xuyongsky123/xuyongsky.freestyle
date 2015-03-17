@@ -83,6 +83,9 @@
             left:0;
             bottom:0;
         }
+        #clear{
+            clear:both;
+        }
 	</style>
     </head>
     <body>
