@@ -77,6 +77,8 @@
                     </div>
                 </div>
             </div>
+            <div class="col-xs-10">
+            </div>
         </div>
         
         <!-- Placed at the end of the document so the pages load faster -->
