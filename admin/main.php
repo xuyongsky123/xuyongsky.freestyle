@@ -27,7 +27,7 @@
     </head>
     <body>
     	<div class="col-xs-12">
-            <div class="col-xs-3">
+            <div class="col-xs-2">
                   <div class="todo">
                     <div class="todo-search">
                       <input class="todo-search-field" type="search" value="" placeholder="Search" />
@@ -64,14 +64,5 @@
                         <div class="todo-icon fui-time"></div>
                         <div class="todo-content">
                           <h4 class="todo-name">
-                            Fix bug on a <strong>Website</strong>
-                          </h4>
-                          As soon as possible
-                        </div>
-                      </li>
-                    </ul>
-                  </div><!-- /.todo -->
-              </div><!-- /.col-xs-3 -->
-         </div>
-    </body>
-</html>
+                            Fix bug on a <strong>Web2ite</strong>
+                          <
