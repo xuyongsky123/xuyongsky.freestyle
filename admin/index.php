@@ -55,9 +55,13 @@
             <div id="right_container">
                 <form>
                 	<div id="user_info">
-                        <label>Username:</label><img src="./images/user.png" /><input id="login_username" type="text" name="user" maxlength="32" placeholder="Username" />
+                        <label>Username:</label>
                         <br />
-                        <label>Password:</label><img src="./images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
+                        <img src="./images/user.png" /><input id="login_username" type="text" name="user" maxlength="32" placeholder="Username" />
+                        <br />
+                        <label>Password:</label>
+                        <br />
+                        <img src="./images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
                     </div>
                     <div id="loginButton">
                         <input id="submit" type="submit" name="submit" value="登录" />
