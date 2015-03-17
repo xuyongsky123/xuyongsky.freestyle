@@ -79,7 +79,7 @@
                             </div>
                         </div>
                 </div>
-                <div class="col-xs-10">
+                <div class="">
         		</div>
         </div>
         
