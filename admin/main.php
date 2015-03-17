@@ -94,6 +94,9 @@
         	<script src="../js/bootrap_js/flat_ui_js/video.js"></script>
         	<script src="../js/bootrap_js/flat_ui_js/flat-ui.min.js"></script>
             <script src="../js/bootrap_js/flat_ui_js/application.js"></script>
+            <script>
+              videojs.options.flash.swf = "dist/js/vendors/video-js.swf"
+            </script>
         <!--flat-ui's js end-->
         
     </body>
