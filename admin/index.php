@@ -60,13 +60,16 @@
             <div id="right_container">
                 <form>
                 	<div id="user_info">
-                        <label>Username:</label>
-                        <br />
-                        <img src="./images/user.png" /><input id="login_username" type="text" name="user" maxlength="32" placeholder="Username" />
-                        <br />
-                        <label>Password:</label>
-                        <br />
-                        <img src="./images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
+                        <div id="username">
+                        	<label>Username:</label>
+                            <br />
+                            <img src="./images/user.png" /><input id="login_username" type="text" name="user" maxlength="32" placeholder="Username" />
+                        </div>
+                        <div id="password">
+                        	<label>Password:</label>
+                            <br />
+                            <img src="./images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
+                        </div>
                     </div>
                     <div id="loginButton">
                         <input id="submit" type="submit" name="submit" value="登录" />
