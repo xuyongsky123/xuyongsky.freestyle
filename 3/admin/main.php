@@ -92,7 +92,7 @@
                 
         <!--flat-ui's js begin-->
         <script src="../js/bootrap_js/flat_ui_js/flat-ui.min.js"></script>
-            <script src="docs/assets/js/application.js"></script>
+            <script src="../js/bootrap_js/flat_ui_js/application.js"></script>
         <!--flat-ui's js end-->
         
     </body>
