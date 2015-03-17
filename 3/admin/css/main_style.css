@@ -47,7 +47,9 @@ body{
 	border:none;
     border-radius:0;
 }
-
+.xuyong_width{
+	width:200px;
+}
 
 
 .col-xs-xuyong .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{
