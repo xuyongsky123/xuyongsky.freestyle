@@ -67,7 +67,7 @@
                         <div id="menu-collapse">
                             <div class="title_style">
                                 <h3><a href="#">毕业设计专栏</a></h3>
-                                <a>a标签</a>
+                                <a href="http://www.baidu.com">a标签</a>
                                 <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
                             </div>
                             <div class="title_style">
