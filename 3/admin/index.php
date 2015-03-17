@@ -56,6 +56,12 @@
         #password_info label{
             top:75px;
         }
+        #user_info img{
+            float:left;
+            display:block;
+            height:20px;
+            width:20px;
+        }
 	</style>
     </head>
     <body>
