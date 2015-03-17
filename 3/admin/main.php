@@ -54,7 +54,7 @@
             <div class="col-xs-2">
                   <div class="todo">
                     <div class="todo-search">
-                      <input class="todo-search-field" type="search" readonly="readonly" value="" placeholder="Search" />
+                      <input class="todo-search-field" type="search" value="" placeholder="Search" />
                     </div>
                     <ul>
                       <li class="todo-done">
@@ -97,6 +97,9 @@
         <!--flat-ui's js begin-->
         	<script src="../js/bootstrap_js/flat_ui_js/flat-ui.min.js"></script>
             <script src="../js/bootstrap_js/flat_ui_js/application.js"></script>
+            <script>
+              videojs.options.flash.swf = "dist/js/vendors/video-js.swf"
+            </script>
         <!--flat-ui's js end-->
         
     </body>
