@@ -26,7 +26,7 @@
         </style>	
     </head>
     <body>
-    	<div class="col-xs-12">
+    	<div class="col-xs-12 col-xs-xuyong">
             <div class="col-xs-2 col-xs-2_xuyong">
                   <div class="todo">
                     <div class="todo-search">
