@@ -49,8 +49,6 @@
                    </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
-        </div>
-    	<div class="col-xs-12 col-xs-xuyong">
             <div class="col-xs-2">
                   <div class="todo">
                     <div class="todo-search">
@@ -92,6 +90,9 @@
                     </ul>
                   </div><!-- /.todo -->
               </div><!-- /.col-xs-2 -->
+        </div>
+    	<div class="col-xs-12 col-xs-xuyong">
+            
          </div>
         
         <!--flat-ui's js begin-->
