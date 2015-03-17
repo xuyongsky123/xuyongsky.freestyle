@@ -25,15 +25,6 @@
     
         <!-- BEGIN PAGE LEVEL STYLES --> 
     
-        <link href="media/css/jquery.gritter.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/daterangepicker.css" rel="stylesheet" type="text/css" />
-    
-        <link href="media/css/fullcalendar.css" rel="stylesheet" type="text/css"/>
-    
-        <link href="media/css/jqvmap.css" rel="stylesheet" type="text/css" media="screen"/>
-    
-        <link href="media/css/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
     
         <!-- END PAGE LEVEL STYLES -->
         
