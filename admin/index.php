@@ -48,8 +48,13 @@
         }
         #user_info label{
             position:absolute;
-            top:65px;
             left:65px;
+        }
+        #username_info label{
+            top:10px;
+        }
+        #password_info label{
+            top:65px;
         }
 	</style>
     </head>
@@ -60,12 +65,12 @@
             <div id="right_container">
                 <form>
                 	<div id="user_info">
-                        <div id="username">
+                        <div id="username_info">
                         	<label>Username:</label>
                             <br />
                             <img src="./images/user.png" /><input id="login_username" type="text" name="user" maxlength="32" placeholder="Username" />
                         </div>
-                        <div id="password">
+                        <div id="password_info">
                         	<label>Password:</label>
                             <br />
                             <img src="./images/pwd.png" /><input id="login_password" type="password" name="pwd" maxlength="32" placeholder="Password" />
