@@ -26,6 +26,10 @@
 	padding:0;
     background-color:#34495e;
 }
+.col-xs-xuyong .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background-color:#34495e;
+    background-image:none;
+}
 	
 .col-xs-xuyong{
 	padding:0;
