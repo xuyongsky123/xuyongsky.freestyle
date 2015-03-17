@@ -49,6 +49,7 @@
         #user_info label{
             position:absolute;
             left:65px;
+            font-weight:bold;
         }
         #username_info label{
             top:20px;
