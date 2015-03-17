@@ -5,7 +5,7 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
 
-        <link href="media/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     
         <link href="media/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
     
