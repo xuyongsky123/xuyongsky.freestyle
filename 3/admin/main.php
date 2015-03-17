@@ -61,7 +61,7 @@
                    </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
-            <div class="col-xs-3">
+            <div class="col-xs-2">
             	<div id="menu-collapse">
                     <div>
                         <h3><a href="#">First</a></h3>
