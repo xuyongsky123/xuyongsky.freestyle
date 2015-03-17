@@ -129,7 +129,7 @@
             <div id="left_container"></div>
             <span id="line"></span>
             <div id="right_container">
-                <form  id="form_admin" name="form_admin" method="post" action="./login.php"  onsubmit="return checkUser()">
+                <form  id="form_admin" name="form_admin" method="post" action="./main.php"  onsubmit="return checkUser()">
                 	<div id="user_info">
                         <div id="username_info">
                         	<label>Username:</label>
