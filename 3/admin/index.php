@@ -24,7 +24,7 @@
             height:200px;
             width:500px;
             background:transparent;
-            margin-top:-200px;
+            margin-top:-100px;
             box-shadow:0px 0px 25px 12px #C0C0C0;
             border-radius:7px;
         }
