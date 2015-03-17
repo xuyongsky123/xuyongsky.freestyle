@@ -15,7 +15,7 @@
             
             
             <!-- Loading Flat UI -->
-        	<link href="../admin/css/flat-ui.css" rel="stylesheet" />
+            <link href="../css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet" />
             <link href="../css/bootstrap_css/flat_ui_css/demo.css" rel="stylesheet" />
         <!--bootstrap_end-->
         
