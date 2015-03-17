@@ -66,6 +66,9 @@
         #user_info input{
             float:left;
         }
+        #username_info{
+            margin-top:20px;
+        }
 	</style>
     </head>
     <body>
