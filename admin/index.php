@@ -87,7 +87,9 @@
         #clear{
             clear:both;
         }
-        input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{
+        input:-webkit-autofill,
+    textarea:-webkit-autofill,
+    select:-webkit-autofill{
         	background-color:transparent;
         }
 	</style>
