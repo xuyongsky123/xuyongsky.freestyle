@@ -36,6 +36,10 @@
 	border:none;
     border-radius:0;
 }
+.title_style h3{
+	border:none;
+    border-radius:0;
+}
 
 .col-xs-xuyong .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{
 	color:white;
