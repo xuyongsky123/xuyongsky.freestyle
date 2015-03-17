@@ -97,6 +97,7 @@ nav.navbar{
 .content_container{
 	width:100%;
     height:500px;
+    margin-left:225px;
     background:white;
 }
 
