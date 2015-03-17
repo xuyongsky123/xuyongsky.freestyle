@@ -27,7 +27,9 @@
     </head>
     <body>
         <div class="col-xs-12 col-xs-xuyong">
-        	
+            <nav>
+            	
+            </nav>
         </div>
     	<div class="col-xs-12 col-xs-xuyong">
             <div class="col-xs-2">
