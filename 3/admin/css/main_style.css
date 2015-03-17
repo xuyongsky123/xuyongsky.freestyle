@@ -19,7 +19,9 @@
 .col-xs-xuyong .navbar-inverse .navbar-nav > .open > .dropdown-menu > .divider{
 	margin:0;
 }
-
+.col-xs-xuyong .navbar-nav > li > .dropdown-menu{
+	margin-top:0;
+}
 	
 .col-xs-xuyong{
 	padding:0;
