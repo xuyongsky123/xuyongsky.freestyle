@@ -48,7 +48,7 @@
         }
         #user_info label{
             position:absolute;
-            left:65px;
+            left:45px;
             font-weight:bold;
             font-size:21px;
         }
@@ -63,7 +63,7 @@
             display:block;
             height:20px;
             width:20px;
-            margin-left:65px;
+            margin-left:45px;
         }
         #user_info input{
             float:left;
