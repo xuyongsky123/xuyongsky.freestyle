@@ -91,7 +91,6 @@
                             Fix bug on a <strong>Web2ite</strong>
                 
         <!--flat-ui's js begin-->
-        	<script src="../js/bootrap_js/flat_ui_js/video.js"></script>
         	<script src="../js/bootrap_js/flat_ui_js/flat-ui.min.js"></script>
             <script src="../js/bootrap_js/flat_ui_js/application.js"></script>
             <script>
