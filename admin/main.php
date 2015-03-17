@@ -75,15 +75,15 @@
                             </div>
                             <div class="title_style">
                                 <h3><a href="#">毕业设计专栏</a></h3>
-                                <div class="fix_style">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+                                <div class="fix_style">开发中...</div>
                             </div>
                             <div class="title_style">
                                 <h3><a href="#">博客文章专栏</a></h3>
-                                <div class="fix_style">Phasellus mattis tincidunt nibh.</div>
+                                <div class="fix_style">开发中...</div>
                             </div>
                             <div class="title_style">
                                 <h3><a href="#">大学电商专栏</a></h3>
-                                <div class="fix_style">Nam dui erat, auctor a, dignissim quis.</div>
+                                <div class="fix_style">开发中...</div>
                             </div>
                         </div>
                 </div>
