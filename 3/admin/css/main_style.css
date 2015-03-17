@@ -39,7 +39,7 @@
 .title_style h3,.title_style h3 a{
 	border:none;
     border-radius:0;
-    box-shadow:none;
+    box-shadow:none !important;
 }
 
 .col-xs-xuyong .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{
