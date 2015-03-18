@@ -103,6 +103,7 @@ nav.navbar{
     height:100%;
     margin-left:225px;
     background:white;
+    overflow:hidden;
     
     position:absolute;
     margin-top:53px;
