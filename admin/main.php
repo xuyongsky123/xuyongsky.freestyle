@@ -95,6 +95,20 @@
                         </div>
                 </div>
                 <div class="content_container">
+                    <script type="text/javascript">
+                        $(function(){
+                            $(".college_mall_item").click(function(){
+                                $.ajax({
+                                    type:'POST';
+                                    url:'./main.php';
+                                    cache:false;
+                                    success:function(data){
+                                		$(".content_container").html(data);
+                                	};
+                                });
+                            });
+                        });
+                    </script>
         		</div>
         </div>
         
