@@ -101,12 +101,10 @@ nav.navbar{
 .content_container{
 	width:90%;
     height:90%;
-    margin-left:225px;
     background:white;
     overflow:hidden;
     
     position:absolute;
-    margin-top:53px;
 }
 
 #iframe{
