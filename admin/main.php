@@ -62,7 +62,7 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-        <div class="col-xs-xuyong col-xs-fix">
+        <div class="col-xs-xuyong">
                 <div class="col-xs-2 xuyong_width">
                         <div id="menu-collapse">
                             <div class="title_style">
