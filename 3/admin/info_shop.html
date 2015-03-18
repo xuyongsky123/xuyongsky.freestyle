@@ -17,7 +17,7 @@
                 });
                 alert(events);
                 
-                $.getJSON("server.php",data, function(json){  
+                $.getJSON("./info_shop_show.php",data, function(json){  
                     $("body").html(json.name); 
                     $("body").html(json.sex); 
                     $("body").html(json.tel); 
