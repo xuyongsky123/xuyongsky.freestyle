@@ -52,7 +52,7 @@
 	
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
