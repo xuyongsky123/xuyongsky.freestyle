@@ -53,7 +53,7 @@
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
                   <ul class="nav navbar-nav navbar-left">
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Messages <b class="caret"></b></a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $_SESSION['username']; ?>Messages <b class="caret"></b></a>
                       <span class="dropdown-arrow"></span>
                       <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
