@@ -111,6 +111,7 @@ nav.navbar{
 .college_mall_item a{
 	color:#fff;
     font-size:15px;
+    margin-left:23px;
 }
 .college_mall_item a:hover{
 	color:#CCFFFF;
