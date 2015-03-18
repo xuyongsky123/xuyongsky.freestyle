@@ -5,7 +5,7 @@ if(isset($_SESSION['username_adminuserfixpassword__'])){
 }else{
 ?>
 <!DOCTYPE html>
-<html long="zh-CN">
+<html lang="zh-CN">
     <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
