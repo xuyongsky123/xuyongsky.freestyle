@@ -95,7 +95,7 @@
                         </div>
                 </div>
                 <div class="content_container">
-                    <iframe src="" id="iframe" name="college_mall">您的浏览器尚不支持iframe标签，请使用其他类型浏览器来浏览本页面...</iframe>
+                    <iframe src="" id="iframe" name="college_mall" scrolling="no">您的浏览器尚不支持iframe标签，请使用其他类型浏览器来浏览本页面...</iframe>
         		</div>
         </div>
         
