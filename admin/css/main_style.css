@@ -52,6 +52,7 @@ body{
     height:auto !important;
     background-color:#222;
     color:white;
+    line-height:25px;
 }
 .title_style h3{
 	border:none;
