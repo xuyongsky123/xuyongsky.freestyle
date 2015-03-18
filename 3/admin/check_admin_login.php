@@ -39,7 +39,7 @@
 					$_SESSION['username']=$user;
 					$_SESSION['id']=$result[0]['id'];
                     
-                    echo "<script language='javascript'>window.location.href='./index.php';</script>";
+                    echo "<script language='javascript'>window.location.href='./main.php';</script>";
                     //header('refresh:0;url=./index.php');
                     //exit;	
 				}
