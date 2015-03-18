@@ -20,13 +20,7 @@
         	
     </head>
     <body>
-        <script type="text/javascript">
-            $(function(){
-                $("#select_shop").bind("click",function(){
-                    alert("test");
-                });
-            });
-        </script>
+        
         <div id="tabs">
             <ul>
                 <li><a href="#tabs-a">查询商店信息</a></li>
@@ -50,6 +44,13 @@
         <script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
         <script src="assets/js/docs.js" type="text/javascript"></script>
         <script src="assets/js/demo.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function(){
+                $("#select_shop").bind("click",function(){
+                    alert("test");
+                });
+            });
+        </script>
     </body>    
 <html>
     
