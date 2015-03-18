@@ -63,7 +63,7 @@
             </nav><!-- /navbar -->
         </div>
         <div class="col-xs-xuyong">
-                <div class="col-xs-2">
+                <div class="col-xs-2 xuyong_width">
                         <div id="menu-collapse">
                             <div class="title_style">
                                 <h3><a href="#">网站用户管理</a></h3>
