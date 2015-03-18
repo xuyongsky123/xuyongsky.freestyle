@@ -84,11 +84,11 @@
                             <div class="title_style">
                                 <h3><a href="#">大学电商专栏</a></h3>
                                 <div class="fix_style">
-                                    <div class="college_mall_item"><a href="./shop_info.html" id="shop_info" name="shop_info.html" target="college_mall">商店信息管理</a></div>
-                                    <div class="college_mall_item"><a href="./goods_info.html" id="goods_info" name="goods_info.html" target="college_mall">商品信息管理</a></div>
-                                    <div class="college_mall_item"><a href="./user_info.html" id="user_info" name="user_info.html" target="college_mall">用户信息管理</a></div>
-                                    <div class="college_mall_item"><a href="./member_info.html" id="member_info" name="member_info.html" target="college_mall">会员信息管理</a></div>
-                                    <div class="college_mall_item"><a href="./order_info.html" id="order_info" name="order_info.html" target="college_mall">订单信息管理</a></div>
+                                    <div class="college_mall_item"><a href="./info_shop.html" id="info_shop" name="info_shop.html" target="college_mall">商店信息管理</a></div>
+                                    <div class="college_mall_item"><a href="./info_goods.html" id="info_goods" name="info_goods.html" target="college_mall">商品信息管理</a></div>
+                                    <div class="college_mall_item"><a href="./info_user.html" id="info_user" name="info_user.html" target="college_mall">用户信息管理</a></div>
+                                    <div class="college_mall_item"><a href="./info_member.html" id="info_member" name="info_member.html" target="college_mall">会员信息管理</a></div>
+                                    <div class="college_mall_item"><a href="./info_order.html" id="info_order" name="info_order.html" target="college_mall">订单信息管理</a></div>
                                     <div class="college_mall_item">...</div>
                                 </div>
                             </div>
