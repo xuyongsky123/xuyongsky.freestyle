@@ -1,5 +1,5 @@
-<?php 
-	$arr = array(    
+<?php    
+    $arr = array(    
         'name' => '陈毅鑫',    
         'nick' => '深空',    
         'contact' => array(    
@@ -8,7 +8,5 @@
         )    
     );    
     $json_string = json_encode($arr);    
-    echo $json_string; 
-?>
-
-
+    echo "getProfile($json_string)";    
+?>  
