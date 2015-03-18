@@ -14,10 +14,10 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <!-- Bootstrap -->
-            <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" />
             
             
             <!-- Loading Flat UI -->
+            <link href="../css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet" />
             <link href="../css/bootstrap_css/flat_ui_css/demo.css" rel="stylesheet" />
         <!--bootstrap_end-->
         
