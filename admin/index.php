@@ -1,3 +1,9 @@
+<?php
+	session_start();
+if(isset($_SESSION['username'])){
+	echo "<script language='javascript'>alert('You loged ! Continue...');window.location.href='./main.php';</script>";
+}
+?>
 <!DOCTYPE html>
 <html long="zh-CN">
     <head>
