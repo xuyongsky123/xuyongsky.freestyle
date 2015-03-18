@@ -2,7 +2,7 @@
 	session_start();
 if(isset($_SESSION['username'])){
 	echo "<script language='javascript'>alert('You loged ! Continue...');window.location.href='./main.php';</script>";
-}
+}else{
 ?>
 <!DOCTYPE html>
 <html long="zh-CN">
@@ -329,3 +329,6 @@ if(isset($_SESSION['username'])){
         <!--HTML5背景动态云效果-End-->
     </body>
 </html>
+<?php
+}
+?>
