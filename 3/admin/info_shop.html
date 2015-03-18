@@ -7,15 +7,6 @@
     <body>
         <script type="text/javascript">
         	$(document).ready(function(){
-                var events = [];
-                $.ajax({
-                    url:"./info_shop_show.php",
-                    async:false,
-                    success: function (data) {
-                        events = data;
-                    }
-                });
-                alert(events);
                 
                 $.getJSON("./info_shop_show.php",data, function(json){  
                     $("body").html(json.name); 
