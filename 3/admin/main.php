@@ -84,8 +84,8 @@
                             <div class="title_style">
                                 <h3><a href="#">大学电商专栏</a></h3>
                                 <div class="fix_style">
-                                    <div class="college_mall_item">商店信息管理</div>
-                                    <div class="college_mall_item">商品信息管理</div>
+                                    <div class="college_mall_item"><a href="#tabs-a">商店信息管理</a></div>
+                                    <div class="college_mall_item"><a href="#tabs-a">商品信息管理</a></div>
                                     <div class="college_mall_item">用户信息管理</div>
                                     <div class="college_mall_item">会员信息管理</div>
                                     <div class="college_mall_item">订单信息管理</div>
