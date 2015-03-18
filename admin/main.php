@@ -1,7 +1,7 @@
 <?php  
 	session_start();
 if(!isset($_SESSION['username'])){
-	echo "<script language='javascript'>alert('请先登录...');window.location.href='./main.php';</script>";
+	echo "<script language='javascript'>alert('请先登录...');window.location.href='./index.php';</script>";
 }
 ?>
 <!DOCTYPE html>
