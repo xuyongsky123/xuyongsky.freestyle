@@ -62,10 +62,9 @@
                         <li class="divider"></li>
                         <li><a href="#">Something else here</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li><a href='.$_server["DOCUMENT_ROOT"].'"/login.php?action=logout">注销</a></li>
                       </ul>
                     </li>
-                    <li><a href="#fakelink">About Us</a></li>
                    </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
