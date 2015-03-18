@@ -15,6 +15,7 @@
     //上面是循环结束，$arr5里的是那些code, name, addr, col4的数据
     $arr2 = array('total'=>"239", 'rows'=>$arr5);
      echo json_encode($arr2);
+	echo "test";
 ?>
 
 
