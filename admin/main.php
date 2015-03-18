@@ -65,6 +65,7 @@
                         <li><a href="#">Separated link</a></li>
                       </ul>
                     </li>
+                    <li><a href="#fakelink">About Us</a></li>
                    </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
