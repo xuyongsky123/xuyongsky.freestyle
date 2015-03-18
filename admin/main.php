@@ -95,7 +95,7 @@
                         </div>
                 </div>
                 <div class="content_container">
-                    <iframe>
+                    <iframe src="" id="iframe" name="i"></iframe>
         		</div>
         </div>
         
