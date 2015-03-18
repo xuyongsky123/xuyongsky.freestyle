@@ -11,7 +11,7 @@
 	if(isset($_GET['action'])){
 		//注销登录
 		if($_GET['action'] == "logout"){
-	    unset($_SESSION['username']);
+	    unset($_SESSION['username_adminuserfixpassword__']);
 	    unset($_SESSION['id']);
             //echo '注销登录成功！点击此处 <a href="./login.html">登录</a>';
 	    //exit;
@@ -36,7 +36,7 @@
 				if(!$result){
 					echo "<script language='javascript'>alert('username and password wrong');history.back();</script>";
 				}else{
-					$_SESSION['username']=$user;
+					$_SESSION['username_adminuserfixpassword__']=$user;
 					$_SESSION['id']=$result[0]['id'];
                     
                     echo "<script language='javascript'>window.location.href='./main.php';</script>";
