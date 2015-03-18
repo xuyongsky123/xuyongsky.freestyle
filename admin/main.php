@@ -89,7 +89,7 @@
                                     <div class="college_mall_item"><a href="./info_user.html" id="info_user" name="info_user.html" target="college_mall">用户信息管理</a></div>
                                     <div class="college_mall_item"><a href="./info_member.html" id="info_member" name="info_member.html" target="college_mall">会员信息管理</a></div>
                                     <div class="college_mall_item"><a href="./info_order.html" id="info_order" name="info_order.html" target="college_mall">订单信息管理</a></div>
-                                    <div class="college_mall_item">...</div>
+                                    <div class="college_mall_item"><a href="#" id="info_order" name="info_order.html" target="college_mall">...</a></div>
                                 </div>
                             </div>
                         </div>
