@@ -105,7 +105,16 @@
                     <iframe src="" id="iframe" name="college_mall" scrolling="no">您的浏览器尚不支持iframe标签，请使用其他类型浏览器来浏览本页面...</iframe>
         		</div>
         </div>
-        
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-a">First</a></li>
+                <li><a href="#tabs-b">Second</a></li>
+                <li><a href="#tabs-c">Third</a></li>
+            </ul>
+            <div id="tabs-a">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat......</div>
+            <div id="tabs-b">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.....</div>
+            <div id="tabs-c">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
+        </div> 
         
         <!-- Placed at the end of the document so the pages load faster -->
         
