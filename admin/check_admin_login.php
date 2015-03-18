@@ -10,7 +10,7 @@
 
 	if(isset($_GET['action'])){
 		//注销登录
-		if($_GET['action'] == "logout"){
+		if($_GET['action'] == "logout_admin"){
 	    unset($_SESSION['username_adminuserfixpassword__']);
 	    unset($_SESSION['id']);
             //echo '注销登录成功！点击此处 <a href="./login.html">登录</a>';
