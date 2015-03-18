@@ -1,6 +1,6 @@
 <?php
 	session_start();
-if(isset($_SESSION['username'])){
+if(isset($_SESSION['username_adminuserfixpassword__'])){
 	echo "<script language='javascript'>alert('You loged ! Continue...');window.location.href='./main.php';</script>";
 }else{
 ?>
