@@ -84,7 +84,7 @@
                             <div class="title_style">
                                 <h3><a href="#">大学电商专栏</a></h3>
                                 <div class="fix_style">
-                                    <div class="college_mall_item">商店信息管理</div>
+                                    <div class="college_mall_item"><a href="a1.html" id="a1" name="a1.html" target="i">商店信息管理</a></div>
                                     <div class="college_mall_item">商品信息管理</div>
                                     <div class="college_mall_item">用户信息管理</div>
                                     <div class="college_mall_item">会员信息管理</div>
@@ -95,20 +95,7 @@
                         </div>
                 </div>
                 <div class="content_container">
-                    <script type="text/javascript">
-                        $(function(){
-                            $(".college_mall_item").click(function(){
-                                $.ajax({
-                                    type:'POST';
-                                    url:'./main.php';
-                                    cache:false;
-                                    success:function(data){
-                                		$(".content_container").html(data);
-                                	};
-                                });
-                            });
-                        });
-                    </script>
+                    <iframe>
         		</div>
         </div>
         
