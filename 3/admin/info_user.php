@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
-        <title>商店信息管理</title>
+        <title>用户信息管理</title>
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
             <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" />
             
