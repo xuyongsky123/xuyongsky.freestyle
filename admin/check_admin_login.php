@@ -37,7 +37,7 @@
 					echo "<script language='javascript'>alert('username and password wrong');history.back();</script>";
 				}else{
 					$_SESSION['username_adminuserfixpassword__']=$user;
-					$_SESSION['id_username_adminuserfixpassword__']=$result[0]['id'];
+					$_SESSION['id_adminuserfixpassword__']=$result[0]['id'];
                     
                     echo "<script language='javascript'>window.location.href='./main.php';</script>";
                     //header('refresh:0;url=./index.php');
