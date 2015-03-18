@@ -110,6 +110,9 @@ nav.navbar{
 .college_mall_item a{
 	color:#fff;
 }
+.college_mall_item a:hover{
+	color:#CCFFFF
+}
 
 
 
