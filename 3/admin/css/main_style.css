@@ -102,6 +102,9 @@ nav.navbar{
     height:750px;
     margin-left:225px;
     background:white;
+    
+    position:absolute;
+    margin-top:53px;
 }
 
 #iframe{
