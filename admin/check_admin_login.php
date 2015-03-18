@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	header("Content-Type=text/html;charset=UTF-8");
+	header("Content-Type=text/html;charset=gb2312");
     
 /*$path='/session_files/';
     if(!is_dir($path)){
