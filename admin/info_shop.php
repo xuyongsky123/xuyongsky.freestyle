@@ -4,12 +4,12 @@
     	
     </head>
     <body>
-    	<div id="tabs">
+    	<div id="group_item">
             <ul>
-                <li><a href="#tabs-a">查询商店信息</a></li>
-                <li><a href="#tabs-b">修改商店信息</a></li>
-                <li><a href="#tabs-c">增加商店信息</a></li>
-                <li><a href="#tabs-d">删除商店信息</a></li>
+                <li><a href="#tabs-a" rel="select_item">查询商店信息</a></li>
+                <li><a href="#tabs-b" rel="modify_item">修改商店信息</a></li>
+                <li><a href="#tabs-c" rel="add_item">增加商店信息</a></li>
+                <li><a href="#tabs-d" rel="delete_item">删除商店信息</a></li>
             </ul>
             <div id="tabs-a">
                 <a href="http://www.baidu.com" id="select_shop">按钮<?php echo $_SESSION['username_adminuserfixpassword__']; ?></a>
