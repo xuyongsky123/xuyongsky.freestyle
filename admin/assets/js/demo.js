@@ -25,6 +25,8 @@ $(function () {
         //window.location.href=item;
         //alert(item);
     });
+    
+    $("#tabs").tabs();
     //edit by xuyong -end
     
     
