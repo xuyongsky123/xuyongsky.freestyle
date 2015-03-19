@@ -46,8 +46,8 @@
         <script type="text/javascript">
             $(function(){
             	$('.college_mall_item a').bind("click",function(){
-        alert("test");
-    });
+                alert("test");
+            });
             });
         </script>
     </head>
