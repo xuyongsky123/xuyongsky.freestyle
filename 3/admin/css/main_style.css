@@ -181,6 +181,7 @@ nav.navbar{
     min-width:750px;
     margin-top:15px;
     margin-bottom:0;
+    border-bottom:1px solid #99FFCC;
 }
 .item_ul li{
 	display:inline-block;
