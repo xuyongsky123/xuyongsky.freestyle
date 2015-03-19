@@ -99,23 +99,7 @@
                                     <div class="college_mall_item"><a href="#" id="info_user" name="info_user.php">用户信息管理</a></div>
                                     <div class="college_mall_item"><a href="#" id="info_member" name="info_member.php">会员信息管理</a></div>
                                     <div class="college_mall_item"><a href="#" id="info_order" name="info_order.php">订单信息管理</a></div>
-                                    <div class="college_mall_item">
-                                        <a href="#" id="info_order" name="">...</a>
-                                        <div class="menu-collapse">
-                                            <div>
-                                                <h3>title1</h3>
-                                                <div>item1</div>
-                                            </div>
-                                            <div>
-                                                <h3>title2</h3>
-                                                <div>item2</div>
-                                            </div>
-                                            <div>
-                                                <h3>title3</h3>
-                                                <div>item3</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <div class="college_mall_item">...</div>
                                 </div>
                             </div>
                         </div>
