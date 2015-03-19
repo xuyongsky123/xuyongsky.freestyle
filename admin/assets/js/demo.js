@@ -20,7 +20,6 @@ $(function () {
     $(".college_mall_item a").bind("click",function(){
         var item=$(this).attr("name");
         $( "#action_container" ).load(item, function( response, status, xhr ) {
-          $('#action_container').html(response);
         });
         //window.location.href=item;
         //alert(item);
