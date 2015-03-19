@@ -16,7 +16,8 @@
         
         	<link type="text/css" href="./css/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
         
-        
+        	
+        	<link href="./css/main_style.css" rel="stylesheet" />
         	
     </head>
     <body>
