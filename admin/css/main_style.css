@@ -11,6 +11,9 @@ ul.xuyong-dropdown-menu{
     background-color:#222;
     color:#fff !important;
 }
+ul.xuyong-dropdown-menu a{
+	color:#fff !important;
+}
 #menu-button{
 	width:150px;
     height:53px;
