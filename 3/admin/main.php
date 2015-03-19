@@ -52,7 +52,7 @@
                   <a class="navbar-brand" href="#">Free Style</a>
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                      <button id="menu-button" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                         Action <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu xuyong-dropdown-menu" role="menu">
