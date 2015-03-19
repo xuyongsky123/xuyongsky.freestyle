@@ -24,9 +24,6 @@ $(function () {
         });
         //window.location.href=item;
         //alert(item);
-        $.getJSON(item,data, function(json){  
-            $("#action_container").html(item);
-       });  
     });
     //edit by xuyong -end
     
