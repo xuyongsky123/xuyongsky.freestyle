@@ -12,7 +12,7 @@
     </head>
     <body>
     	<div id="group_item">
-            <ul>
+            <ul class="item_ul">
                 <li><a href="#tabs-a" class="item_click select_item" rel="select_item">查询商店信息</a></li>
                 <li><a href="#tabs-b" class="item_click modify_item" rel="modify_item">修改商店信息</a></li>
                 <li><a href="#tabs-c" class="item_click add_item" rel="add_item">增加商店信息</a></li>
