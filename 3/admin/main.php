@@ -103,15 +103,15 @@
                                         <a href="#" id="info_order" name="">...</a>
                                         <div class="menu-collapse">
                                             <div>
-                                                <h3></h3>
+                                                <h3>title1</h3>
                                                 <div>item1</div>
                                             </div>
                                             <div>
-                                                <h3></h3>
+                                                <h3>title2</h3>
                                                 <div>item2</div>
                                             </div>
                                             <div>
-                                                <h3></h3>
+                                                <h3>title3</h3>
                                                 <div>item3</div>
                                             </div>
                                         </div>
