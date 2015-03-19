@@ -127,7 +127,7 @@
             <script src="./assets/js/docs.js" type="text/javascript"></script>
             <script src="./assets/js/demo.js" type="text/javascript"></script>
         
-        <script src=".。/js/bootstrap_js/flat_ui_js/flat-ui.min.js"></script>
+        <script src="../js/bootstrap_js/flat_ui_js/flat-ui.min.js"></script>
             <script src="docs/assets/js/application.js"></script>
     </body>
 </html>
