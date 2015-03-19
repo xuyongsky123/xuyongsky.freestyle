@@ -99,7 +99,7 @@
                                     <div class="college_mall_item"><a href="#" id="info_user" name="info_user.php">用户信息管理</a></div>
                                     <div class="college_mall_item"><a href="#" id="info_member" name="info_member.php">会员信息管理</a></div>
                                     <div class="college_mall_item"><a href="#" id="info_order" name="info_order.php">订单信息管理</a></div>
-                                    <div class="college_mall_item">...</div>
+                                    <div class="college_mall_item"><a href="#" id="" name="">订单信息管理</a></div>
                                 </div>
                             </div>
                         </div>
