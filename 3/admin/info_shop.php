@@ -22,7 +22,5 @@
         <script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
         <script src="assets/js/docs.js" type="text/javascript"></script>
         <script src="assets/js/demo.js" type="text/javascript"></script>
-    </body>    
-<html>
     
     
