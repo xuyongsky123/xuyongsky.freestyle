@@ -1,5 +1,5 @@
 $(function(){
-	$("#test").bind("click",function(){
-    	alert("success!");
+	$(".item_click").bind("click",function(){
+    	
     });
 });
