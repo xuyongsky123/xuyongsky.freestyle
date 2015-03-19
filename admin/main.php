@@ -44,6 +44,11 @@
         <title>后台主界面</title>
         <style type="text/css">
         </style>	
+        <script type="text/javascript">
+    $("text").bind("click",function(){
+    	alert("success!");
+    });
+</script>
     </head>
     <body>
         <div class="col-xs-12 col-xs-xuyong">
