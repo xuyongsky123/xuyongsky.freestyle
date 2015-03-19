@@ -111,6 +111,8 @@
                 </div>
                 <div id="action_container" class="col-xs-10 content_container">
                     <!--<iframe src="" id="iframe" name="college_mall" scrolling="no">您的浏览器尚不支持iframe标签，请使用其他类型浏览器来浏览本页面...</iframe>-->
+                    
+                    <!--以下文件是用来引入样式文件和js文件，供该容器中的内容使用-->
                     <?php include('./js_file.php'); ?>
         		</div>
         </div>
