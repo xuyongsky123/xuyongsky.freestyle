@@ -54,7 +54,8 @@
                   <a class="navbar-brand" href="#">Free Style</a>
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
-                    <div class="btn-group">
+                  <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
                       <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                         Action <span class="caret"></span>
                       </button>
@@ -67,7 +68,8 @@
                         <li class="divider"></li>
                         <li><a href="./check_admin_login.php?action=logout_admin">注销</a></li>
                       </ul>
-                    </div>
+                    </li>
+                   </ul>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
