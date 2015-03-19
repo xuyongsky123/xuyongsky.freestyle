@@ -18,7 +18,7 @@
                 <li><a href="#tabs-c" class="item_click add_item" rel="add_item">增加商店信息</a></li>
                 <li><a href="#tabs-d" class="item_click delete_item" rel="delete_item">删除商店信息</a></li>
             </ul>
-            <div id="action_content">
+            <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
                     <a href="http://www.baidu.com" id="select_shop">按钮<?php echo $_SESSION['username_adminuserfixpassword__']; ?></a>
                     <div id="select_content"></div>
