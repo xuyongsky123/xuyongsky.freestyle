@@ -99,12 +99,12 @@
                                     <div class="college_mall_item"><a href="#" id="" name="" target="college_mall">...</a></div>
                                 </div>-->
                                 <div class="fix_style">
-                                    <div class="college_mall_item"><a id="info_shop" name="info_shop.php">商店信息管理</a></div>
-                                    <div class="college_mall_item"><a id="info_goods" name="info_goods.php">商品信息管理</a></div>
-                                    <div class="college_mall_item"><a id="info_user" name="info_user.php">用户信息管理</a></div>
-                                    <div class="college_mall_item"><a id="info_member" name="info_member.php">会员信息管理</a></div>
-                                    <div class="college_mall_item"><a id="info_order" name="info_order.php">订单信息管理</a></div>
-                                    <div class="college_mall_item"><a id="" name="" target="college_mall">...</a></div>
+                                    <div class="college_mall_item"><a href="#" id="info_shop" name="info_shop.php">商店信息管理</a></div>
+                                    <div class="college_mall_item"><a href="#" id="info_goods" name="info_goods.php">商品信息管理</a></div>
+                                    <div class="college_mall_item"><a href="#" id="info_user" name="info_user.php">用户信息管理</a></div>
+                                    <div class="college_mall_item"><a href="#" id="info_member" name="info_member.php">会员信息管理</a></div>
+                                    <div class="college_mall_item"><a href="#" id="info_order" name="info_order.php">订单信息管理</a></div>
+                                    <div class="college_mall_item"><a href="#" id="" name="" target="college_mall">...</a></div>
                                 </div>
                             </div>
                         </div>
