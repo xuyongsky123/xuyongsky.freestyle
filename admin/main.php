@@ -60,7 +60,7 @@
                         <li class="divider"></li>
                         <li><a href="#">Another action</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Something</a></li>
                         <li class="divider"></li>
                         <li><a href="./check_admin_login.php?action=logout_admin">注销</a></li>
                       </ul>
