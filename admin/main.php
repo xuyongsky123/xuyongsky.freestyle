@@ -122,9 +122,7 @@
             <script src="./assets/js/docs.js" type="text/javascript"></script>
             <script src="./assets/js/demo.js" type="text/javascript"></script>
         <script type="text/javascript">
-    $("text").bind("click",function(){
-    	alert("success!");
-    });
+    
 </script>
     </body>
 </html>
