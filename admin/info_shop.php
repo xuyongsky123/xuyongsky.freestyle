@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
-    	<script src="./js/action.js" type="text/javascript"></script>
+    	
     </head>
     <body>
     	<div id="tabs">
@@ -20,6 +20,7 @@
             <div id="tabs-d">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
         </div> 
         <div id="test" style="background:red;height:100px;width:100px;"></div>
+        <script src="./js/action.js" type="text/javascript"></script>
     </body>
 </html>
         
