@@ -56,6 +56,7 @@
                         Action <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu xuyong-dropdown-menu" role="menu">
+                        <li class="divider"></li>
                         <li><a href="#">Action</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Another action</a></li>
