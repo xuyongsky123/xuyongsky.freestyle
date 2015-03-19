@@ -4,6 +4,11 @@ body{
 }
 
 
+ul.xuyong-dropdown-menu{
+	position:static;
+}
+
+
 
 .col-xs-xuyong .navbar{
 	margin:0;
