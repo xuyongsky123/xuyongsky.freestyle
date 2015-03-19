@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <link href="../css/bootstrap_css/bootstrap.min.css" rel="stylesheet" />
             
             
