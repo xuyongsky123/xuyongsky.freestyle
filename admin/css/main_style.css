@@ -178,7 +178,7 @@ nav.navbar{
 
 .item_ul{
 	width:100%;
-    padding:1rem 2rem;
+    min-width:750px;
 }
 .item_ul li{
 	display:inline-block;
