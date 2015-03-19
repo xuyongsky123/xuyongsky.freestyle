@@ -55,7 +55,9 @@
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
                     <div class="btn-group">
-                      <span class="dropdown-arrow"></span>
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        Action <span class="caret"></span>
+                      </button>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Action</a></li>
                         <li class="divider"></li>
