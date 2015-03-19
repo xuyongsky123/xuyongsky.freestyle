@@ -183,6 +183,7 @@ nav.navbar{
 .item_ul li{
 	display:inline-block;
     text-decoration:none;
+    padding:0 2rem;
 }
 <!--大学电商栏目样式-end-->
 
