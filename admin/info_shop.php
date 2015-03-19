@@ -16,7 +16,7 @@
         </div> 
 <div id="test" style="background:red;height:100px;width:100px;"></div>
 <script type="text/javascript">
-    $("text").click(function(){alert("test");});
+    $("#text").click(function(){alert("test");});
 </script>
        
     
