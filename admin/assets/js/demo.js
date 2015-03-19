@@ -24,6 +24,16 @@ $(function () {
         });
         //window.location.href=item;
         //alert(item);
+        $.ajax( {
+                url: item, //这里是静态页的地址
+                type: "GET", //静态页用get方法，否则服务器会抛出405错误
+                success: function(data){
+                    var result = $(data).find("body");
+                    $("#action_container").html(result);
+        
+        
+                }
+        });
     });
     //edit by xuyong -end
     
