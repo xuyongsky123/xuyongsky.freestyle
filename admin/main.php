@@ -39,7 +39,10 @@
         
         
         	<link href="./css/main_style.css" rel="stylesheet" />
-
+			
+        	<?php include('./js_file.php') ?>
+        
+        
         <title>后台主界面</title>
         <style type="text/css">
         </style>	
@@ -128,7 +131,6 @@
             <script src="./assets/js/google-code-prettify/prettify.js" type="text/javascript"></script>
             <script src="./assets/js/docs.js" type="text/javascript"></script>
             <script src="./assets/js/demo.js" type="text/javascript"></script>
-        	<?php include('./js_file.php') ?>
     </body>
 </html>
 <?php
