@@ -21,13 +21,6 @@
         	
     </head>
     <body>
-        <script type="text/javascript">
-            $(function(){
-                $("#select_shop").bind("click",function(){
-                    alert("test");
-                });
-            });
-        </script>
         <div id="tabs">
             <ul>
                 <li><a href="#tabs-a">查询商店信息</a></li>
