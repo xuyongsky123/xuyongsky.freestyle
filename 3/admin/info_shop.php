@@ -21,7 +21,7 @@
         </div> 
         <div id="test" style="background:red;height:100px;width:100px;"></div>
         
-            <script src="../js/jquery-1.9.1.min.js"></script>
+        <script src="../js/jquery-1.9.1.min.js"></script>
         <script src="./js/action.js"></script>
     </body>
 </html>
