@@ -15,13 +15,14 @@ ul.xuyong-dropdown-menu{
     margin:0;
     padding:0;
 }
-.menu-button{
-    background-color:#222;
-	color:#fff;
-}
 .btn-default:hover, .btn-default.hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
 	background-color:#698B22;
     color:#fff;
+}
+
+.menu-button{
+    background-color:#222;
+	color:#fff;
 }
 
 
