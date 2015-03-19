@@ -16,7 +16,7 @@ ul.xuyong-dropdown-menu{
     padding:0;
     background-color:#222;
     border-radius:none;
-    
+    border:none;
 }
 #menu-button:hover{
 	background-color:#4EEE94;
