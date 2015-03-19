@@ -17,11 +17,6 @@ $(function () {
     
     
     
-    //edit by xuyong -begin
-    $('.college_mall_item a').bind("click",function(){
-        alert("test");
-    });
-    //edit by xuyong -end
 
     
     
