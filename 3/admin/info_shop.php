@@ -1,4 +1,4 @@
-
+<?php include('./js_file.php') ?>
         <div id="tabs">
             <ul>
                 <li><a href="#tabs-a">查询商店信息</a></li>
@@ -15,8 +15,5 @@
             <div id="tabs-d">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
         </div> 
         
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="assets/js/docs.js" type="text/javascript"></script>
-        <script src="assets/js/demo.js" type="text/javascript"></script>
     
     
