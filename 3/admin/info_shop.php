@@ -1,4 +1,4 @@
-<?php include('./js_file.php'); ?>
+
         <div id="tabs">
             <ul>
                 <li><a href="#tabs-a">查询商店信息</a></li>
@@ -16,4 +16,4 @@
         </div> 
         
     
-    
+    <?php include('./js_file.php'); ?>
