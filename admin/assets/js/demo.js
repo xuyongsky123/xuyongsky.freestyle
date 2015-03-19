@@ -26,7 +26,6 @@ $(function () {
         //alert(item);
     });
     
-    $("#tabs").tabs();
     //edit by xuyong -end
     
     
