@@ -54,9 +54,7 @@
                   <a class="navbar-brand" href="#">Free Style</a>
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
-                  <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">欢迎您，<?php echo $_SESSION['username_adminuserfixpassword__']; ?><b class="caret"></b></a>
+                    <div class="btn-group">
                       <span class="dropdown-arrow"></span>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Action</a></li>
@@ -67,8 +65,7 @@
                         <li class="divider"></li>
                         <li><a href="./check_admin_login.php?action=logout_admin">注销</a></li>
                       </ul>
-                    </li>
-                   </ul>
+                    </div>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
