@@ -19,21 +19,12 @@ $(function () {
     //edit by xuyong -begin
     $(".college_mall_item a").bind("click",function(){
         var item=$(this).attr("name");
-        //$( "#action_container" ).load(item, function( response, status, xhr ) {
-          //$('#action_container').html(response);
-        //});
+        $( "#action_container" ).load(item, function( response, status, xhr ) {
+          $('#action_container').html(response);
+        });
         //window.location.href=item;
         //alert(item);
-        $.ajax( {
-                url: item, //这里是静态页的地址
-                type: "GET", //静态页用get方法，否则服务器会抛出405错误
-                success: function(data){
-                    var result = $(data).find("body");
-                    $("#action_container").html(result);
         
-        
-                }
-        });
     });
     //edit by xuyong -end
     
