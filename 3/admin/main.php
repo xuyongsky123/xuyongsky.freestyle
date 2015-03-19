@@ -58,7 +58,7 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">欢迎您，<?php echo $_SESSION['username_adminuserfixpassword__']; ?><b class="caret"></b></a>
                       <span class="dropdown-arrow"></span>
-                      <ul class="dropdown-menu">
+                      <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Action</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Another action</a></li>
