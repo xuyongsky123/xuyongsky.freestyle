@@ -29,6 +29,10 @@ ul.xuyong-dropdown-menu{
 .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
 	border-radius:none;
 }
+.ui-corner-all{
+	border-radius:none !important;
+}
+
 .col-xs-xuyong .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
 	background-color:#222;
 }
