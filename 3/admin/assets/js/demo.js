@@ -24,9 +24,16 @@ $(function () {
         //});
         //window.location.href=item;
         //alert(item);
-        var footWrapxHTML=
-    	'<div id="action_container" style="margin-top:-90px"><div class="row-fluid"><div id="footer" class="span12">&copy;2014 <a href="#">XXX网络科技有限公司</a> 版权所有</div></div></div>';
-        $('#action_container').innerHTML=footWrapxHTML;
+        $.ajax( {
+                url: item, //这里是静态页的地址
+                type: "GET", //静态页用get方法，否则服务器会抛出405错误
+                success: function(data){
+                    var result = $(data).find("#tabs");
+                    $("#action_container").html(result);
+        
+        
+                }
+        });
     });
     //edit by xuyong -end
     
