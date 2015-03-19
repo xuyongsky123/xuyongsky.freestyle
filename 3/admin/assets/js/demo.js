@@ -15,12 +15,16 @@ $(function () {
         header: "h3"
     });
     
+    
+    
     //edit by xuyong -begin
     $('.college_mall_item a').bind("click",function(){
         alert("test");
     });
     //edit by xuyong -end
 
+    
+    
     // Dialog Link
     $('#dialog_link').click(function () {
         $('#dialog_simple').dialog('open');
