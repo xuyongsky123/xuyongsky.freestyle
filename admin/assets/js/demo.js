@@ -19,6 +19,7 @@ $(function () {
     //edit by xuyong -begin
     $(".college_mall_item a").bind("click",function(){
         var item=$(this).attr("name");
+        window.location.href=item;
     });
     //edit by xuyong -end
     
