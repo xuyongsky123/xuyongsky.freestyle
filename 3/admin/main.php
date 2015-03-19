@@ -43,6 +43,13 @@
         <title>后台主界面</title>
         <style type="text/css">
         </style>	
+        <script type="text/javascript">
+            $(function(){
+            	$('.college_mall_item a').bind("click",function(){
+        alert("test");
+    });
+            });
+        </script>
     </head>
     <body>
         <div class="col-xs-12 col-xs-xuyong">
