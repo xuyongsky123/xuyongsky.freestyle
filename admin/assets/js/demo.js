@@ -26,6 +26,10 @@ $(function () {
         //alert(item);
     });
     
+    $("text").bind("click",function(){
+    	alert("success!");
+    });
+    
     //edit by xuyong -end
     
     
