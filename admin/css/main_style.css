@@ -17,6 +17,9 @@ ul.xuyong-dropdown-menu{
     color:#fff;
     
 }
+.col-xs-xuyong .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background-color:#222;
+}
 .btn-default:hover, .btn-default.hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
 	background-color:#698B22;
     color:#fff;
