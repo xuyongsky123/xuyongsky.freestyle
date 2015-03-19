@@ -26,8 +26,6 @@ $(function () {
         //alert(item);
     });
     
-    
-    
     //edit by xuyong -end
     
     
