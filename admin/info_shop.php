@@ -28,7 +28,7 @@
                             <input name="shop_name" type="text" placeholder="商店名称"/>
                         </div>
                         <div class="search_container">
-                            <input name="shop_name" type="text" placeholder="店主名称"/>
+                            <input name="shop_keeper" type="text" placeholder="店主名称"/>
                         </div>
                         <div class="search_container">
                             <input name="shop_name" type="text" placeholder="商店类型名称"/>
