@@ -22,7 +22,6 @@
         <!--bootstrap_end-->
         
         	<link href="./css/main_style.css" rel="stylesheet" />
-        	<link href="./css/show_style.css" rel="stylesheet" />
         
         
         <title>管理商店操作界面</title>
