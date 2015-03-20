@@ -53,10 +53,7 @@
             var loaded=false;
             function getData(){
                 $.getJSON("./info_shop_show.php",$("#search_form").serialize(), function(json){  
-                    $("#name").html(json.name); 
-                    $("#sex").html(json.sex); 
-                    $("#tel").html(json.tel); 
-                    $("#email").html(json.email); 
+                    alert(data); 
                });
                 if(!loaded){
                 	alert("running");
