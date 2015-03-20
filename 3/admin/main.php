@@ -24,6 +24,7 @@
         
         <!-- Le styles -->
         
+        	<link type="text/css" href="./css/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
             <!--[if IE 7]>
             <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
             <![endif]-->
