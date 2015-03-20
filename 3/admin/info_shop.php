@@ -42,9 +42,27 @@
                     </form>
             	</div>
                 <div id="modify_item" class="group_content">
-                	
+                	开发中...
                 </div>
-                <div id="add_item" class="group_content">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
+                <div id="add_item" class="group_content">
+                	<form id="search_form" action="./info_shop_show.php" method="post">
+                        
+                        <input name="shop_identify" type="hidden" value="shop_select_item" />
+                        
+                    	<div class="search_container">
+                            <input name="shop_name" type="text" placeholder="商店名称"/>
+                        </div>
+                        <div class="search_container">
+                            <input name="shop_keeper" type="text" placeholder="店主名称"/>
+                        </div>
+                        <div class="search_container">
+                            <input name="shop_type" type="text" placeholder="商店类型名称"/>
+                        </div>
+                        <div class="search_container">
+                            <input name="submit" type="submit" value="添加商店"/>
+                        </div>
+                    </form>
+                </div>
                 <div id="delete_item" class="group_content">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
             </div>
         </div> 
