@@ -45,6 +45,7 @@
         
         <script src="../js/jquery-1.9.1.min.js"></script>
         <script src="./js/action.js"></script>
+        
         <script type="text/javascript">
             function getData(){
                 alert("running");
@@ -59,7 +60,7 @@
                         alert("查询出错，请重新查询...");
                     },
                     success: function(data) {
-                        $("#action_content").parent().html(data);
+                        $("#action_content").html(data);
                     }
                 });
             }
