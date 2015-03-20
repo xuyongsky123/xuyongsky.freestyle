@@ -47,6 +47,7 @@
         <script src="./js/action.js"></script>
         <script type="text/javascript">
             function getData(){
+                alert("running")
                 $("#search_form").submit();
                 $.ajax({
                 cache: true,
