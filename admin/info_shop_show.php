@@ -14,8 +14,13 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <!-- Bootstrap -->
+            
+            
+            <!-- Loading Flat UI -->
+            <link href="../css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet" />
+        <!--bootstrap_end-->
         
-        	<link type="text/css" href="./css/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+        <!-- Le styles -->
             <!--[if IE 7]>
             <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
             <![endif]-->
