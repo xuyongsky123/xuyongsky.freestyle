@@ -2,7 +2,7 @@
 	session_start();
 	header("Content-Type=text/html;charset=utf-8");
     if(!isset($_SESSION['username_adminuserfixpassword__'])){
-        echo "<script language='javascript'>alert('请先登录...');window.location.href='./index.php';</script>";
+        echo "<script language='javascript'>alert('Please login...');window.location.href='./index.php';</script>";
     }else{
 ?>
 <!DOCTYPE html>
