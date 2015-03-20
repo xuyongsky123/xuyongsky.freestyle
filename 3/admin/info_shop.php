@@ -10,6 +10,24 @@
                 display:block;
             }
         </style>
+        <script type="text/javascript">
+            function getData(){
+                $("#search_form").submit();
+                $.ajax({
+                cache: true,
+                type: "POST",
+                    url:"./info_shop_show.php",
+                data:$('#search_form').serialize(),// 你的formid
+                async: false,
+                error: function(request) {
+                    alert("Connection error");
+                },
+                success: function(data) {
+                    $("#commonLayout_appcreshi").parent().html(data);
+                }
+            });
+            }
+        </script>
     </head>
     <body>
     	<div id="group_item">
@@ -21,7 +39,7 @@
             </ul>
             <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
-                    <form action="./info_shop_show.php" method="post"  target="_self">
+                    <form id="search_form" onsubmit="getData();">
                     	<div class="search_container">
                             <input name="shop_name" type="text" placeholder="商店名称"/>
                         </div>
