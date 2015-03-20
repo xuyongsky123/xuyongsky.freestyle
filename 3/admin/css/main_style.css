@@ -201,7 +201,7 @@ nav.navbar{
 .action_content{
 	padding:1.2rem 1.2rem;
 }
-.active{
+.item_ul li a.active{
 	background:#EBEBEB;
 }
 <!--大学电商栏目样式-end-->
