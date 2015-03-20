@@ -35,6 +35,7 @@
             window.onload=function(){
             	alert("123");
             };
+        </script>
     </body>
 </html>
         
