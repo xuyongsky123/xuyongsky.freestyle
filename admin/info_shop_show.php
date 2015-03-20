@@ -43,7 +43,7 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-        <div id="content_show" class="col-xs-12">
+        <div id="content_show">
         	
         </div>
     </body>
