@@ -65,10 +65,10 @@
                             echo "<div>".$item['shop_type']."</div>";
                             echo "<div>".$item['shop_style_top']."</div>";
                             echo "<div>".$item['shop_style_bottom']."</div>";
-                        }else{
+                        }
+                    }else{
                         	echo "没有查到相关商店信息...";
                         }
-                    }
                 }
             ?>
         </div>
