@@ -22,7 +22,7 @@
             </ul>
             <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
-                    <form id="search_form" action="./info_shop_show.php" onsubmit="getData();">
+                    <form id="search_form" action="./info_shop_show.php">
                         
                         <input name="shop_name_identify" type="hidden" value="shop_select_item" />
                         
