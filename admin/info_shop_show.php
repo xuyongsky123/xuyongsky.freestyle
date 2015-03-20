@@ -54,6 +54,17 @@
                 	$shop_name=$_POST['shop_name'];
                     $shop_keeper=$_POST['shop_keeper'];
                     $shop_type=$_POST['shop_type'];
+                    
+                    $sql="select * from shop_info where shop_name = '$shop_name' or shop_keeper= '$shop_keeper' or shop_type= '$shop_type' ";
+					$array=$operatedb->Execsql($sql,$conn);
+                    
+                    if($array){
+                        foreach($array as $item){
+                        	echo "<li><a href='./module_blog_blog.php?filename=".$item['filename']."'>".$item['filename']."</a></li>";
+                        }else{
+                        	echo "没有查到相关商店信息...";
+                        }
+                    }
                 }
             ?>
         </div>
