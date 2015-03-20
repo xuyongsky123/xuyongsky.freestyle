@@ -32,7 +32,7 @@
                             <input name="shop_name" type="text" placeholder="商店类型名称"/>
                         </div>
                         <div class="search_container">
-                            <input name="submit"type="button" value="商店查询"/>
+                            <input name="submit"type="submit" value="商店查询"/>
                         </div>
                     </form>
             	</div>
