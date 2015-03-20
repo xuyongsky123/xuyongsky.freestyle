@@ -52,7 +52,7 @@
                   <a class="navbar-brand" href="#">Free Style</a>
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
-                      <button id="menu-button" type="button" class="btn btn-default dropdown-toggle menu-button" data-toggle="dropdown" aria-expanded="false">
+                      <button id="menu-button" type="button" class="btn btn-default dropdown-toggle menu-button">
                           <a href="./main.php">返回</a>
                       </button>
                 </div><!-- /.navbar-collapse -->
