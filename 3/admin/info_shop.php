@@ -21,7 +21,7 @@
             </ul>
             <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
-                    <form action="./info_shop_show.php" method="post" >
+                    <form action="./info_shop_show.php" method="post"  target="_self">
                     	<div class="search_container">
                             <input name="shop_name" type="text" placeholder="商店名称"/>
                         </div>
