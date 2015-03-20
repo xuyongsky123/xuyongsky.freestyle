@@ -65,10 +65,10 @@
                             foreach($array as $item){
                                 echo "<div>";
                                 echo "<span>".$item['shop_name']."</span>";
-                                echo "<span>".$item['shop_keeper']."</span>";
-                                echo "<span>".$item['shop_type']."</span>";
-                                echo "<span>".$item['shop_style_top']."</span>";
-                                echo "<span>".$item['shop_style_bottom']."</span>";
+                                echo "<span style='margin-left: 50px;'>".$item['shop_keeper']."</span>";
+                                echo "<span style='margin-left: 100px;'>".$item['shop_type']."</span>";
+                                echo "<span style='margin-left: 150px;'>".$item['shop_style_top']."</span>";
+                                echo "<span style='margin-left: 200px;'>".$item['shop_style_bottom']."</span>";
                                 echo "</div>";
                             }
                         }else{
@@ -83,10 +83,10 @@
                             foreach($array as $item){
                                 echo "<div>";
                                 echo "<span>".$item['shop_name']."</span>";
-                                echo "<span>".$item['shop_keeper']."</span>";
-                                echo "<span>".$item['shop_type']."</span>";
-                                echo "<span>".$item['shop_style_top']."</span>";
-                                echo "<span>".$item['shop_style_bottom']."</span>";
+                                echo "<span style='margin-left: 50px;'>".$item['shop_keeper']."</span>";
+                                echo "<span style='margin-left: 100px;'>".$item['shop_type']."</span>";
+                                echo "<span style='margin-left: 150px;'>".$item['shop_style_top']."</span>";
+                                echo "<span style='margin-left: 200px;'>".$item['shop_style_bottom']."</span>";
                                 echo "</div>";
                             }
                         }else{
