@@ -1,6 +1,6 @@
 
 $(function(){
-    alert("123")
+    alert("123");
         $(".item_click").bind("click",function(){
             $(".item_click").removeClass("active");
             $(this).addClass("active");
