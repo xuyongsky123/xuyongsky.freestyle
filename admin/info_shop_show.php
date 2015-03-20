@@ -101,6 +101,8 @@
                         echo "<th>";
                         echo "展示背景下半部分颜色";
                         echo "</th>";
+                        echo "</tr>";
+                        echo "</table>";
                         if($array){
                             foreach($array as $item){
                                 echo "<div>";
