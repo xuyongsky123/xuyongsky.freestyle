@@ -52,10 +52,16 @@
         <script type="text/javascript">
             var loaded=false;
             function getData(){
+                $.getJSON("./info_shop_show.php",$("#search_form").serialize(), function(json){  
+                    $("#name").html(json.name); 
+                    $("#sex").html(json.sex); 
+                    $("#tel").html(json.tel); 
+                    $("#email").html(json.email); 
+               });
                 if(!loaded){
                 	alert("running");
                     $("#search_form").submit();
-                    $.get("info_shop_show.php",$("#search_form").serialize(),
+                    $.get("./info_shop_show.php",$("#search_form").serialize(),
                         function(data){
                         alert(data);
                     	}
