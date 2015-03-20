@@ -18,15 +18,3 @@ $(function(){
         loaded = true;
     } 
 });
-function getData(){
-                if(!loaded){
-                	alert("running");
-                    $("#search_form").submit();
-                    $.get("./info_shop_show.php",$("#search_form").serialize(),
-                        function(data){
-                        alert(data);
-                    	}
-                    ); 
-                }
-                
-            };
