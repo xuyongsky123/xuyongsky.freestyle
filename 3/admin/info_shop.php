@@ -52,22 +52,26 @@
         <script type="text/javascript">
             var loaded=false;
             function getData(){
-                alert("running");
-                $("#search_form").submit();
-                $.ajax({
-                    cache: true,
-                    type: "POST",
-                        url:"./info_shop_show.php",
-                    data:$('#search_form').serialize(),// formid
-                    async: false,
-                    error: function(request) {
-                        alert("查询出错，请重新查询...");
-                    },
-                    success: function(data) {
-                        alert( "Data Saved: " + data );
-                        //$("#action_content").html(data);
-                    }
-                });
+                if(!loaded){
+                	alert("running");
+                    $("#search_form").submit();
+                    $.ajax({
+                        cache: true,
+                        type: "POST",
+                            url:"./info_shop_show.php",
+                        data:$('#search_form').serialize(),// formid
+                        async: false,
+                        error: function(request) {
+                            alert("查询出错，请重新查询...");
+                        },
+                        success: function(data) {
+                            alert( "Data Saved: " + data );
+                            //$("#action_content").html(data);
+                        }
+                    });
+                }
+                loaded=true;
+                
             }
         </script>
     </body>
