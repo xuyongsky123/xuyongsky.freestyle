@@ -43,7 +43,9 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-      
+        <div class="col-xs-12 content_show">
+        	
+        </div>
     </body>
 </html>
 <?php
