@@ -2,9 +2,10 @@ var loaded=false;
 $(function(){
 	
     if (!loaded) {
-        $(".item_click").removeClass("active");
+        
         
         $(".item_click").bind("click",function(){
+            $(".item_click").removeClass("active");
             $(this).addClass("active");
             $(".group_content").removeClass("show");
             var action=$(this).attr("rel");
