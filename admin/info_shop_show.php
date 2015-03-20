@@ -42,9 +42,10 @@
                   </a>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
-        </div>
+            
         <div id="content_show">
         	
+        </div>
         </div>
     </body>
 </html>
