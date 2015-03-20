@@ -99,7 +99,7 @@
                         echo "展示背景上半部分颜色";
                         echo "</th>";
                         echo "<th>";
-                        echo "展示背景下半部分颜色"
+                        echo "展示背景下半部分颜色";
                         echo "</th>";
                         if($array){
                             foreach($array as $item){
