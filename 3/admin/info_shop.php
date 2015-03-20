@@ -64,7 +64,7 @@
                     },
                     success: function(data) {
                         alert( “Data Saved: ” + data );
-                        $("#action_content").html(data);
+                        //$("#action_content").html(data);
                     }
                 });
             }
