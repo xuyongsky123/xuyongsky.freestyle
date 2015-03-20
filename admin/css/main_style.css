@@ -168,12 +168,6 @@ nav.navbar{
 
 
 <!--大学电商栏目样式-begin-->
-.group_content{
-	display:none;
-}
-.show{
-	display:block;
-}
 
 
 .item_ul{
@@ -204,6 +198,15 @@ nav.navbar{
 .item_ul li a.active{
 	background:#F2F2F2;
 }
+
+
+.group_content{
+	display:none;
+}
+.show{
+	display:block;
+}
+
 <!--大学电商栏目样式-end-->
 
 
