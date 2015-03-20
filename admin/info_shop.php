@@ -21,8 +21,10 @@
             </ul>
             <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
-                    <a href="http://www.baidu.com" id="select_shop">按钮<?php echo $_SESSION['username_adminuserfixpassword__']; ?></a>
-                    <div id="select_content"></div>
+                    <div class="search_container">
+                        <input name="shop_name" type="text" placeholder="商店名称"/>
+                    	<input name="submit"type="button" value="店名查询"/>
+                    </div>
             	</div>
                 <div id="modify_item" class="group_content">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.....</div>
                 <div id="add_item" class="group_content">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
