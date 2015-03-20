@@ -24,12 +24,12 @@ ul.xuyong-dropdown-menu a{
     
 }
 
-<!--show页面样式-->
-#content_show{
-	background-color:yellow;
-    height:450px;
-    width:1000px;
+<!--main内容容器页面样式-->
+.search_container input{
+	display:block;
+    margin:0 auto;
 }
+
 
 
 .btn{
