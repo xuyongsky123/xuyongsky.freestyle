@@ -59,7 +59,7 @@
                         alert("查询出错，请重新查询...");
                     },
                     success: function(data) {
-                        $("#search_form").parent().html(data);
+                        $("#action_content").parent().html(data);
                     }
                 });
             }
