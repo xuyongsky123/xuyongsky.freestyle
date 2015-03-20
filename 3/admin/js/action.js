@@ -1,7 +1,6 @@
 
 $(function(){
 	
-    if (!loaded) {
         $(".item_click").bind("click",function(){
             $(".item_click").removeClass("active");
             $(this).addClass("active");
@@ -13,5 +12,4 @@ $(function(){
             //var a=$("#"+action).attr("class");
             //alert(a);
         });
-    } 
 });
