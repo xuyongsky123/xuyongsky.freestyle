@@ -30,8 +30,9 @@
     </head>
     <body>
         <div class="header_style">
-            <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
-                
+            <nav>
+                <div class="logo"></div>
+                <div class="back"></div>
             </nav><!-- /navbar -->
         </div>
         <div id="content_show">
