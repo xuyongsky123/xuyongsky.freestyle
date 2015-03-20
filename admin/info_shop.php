@@ -17,10 +17,10 @@
                 cache: true,
                 type: "POST",
                     url:"./info_shop_show.php",
-                data:$('#search_form').serialize(),// 你的formid
+                data:$('#search_form').serialize(),// formid
                 async: false,
                 error: function(request) {
-                    alert("Connection error");
+                    alert("查询出错，请重新查询...");
                 },
                 success: function(data) {
                     $("#commonLayout_appcreshi").parent().html(data);
