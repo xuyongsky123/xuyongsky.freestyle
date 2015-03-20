@@ -61,6 +61,10 @@
                     if($array){
                         foreach($array as $item){
                         	echo "<div>".$item['shop_name']."</div>";
+                            echo "<div>".$item['shop_keeper']."</div>";
+                            echo "<div>".$item['shop_type']."</div>";
+                            echo "<div>".$item['shop_style_top']."</div>";
+                            echo "<div>".$item['shop_style_bottom']."</div>";
                         }else{
                         	echo "没有查到相关商店信息...";
                         }
