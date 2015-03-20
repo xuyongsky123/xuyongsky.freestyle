@@ -24,7 +24,7 @@
             	<div id="select_item" class="group_content">
                     <form id="search_form" onsubmit="getData();">
                     	<div class="search_container">
-                            <input name="action_identify" type="text" value="shop_select_item">
+                            <input name="action_identify" type="text" value="shop_select_item" visibility="hidden">
                             <input name="shop_name" type="text" placeholder="商店名称"/>
                         </div>
                         <div class="search_container">
