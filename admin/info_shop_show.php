@@ -84,6 +84,23 @@
                     	$sql="select * from shop_info";
                         $array=$operatedb->Execsql($sql,$conn);
                         
+                        echo "<table>";
+                        echo "<tr>";
+                        echo "<th>";
+                        echo "商店名称";
+                        echo "</th>";
+                        echo "<th>";
+                        echo "店主名称";
+                        echo "</th>";
+                        echo "<th>";
+                        echo "商店类型";
+                        echo "</th>";
+                        echo "<th>";
+                        echo "展示背景上半部分颜色";
+                        echo "</th>";
+                        echo "<th>";
+                        echo "展示背景下半部分颜色"
+                        echo "</th>";
                         if($array){
                             foreach($array as $item){
                                 echo "<div>";
