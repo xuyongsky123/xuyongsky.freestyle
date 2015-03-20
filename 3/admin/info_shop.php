@@ -57,7 +57,7 @@
                     $("#search_form").submit();
                     $.get("./info_shop_show.php",$("#search_form").serialize(),
                         function(data){
-                        //这里是回调方法。返回data数据。这里想怎么处理就怎么处理了。
+                        alert(data);
                     	}
                     ); 
                 }
