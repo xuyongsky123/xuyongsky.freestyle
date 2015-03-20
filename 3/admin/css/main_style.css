@@ -25,6 +25,13 @@ ul.xuyong-dropdown-menu a{
 }
 
 <!--show页面样式-->
+#content_show{
+	background-color:yellow;
+    height:450px;
+    width:1000px;
+}
+
+
 .btn{
 	border-radius:none !important;
 }
