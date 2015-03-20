@@ -55,20 +55,11 @@
                 if(!loaded){
                 	alert("running");
                     $("#search_form").submit();
-                    $.ajax({
-                        cache: true,
-                        type: "POST",
-                            url:"./info_shop_show.php",
-                        data:$('#search_form').serialize(),// formid
-                        async: false,
-                        error: function(request) {
-                            alert("查询出错，请重新查询...");
-                        },
-                        success: function(data) {
-                            alert( "Data Saved: " + data );
-                            //$("#action_content").html(data);
-                        }
-                    });
+                    $.get("./info_shop_show.php",$("#search_form").serialize(),
+                        function(data){
+                        //这里是回调方法。返回data数据。这里想怎么处理就怎么处理了。
+                    	}
+                    ); 
                 }
                 loaded=true;
                 
