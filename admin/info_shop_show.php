@@ -38,8 +38,6 @@
             <![endif]-->
         
         
-        	<link href="./css/main_style.css" rel="stylesheet" />
-        
         
         <title>后台主界面</title>
         <style type="text/css">
