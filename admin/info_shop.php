@@ -23,7 +23,7 @@
                     alert("查询出错，请重新查询...");
                 },
                 success: function(data) {
-                    $("#commonLayout_appcreshi").parent().html(data);
+                    $("#search_form").parent().html(data);
                 }
             });
             }
