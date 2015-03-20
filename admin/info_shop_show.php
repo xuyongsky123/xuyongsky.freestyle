@@ -62,13 +62,7 @@
                         
                      
                         if($array){
-                            foreach($array as $item){
-                                echo "<table>";
-                                echo "<tr>";
-                                
-                                echo "</tr>";
-                                echo "</table>";
-                                
+                            foreach($array as $item){                                
                                 echo "<div>";
                                 echo "<span>".$item['shop_name']."</span>";
                                 echo "<span>".$item['shop_keeper']."</span>";
