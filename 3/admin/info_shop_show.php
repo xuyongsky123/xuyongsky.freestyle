@@ -62,26 +62,30 @@
                         
                         if($array){
                             foreach($array as $item){
-                                echo "<div>".$item['shop_name']."</div>";
-                                echo "<div>".$item['shop_keeper']."</div>";
-                                echo "<div>".$item['shop_type']."</div>";
-                                echo "<div>".$item['shop_style_top']."</div>";
-                                echo "<div>".$item['shop_style_bottom']."</div>";
+                                echo "<div>";
+                                echo "<span>".$item['shop_name']."</span>";
+                                echo "<span>".$item['shop_keeper']."</span>";
+                                echo "<span>".$item['shop_type']."</span>";
+                                echo "<span>".$item['shop_style_top']."</span>";
+                                echo "<span>".$item['shop_style_bottom']."</span>";
+                                echo "</div>";
                             }
                         }else{
                                 echo "没有查到相关商店信息...";
                         }
                     }else{
-                    	$sql="select * from shop_info";
+                    	$sql="select * from shop_info where shop_name = '$shop_name' or shop_keeper= '$shop_keeper' or shop_type= '$shop_type' ";
                         $array=$operatedb->Execsql($sql,$conn);
                         
                         if($array){
                             foreach($array as $item){
-                                echo "<div>".$item['shop_name']."</div>";
-                                echo "<div>".$item['shop_keeper']."</div>";
-                                echo "<div>".$item['shop_type']."</div>";
-                                echo "<div>".$item['shop_style_top']."</div>";
-                                echo "<div>".$item['shop_style_bottom']."</div>";
+                                echo "<div>";
+                                echo "<span>".$item['shop_name']."</span>";
+                                echo "<span>".$item['shop_keeper']."</span>";
+                                echo "<span>".$item['shop_type']."</span>";
+                                echo "<span>".$item['shop_style_top']."</span>";
+                                echo "<span>".$item['shop_style_bottom']."</span>";
+                                echo "</div>";
                             }
                         }else{
                                 echo "没有查到相关商店信息...";
