@@ -1,8 +1,8 @@
 var loaded=false;
 $(function(){
 	
+    $(".item_click").removeClass("active");
     if (!loaded) {
-        $(".item_click").removeClass("active");
         
         $(".item_click").bind("click",function(){
             $(this).addClass("active");
