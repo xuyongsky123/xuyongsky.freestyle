@@ -65,10 +65,10 @@
                             foreach($array as $item){
                                 echo "<div>";
                                 echo "<span>".$item['shop_name']."</span>";
-                                echo "<span style='left: 50px;position:absolute;'>".$item['shop_keeper']."</span>";
-                                echo "<span style='left: 50px;position:absolute;'>".$item['shop_type']."</span>";
-                                echo "<span style='left: 50px;position:absolute;'>".$item['shop_style_top']."</span>";
-                                echo "<span style='left: 50px;position:absolute;'>".$item['shop_style_bottom']."</span>";
+                                echo "<span>".$item['shop_keeper']."</span>";
+                                echo "<span>".$item['shop_type']."</span>";
+                                echo "<span>".$item['shop_style_top']."</span>";
+                                echo "<span>".$item['shop_style_bottom']."</span>";
                                 echo "</div>";
                             }
                         }else{
@@ -83,10 +83,10 @@
                             foreach($array as $item){
                                 echo "<div>";
                                 echo "<span>".$item['shop_name']."</span>";
-                                echo "<span style='left: 50px;position:absolute;'>".$item['shop_keeper']."</span>";
-                                echo "<span style='left: 100px;position:absolute;'>".$item['shop_type']."</span>";
-                                echo "<span style='left: 150px;position:absolute;'>".$item['shop_style_top']."</span>";
-                                echo "<span style='left: 200px;position:absolute;'>".$item['shop_style_bottom']."</span>";
+                                echo "<span>".$item['shop_keeper']."</span>";
+                                echo "<span>".$item['shop_type']."</span>";
+                                echo "<span>".$item['shop_style_top']."</span>";
+                                echo "<span>".$item['shop_style_bottom']."</span>";
                                 echo "</div>";
                             }
                         }else{
