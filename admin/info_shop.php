@@ -63,7 +63,7 @@
                         alert("查询出错，请重新查询...");
                     },
                     success: function(data) {
-                        alert( “Data Saved: ” + data );
+                        alert( "Data Saved: " + data );
                         //$("#action_content").html(data);
                     }
                 });
