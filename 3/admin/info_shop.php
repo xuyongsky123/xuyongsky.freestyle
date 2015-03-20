@@ -50,6 +50,7 @@
         <script src="./js/action.js"></script>
         
         <script type="text/javascript">
+            var loaded=false;
             function getData(){
                 alert("running");
                 $("#search_form").submit();
