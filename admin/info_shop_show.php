@@ -24,7 +24,6 @@
         
         <!-- Le styles -->
         
-        	<link type="text/css" href="./css/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
             <!--[if IE 7]>
             <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
             <![endif]-->
@@ -37,6 +36,8 @@
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
             <![endif]-->
         
+        
+        	<link href="./css/main_style.css" rel="stylesheet" />
         
         
         <title>后台主界面</title>
