@@ -207,7 +207,7 @@ nav.navbar{
 
 
 <!--show页面样式-begin-->
-.content_show{
+#content_show{
 	width:100%;
     height:450px;
     background-color:#fff;
