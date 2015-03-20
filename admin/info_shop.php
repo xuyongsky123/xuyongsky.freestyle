@@ -10,11 +10,6 @@
                 display:block;
             }
         </style>
-        <script type="text/javascript">
-            window.onload=function(){
-            	alert("123");
-            };
-        </script>
     </head>
     <body>
     	<div id="group_item">
@@ -35,8 +30,8 @@
             </div>
         </div> 
         
-        
-        
+        <script src="../js/jquery-1.9.1.min.js"></script>
+        <script src="./js/action.js"></script>
     </body>
 </html>
         
