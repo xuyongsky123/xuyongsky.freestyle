@@ -74,7 +74,7 @@
                                 echo "没有查到相关商店信息...";
                         }
                     }else{
-                    	$sql="select * from shop_info where shop_name = '$shop_name' or shop_keeper= '$shop_keeper' or shop_type= '$shop_type' ";
+                    	$sql="select * from shop_info";
                         $array=$operatedb->Execsql($sql,$conn);
                         
                         if($array){
