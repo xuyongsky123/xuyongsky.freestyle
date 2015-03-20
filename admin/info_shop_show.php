@@ -53,9 +53,7 @@
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
                   <a href="./main.php">  
-                    <button id="menu-button" type="button" class="btn btn-default dropdown-toggle menu-button">
                           返回
-                      </button>
                   </a>
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
