@@ -96,7 +96,6 @@
                         echo "展示背景下半部分颜色";
                         echo "</th>";
                         echo "</tr>";
-                        echo "</table>";
                         if($array){
                             foreach($array as $item){
                                 echo "<tr>";
@@ -110,6 +109,8 @@
                         }else{
                                 echo "没有查到相关商店信息...";
                         }
+                        
+                        echo "</table>";
                     }
                     
                     
