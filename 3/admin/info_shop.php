@@ -30,8 +30,11 @@
             </div>
         </div> 
         
-        <script src="../js/jquery-1.9.1.min.js"></script>
-        <script src="./js/action.js"></script>
+        
+        <script src="../js/jquery-1.9.1.min.js">
+            window.onload=function(){
+            	alert("123");
+            };
     </body>
 </html>
         
