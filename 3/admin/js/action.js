@@ -1,4 +1,4 @@
-
+var loaded=false;
 $(function(){
 	
     if (!loaded) {
@@ -13,5 +13,6 @@ $(function(){
             //var a=$("#"+action).attr("class");
             //alert(a);
         });
+        loaded = true;
     } 
 });
