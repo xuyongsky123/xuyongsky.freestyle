@@ -48,23 +48,6 @@
         
         <script src="../js/jquery-1.9.1.min.js"></script>
         <script src="./js/action.js"></script>
-        
-        <script type="text/javascript">
-            var loaded=false;
-            function getData(){
-                if(!loaded){
-                	alert("running");
-                    $("#search_form").submit();
-                    $.get("./info_shop_show.php",$("#search_form").serialize(),
-                        function(data){
-                        alert(data);
-                    	}
-                    ); 
-                }
-                loaded=true;
-                
-            }
-        </script>
     </body>
 </html>
         
