@@ -45,7 +45,11 @@
         </div>
         <div id="content_show" style="width:100%;height:450px;background;">
         	<?php  
-        require("./database/connDB.inc.php")
+        		require("./database/connDB.inc.php");
+        		if(!isset($_POST['shop_name_identify']))
+                {
+                    echo "<script type='text/javascript'>alert('数据操作失败，请重新操作...');window.location.href='./main.php';</script>"
+                }
             ?>
         </div>
     </body>
