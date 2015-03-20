@@ -50,7 +50,7 @@
         		if(!isset($identify))
                 {
                     echo "<script type='text/javascript'>alert('数据操作失败，请重新操作...');window.location.href='./main.php';</script>";
-                }else if($_POST){
+                }else if($identify){
                 	
                 }
             ?>
