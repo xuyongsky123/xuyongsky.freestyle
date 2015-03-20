@@ -188,6 +188,7 @@ nav.navbar{
     text-decoration:none;
 }
 .item_ul li a{
+    display:block;
     padding:0.5rem 2.5rem;
     border-top:1px solid #99FFCC;
     border-left:1px solid #99FFCC;
