@@ -35,7 +35,7 @@
                   <a class="navbar-brand" href="#">Free Style</a>
                 </div>
                 <div class="collapse navbar-collapse nav_xuyong" id="navbar-collapse-01">
-                  <a href="./main.php">  
+                  <a id="back" href="./main.php">  
                     <button id="menu-button" type="button" class="btn btn-default dropdown-toggle menu-button">
                           返回
                       </button>
