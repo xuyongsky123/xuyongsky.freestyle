@@ -60,7 +60,7 @@
                     
                     if($array){
                         foreach($array as $item){
-                        	echo "<li><a href='./module_blog_blog.php?filename=".$item['filename']."'>".$item['filename']."</a></li>";
+                        	echo "<div>".$item['shop_name']."</div>";
                         }else{
                         	echo "没有查到相关商店信息...";
                         }
