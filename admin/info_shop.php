@@ -47,7 +47,7 @@
                 <div id="add_item" class="group_content">
                 	<form id="search_form" action="./info_shop_show.php" method="post">
                         
-                        <input name="shop_identify" type="hidden" value="shop_select_item" />
+                        <input name="shop_identify" type="hidden" value="shop_add_item" />
                         
                     	<div class="search_container">
                             <input name="shop_name" type="text" placeholder="商店名称"/>
