@@ -35,7 +35,7 @@
                             <input name="submit"type="submit" value="商店查询"/>
                         </div>
                     </form>
-                    <?php include("./info_shop_show.php") ?>
+                    <?php include("./info_shop_show.php"); ?>
             	</div>
                 <div id="modify_item" class="group_content">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.....</div>
                 <div id="add_item" class="group_content">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
