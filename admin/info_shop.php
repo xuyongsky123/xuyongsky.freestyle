@@ -23,16 +23,16 @@
             <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
                     <form id="search_form" onsubmit="getData();">
+                        
+                        <input name="shop_name_identify" type="hidden" value="shop_select_item" />
+                        
                     	<div class="search_container">
-                            <input name="shop_name_identify" type="hidden" value="shop_select_item" />
                             <input name="shop_name" type="text" placeholder="商店名称"/>
                         </div>
                         <div class="search_container">
-                            <input name="shop_keeper_identify" type="hidden" value="shop_select_item" />
                             <input name="shop_keeper" type="text" placeholder="店主名称"/>
                         </div>
                         <div class="search_container">
-                            <input name="shop_type_identify" type="hidden" value="shop_select_item" />
                             <input name="shop_type" type="text" placeholder="商店类型名称"/>
                         </div>
                         <div class="search_container">
