@@ -44,7 +44,9 @@
             </nav><!-- /navbar -->
         </div>
         <div id="content_show" style="width:100%;height:450px;background;">
-        	
+        	<?php  
+        require("./database/connDB.inc.php")
+            ?>
         </div>
     </body>
 </html>
