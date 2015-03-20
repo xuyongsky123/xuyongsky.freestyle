@@ -95,6 +95,8 @@
                     }
                     
                     
+                }else if($identify=='shop_add_item'){
+                	
                 }
             ?>
         </div>
