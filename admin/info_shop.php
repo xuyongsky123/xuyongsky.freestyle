@@ -50,20 +50,10 @@
         <script src="./js/action.js"></script>
         
         <script type="text/javascript">
-            var loaded=false;
             function getData(){
                 $.getJSON("./info_shop_show.php",$("#search_form").serialize(), function(json){  
                     alert(data); 
                });
-                if(!loaded){
-                	alert("running");
-                    $("#search_form").submit();
-                    $.get("./info_shop_show.php",$("#search_form").serialize(),
-                        function(data){
-                        alert(data);
-                    	}
-                    ); 
-                }
                 
             }
         </script>
