@@ -51,7 +51,7 @@
                 {
                     echo "<script type='text/javascript'>alert('数据操作失败，请重新操作...');window.location.href='./main.php';</script>";
                 }else if($identify=='shop_select_item'){
-                	
+                	echo "<script type='text/javascript'>alert('成功');</script>";
                 }
             ?>
         </div>
