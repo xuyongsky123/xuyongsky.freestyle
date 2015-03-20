@@ -31,7 +31,7 @@
         </div> 
         
         
-        <script src="../js/jquery-1.9.1.min.js">
+        <script type="text/javascript">
             window.onload=function(){
             	alert("123");
             };
