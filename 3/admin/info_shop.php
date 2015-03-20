@@ -49,14 +49,6 @@
         <script src="../js/jquery-1.9.1.min.js"></script>
         <script src="./js/action.js"></script>
         
-        <script type="text/javascript">
-            function getData(){
-                $.getJSON("./info_shop_show.php",$("#search_form").serialize(), function(json){  
-                    alert(data); 
-               });
-                
-            }
-        </script>
     </body>
 </html>
         
