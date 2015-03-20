@@ -196,6 +196,9 @@ nav.navbar{
 .action_content{
 	padding:1.2rem 1.2rem;
 }
+.active{
+	background:#CCCCCC;
+}
 <!--大学电商栏目样式-end-->
 
 
