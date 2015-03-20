@@ -3,12 +3,7 @@
 <html lang="zh-CN">
     <head>
         <style>
-            .group_content{
-                display:none;
-            }
-            .show{
-                display:block;
-            }
+            
         </style>
     </head>
     <body>
