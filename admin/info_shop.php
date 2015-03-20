@@ -10,24 +10,7 @@
                 display:block;
             }
         </style>
-        <script type="text/javascript">
-            function getData(){
-                $("#search_form").submit();
-                $.ajax({
-                cache: true,
-                type: "POST",
-                    url:"./info_shop_show.php",
-                data:$('#search_form').serialize(),// formid
-                async: false,
-                error: function(request) {
-                    alert("查询出错，请重新查询...");
-                },
-                success: function(data) {
-                    $("#search_form").parent().html(data);
-                }
-            });
-            }
-        </script>
+        
     </head>
     <body>
     	<div id="group_item">
@@ -62,6 +45,24 @@
         
         <script src="../js/jquery-1.9.1.min.js"></script>
         <script src="./js/action.js"></script>
+        <script type="text/javascript">
+            function getData(){
+                $("#search_form").submit();
+                $.ajax({
+                cache: true,
+                type: "POST",
+                    url:"./info_shop_show.php",
+                data:$('#search_form').serialize(),// formid
+                async: false,
+                error: function(request) {
+                    alert("查询出错，请重新查询...");
+                },
+                success: function(data) {
+                    $("#search_form").parent().html(data);
+                }
+            });
+            }
+        </script>
     </body>
 </html>
         
