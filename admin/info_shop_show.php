@@ -21,6 +21,7 @@
             <link href="../css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet" />
         <!--bootstrap_end-->
         
+        	<link href="./css/main_style.css" rel="stylesheet" />
         	<link href="./css/show_style.css" rel="stylesheet" />
         
         
