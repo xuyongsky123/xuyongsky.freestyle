@@ -105,13 +105,13 @@
                         echo "</table>";
                         if($array){
                             foreach($array as $item){
-                                echo "<div>";
-                                echo "<span>".$item['shop_name']."</span>";
-                                echo "<span>".$item['shop_keeper']."</span>";
-                                echo "<span>".$item['shop_type']."</span>";
-                                echo "<span>".$item['shop_style_top']."</span>";
-                                echo "<span>".$item['shop_style_bottom']."</span>";
-                                echo "</div>";
+                                echo "<tr>";
+                                echo "<td>".$item['shop_name']."</td>";
+                                echo "<td>".$item['shop_keeper']."</td>";
+                                echo "<td>".$item['shop_type']."</td>";
+                                echo "<td>".$item['shop_style_top']."</td>";
+                                echo "<td>".$item['shop_style_bottom']."</td>";
+                                echo "</tr>";
                             }
                         }else{
                                 echo "没有查到相关商店信息...";
