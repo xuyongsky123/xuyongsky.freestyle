@@ -24,7 +24,7 @@
         	<link href="./css/main_style.css" rel="stylesheet" />
         
         
-        <title>后台主界面</title>
+        <title>管理商店操作界面</title>
         <style type="text/css">
         </style>	
     </head>
