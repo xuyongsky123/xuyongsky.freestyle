@@ -43,7 +43,7 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-        <div id="content_show" style="width:100%;height:450px;background;">
+        <div id="content_show" style="width:100%;height:450px;background;color:#fff;">
         	<?php  
         		require("./database/connDB.inc.php");
         		$identify=$_POST['shop_identify'];
