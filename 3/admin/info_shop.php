@@ -23,6 +23,7 @@
             <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
                     <form id="search_form" onsubmit="getData();">
+                        <input name="action_identify">
                     	<div class="search_container">
                             <input name="shop_name" type="text" placeholder="商店名称"/>
                         </div>
