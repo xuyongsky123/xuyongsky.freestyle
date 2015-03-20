@@ -21,7 +21,7 @@
             <link href="../css/bootstrap_css/flat_ui_css/flat-ui.css" rel="stylesheet" />
         <!--bootstrap_end-->
         
-        	<link href="./css/main_style.css" rel="stylesheet" />
+        	<link href="./css/show_style.css" rel="stylesheet" />
         
         
         <title>管理商店操作界面</title>
@@ -43,7 +43,7 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-        <div id="content_show" class="col-xs-12">
+        <div id="content_show" class="col-xs-12" style="">
         	
         </div>
     </body>
