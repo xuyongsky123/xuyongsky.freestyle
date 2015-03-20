@@ -37,6 +37,7 @@
                         </div>
                         <div class="search_container">
                             <input name="submit" type="submit" value="商店查询"/>
+                            <input name="submit" type="submit" value="全部商店查询"/>
                         </div>
                     </form>
             	</div>
