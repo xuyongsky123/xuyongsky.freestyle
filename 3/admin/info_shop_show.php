@@ -60,8 +60,15 @@
                     	$sql="select * from shop_info where shop_name = '$shop_name' or shop_keeper= '$shop_keeper' or shop_type= '$shop_type' ";
                         $array=$operatedb->Execsql($sql,$conn);
                         
+                     
                         if($array){
                             foreach($array as $item){
+                                echo "<table>";
+                                echo "<tr>";
+                                
+                                echo "</tr>";
+                                echo "</table>";
+                                
                                 echo "<div>";
                                 echo "<span>".$item['shop_name']."</span>";
                                 echo "<span>".$item['shop_keeper']."</span>";
