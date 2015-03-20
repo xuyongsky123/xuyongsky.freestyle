@@ -181,7 +181,7 @@ nav.navbar{
     min-width:750px;
     margin-top:15px;
     margin-bottom:0;
-    border-bottom:1px solid #99FFCC;
+    border-bottom:1px solid #EEE9E9;
 }
 .item_ul li{
 	display:inline-block;
@@ -190,9 +190,9 @@ nav.navbar{
 .item_ul li a{
     display:block;
     padding:0.5rem 2.5rem;
-    border-top:1px solid #99FFCC;
-    border-left:1px solid #99FFCC;
-    border-right:1px solid #99FFCC;
+    border-top:1px solid #EEE9E9;
+    border-left:1px solid #EEE9E9;
+    border-right:1px solid #EEE9E9;
     border-top-left-radius:1rem;
     border-top-right-radius:1rem;
     background:#F7F7F7;
