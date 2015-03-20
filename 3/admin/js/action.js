@@ -10,7 +10,7 @@ $(function(){
             var action=$(this).attr("rel");
             //alert(action);
             //alert("#"+action);
-            $("#"+action).addClass("show");
+            $("#"+action).addClass("show");z
             //var a=$("#"+action).attr("class");
             //alert(a);
         });
