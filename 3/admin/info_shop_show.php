@@ -1,3 +1,3 @@
 <?php    
-    echo "test";
+    echo $_GET["shop_name"];
 ?>  
