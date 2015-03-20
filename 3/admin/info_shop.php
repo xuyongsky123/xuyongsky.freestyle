@@ -22,7 +22,7 @@
             </ul>
             <div id="action_content" class="action_content">
             	<div id="select_item" class="group_content">
-                    <form id="search_form" action="./info_shop_show.php" method="get">
+                    <form id="search_form" onsubmit="getData();">
                         
                         <input name="shop_name_identify" type="hidden" value="shop_select_item" />
                         
@@ -49,6 +49,20 @@
         <script src="../js/jquery-1.9.1.min.js"></script>
         <script src="./js/action.js"></script>
         
+        <script type="text/javascript">
+            function getData(){
+                if(!loaded){
+                	alert("running");
+                    $("#search_form").submit();
+                    $.get("./info_shop_show.php",$("#search_form").serialize(),
+                        function(data){
+                        alert(data);
+                    	}
+                    ); 
+                }
+                
+            }
+        </script>
     </body>
 </html>
         
