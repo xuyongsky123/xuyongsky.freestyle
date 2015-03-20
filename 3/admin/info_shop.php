@@ -51,7 +51,6 @@
         
         <script type="text/javascript">
             function getData(){
-                if(!loaded){
                 	alert("running");
                     $("#search_form").submit();
                     $.get("./info_shop_show.php",$("#search_form").serialize(),
@@ -59,7 +58,6 @@
                         alert(data);
                     	}
                     ); 
-                }
                 
             }
         </script>
