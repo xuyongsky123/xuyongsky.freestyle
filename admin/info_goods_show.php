@@ -119,7 +119,7 @@
                             }
                        
                     }else if($identify=='goods_delete_item'){
-                    	$shop=$_POST['shops'];
+                    	$shop=$_POST['goods'];
                         foreach($shop as $shop_item){
                             
                             $sql="delete from shop_info where shop_id= '$shop_item'";
