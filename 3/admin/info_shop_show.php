@@ -102,7 +102,8 @@
                     $shop_upcolor=$_POST['up_color'];
                     $sho_downcolor=$_POST['down_color'];
                     
-                    
+                    echo $shop_upcolor;
+                    echo $sho_downcolor;
                 }
             ?>
         </div>
