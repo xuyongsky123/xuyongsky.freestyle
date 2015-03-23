@@ -119,6 +119,9 @@
                     	$shop=$_POST['shops'];
                         foreach($shop as $shop_item){
                             echo $shop_item;
+                            for($i=0;$i<count($shop_item);$++){
+                            	echo $shop_item[$i];
+                            }
                         }
                     }
                 }
