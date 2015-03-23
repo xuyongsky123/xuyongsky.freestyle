@@ -117,7 +117,9 @@
                        
                     }else if($identify=='shop_delete_item'){
                     	$shop=$_POST['shops'];
-                        echo $shop;
+                        foreach($shop as $shop_item){
+                        	echo $shop_item;
+                        }
                     }
                 }
             ?>
