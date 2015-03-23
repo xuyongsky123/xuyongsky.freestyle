@@ -66,11 +66,11 @@
                                 <option name="palette-peter-river" value="palette-peter-river">palette-peter-river</option>
                                 <option name="palette-amethyst" value="palette-amethyst">palette-amethyst</option>
                                 <option name="palette-wet-asphalt" value="palette-wet-asphalt">palette-wet-asphalt</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="palette-sun-flower" value="palette-sun-flower">palette-sun-flower</option>
+                                <option name="palette-carrot" value="palette-carrot">palette-carrot</option>
+                                <option name="palette-alizarin" value="palette-alizarin">palette-alizarin</option>
+                                <option name="palette-clouds" value="palette-clouds">palette-clouds</option>
+                                <option name="palette-concrete" value="palette-concrete">palette-concrete</option>
                                 <option name="trousers" value="裤子">裤子</option>
                                 <option name="trousers" value="裤子">裤子</option>
                                 <option name="trousers" value="裤子">裤子</option>
@@ -94,11 +94,11 @@
                                 <option name="palette-belize-hole" value="palette-belize-hole">palette-belize-hole</option>
                                 <option name="palette-wisteria" value="palette-wisteria">palette-wisteria</option>
                                 <option name="palette-midnight-blue" value="palette-midnight-blue">palette-midnight-blue</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="palette-orange" value="palette-orange">palette-orange</option>
+                                <option name="palette-pumpkin" value="palette-pumpkin">palette-pumpkin</option>
+                                <option name="palette-pomegranate" value="palette-pomegranate">palette-pomegranate</option>
+                                <option name="palette-silver" value="palette-silver">palette-silver</option>
+                                <option name="palette-asbestos" value="palette-asbestos">palette-asbestos</option>
                                 <option name="trousers" value="裤子">裤子</option>
                                 <option name="trousers" value="裤子">裤子</option>
                                 <option name="trousers" value="裤子">裤子</option>
