@@ -80,10 +80,10 @@
                             <input name="goods_image_url" type="text" placeholder="商品图片地址（URL）"/>
                         </div>
                         <div class="search_container">
-                            <input name="goods_class" type="text" placeholder="商品图片地址（URL）"/>
+                            <input name="goods_class" type="text" placeholder="商品品牌（类型）"/>
                         </div>
                         <div class="search_container">
-                            <input name="submit" type="submit" value="商品品牌（类型）"/>
+                            <input name="submit" type="submit" value="添加商品"/>
                         </div>
                     </form>
                 </div>
