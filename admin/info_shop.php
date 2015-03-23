@@ -56,7 +56,19 @@
                             <input name="shop_keeper" type="text" placeholder="店主名称"/>
                         </div>
                         <div class="search_container">
-                            <input name="shop_type" type="text" placeholder="商店类型名称"/>
+                            <label>商店类型</label>
+                            <select name="shop_type">
+                                <option name="shipin" value="食品类">食品类</option>
+                                <option name="fuzhuang" value="服装类">服装类</option>
+                                <option name="palette-peter-river" value="palette-peter-river">palette-peter-river</option>
+                                <option name="palette-amethyst" value="palette-amethyst">palette-amethyst</option>
+                                <option name="palette-wet-asphalt" value="palette-wet-asphalt">palette-wet-asphalt</option>
+                                <option name="palette-sun-flower" value="palette-sun-flower">palette-sun-flower</option>
+                                <option name="palette-carrot" value="palette-carrot">palette-carrot</option>
+                                <option name="palette-alizarin" value="palette-alizarin">palette-alizarin</option>
+                                <option name="palette-clouds" value="palette-clouds">palette-clouds</option>
+                                <option name="palette-concrete" value="palette-concrete">palette-concrete</option>
+                            </select>
                         </div>
                         <div class="search_container">
                             <label>商店展示上半部分背景</label>
