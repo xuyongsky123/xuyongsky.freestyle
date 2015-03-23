@@ -93,7 +93,9 @@
                         </div>
                     </form>
                 </div>
-                <div id="delete_item" class="group_content">Nam dui era t, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.....</div>
+                <div id="delete_item" class="group_content">
+                	开发中...
+                </div>
             </div>
         </div> 
         
