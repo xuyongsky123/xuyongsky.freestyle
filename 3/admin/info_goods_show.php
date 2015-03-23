@@ -59,7 +59,7 @@
                         $shop_type=$_POST['shop_type'];
                         $submit_value=$_POST['submit'];
                         
-                        if($submit_value=="商店查询"){
+                        if($submit_value=="商品查询"){
                             $sql="select * from shop_info where shop_name = '$shop_name' or shop_keeper= '$shop_keeper' or shop_type= '$shop_type' ";
                             $array=$operatedb->Execsql($sql,$conn);
                             
@@ -75,7 +75,7 @@
                                     echo "</div>";
                                 }
                             }else{
-                                    echo "没有查到相关商店信息...";
+                                    echo "没有查到相关商品信息...";
                             }
                         }else{
                             $sql="select * from shop_info";
@@ -93,7 +93,7 @@
                                     echo "</div>";
                                 }
                             }else{
-                                    echo "没有查到相关商店信息...";
+                                    echo "没有查到相关商品信息...";
                             }
                         }
                         
