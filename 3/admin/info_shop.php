@@ -120,6 +120,14 @@
                                     echo "<span>".$item['shop_style_top']."</span>";
                                     echo "<span>".$item['shop_style_bottom']."</span>";
                                     echo "</div>";
+                                    
+                                    echo "<div>";
+                                    echo "<span><input type='checkbox' value='".$item['shop_name']."'></span>";
+                                    echo "<span>".$item['shop_keeper']."</span>";
+                                    echo "<span>".$item['shop_type']."</span>";
+                                    echo "<span>".$item['shop_style_top']."</span>";
+                                    echo "<span>".$item['shop_style_bottom']."</span>";
+                                    echo "</div>";
                                 }
                             }else{
                                     echo "没有查到相关商店信息...";
