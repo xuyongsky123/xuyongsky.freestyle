@@ -27,7 +27,7 @@
                 	开发中...
                 </div>
                 <div id="add_item" class="group_content">
-                    <form id="search_form" action="./info_shop_show.php" method="post">
+                    <form id="search_form" action="./info_goods_show.php" method="post">
                         
                         <input name="shop_identify" type="hidden" value="shop_add_item" />
                         
