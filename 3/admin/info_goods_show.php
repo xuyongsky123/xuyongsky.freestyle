@@ -43,7 +43,105 @@
                 </div><!-- /.navbar-collapse -->
             </nav><!-- /navbar -->
         </div>
-      
+      	<div id="content_show" style="width:100%;height:450px;background;color:#fff;">
+        	<?php  
+        		require("./database/connDB.inc.php");
+        		$identify=$_POST['shop_identify'];
+                if(!isset($_POST['submit'])){
+                    echo "非法提交数据，请以正确方式提交...";
+                }else{
+                	if(!isset($identify))
+                    {
+                        echo "<script type='text/javascript'>alert('数据操作失败，请重新操作...');window.location.href='./main.php';</script>";
+                    }else if($identify=='shop_select_item'){
+                        $shop_name=$_POST['shop_name'];
+                        $shop_keeper=$_POST['shop_keeper'];
+                        $shop_type=$_POST['shop_type'];
+                        $submit_value=$_POST['submit'];
+                        
+                        if($submit_value=="商店查询"){
+                            $sql="select * from shop_info where shop_name = '$shop_name' or shop_keeper= '$shop_keeper' or shop_type= '$shop_type' ";
+                            $array=$operatedb->Execsql($sql,$conn);
+                            
+                         
+                            if($array){
+                                foreach($array as $item){
+                                    echo "<div>";
+                                    echo "<span>".$item['shop_name']."</span>";
+                                    echo "<span>".$item['shop_keeper']."</span>";
+                                    echo "<span>".$item['shop_type']."</span>";
+                                    echo "<span>".$item['shop_style_top']."</span>";
+                                    echo "<span>".$item['shop_style_bottom']."</span>";
+                                    echo "</div>";
+                                }
+                            }else{
+                                    echo "没有查到相关商店信息...";
+                            }
+                        }else{
+                            $sql="select * from shop_info";
+                            $array=$operatedb->Execsql($sql,$conn);
+                            
+                            
+                            if($array){
+                                foreach($array as $item){
+                                    echo "<div>";
+                                    echo "<span>".$item['shop_name']."</span>";
+                                    echo "<span>".$item['shop_keeper']."</span>";
+                                    echo "<span>".$item['shop_type']."</span>";
+                                    echo "<span>".$item['shop_style_top']."</span>";
+                                    echo "<span>".$item['shop_style_bottom']."</span>";
+                                    echo "</div>";
+                                }
+                            }else{
+                                    echo "没有查到相关商店信息...";
+                            }
+                        }
+                        
+                        
+                    }else if($identify=='shop_add_item'){
+                        $shop_name=$_POST['shop_name'];
+                        $shop_keeper=$_POST['shop_keeper'];
+                        $goods_name=$_POST['goods_name'];
+                        $goods_price=$_POST['goods_price'];
+                        $goods_detail=$_POST['goods_detail'];
+                        $goods_upcolor=$_POST['up_color'];
+                        $goods_downcolor=$_POST['down_color'];
+                        $goods_image_url=$_POST['goods_image_url'];
+                        $goods_class=$_POST['goods_class'];
+                        
+                        
+                            $sql="insert into shop_single_detail (shop_name,shop_keeper,goods_name,goods_price,goods_detail,goods_style_top,goods_style_bottom,goods_image_url,goods_class) values ('$shop_name','$shop_keeper','$shop_type','$shop_upcolor','$sho_downcolor') ";
+                            $result=$operatedb->Execsql($sql,$conn);
+                
+                            if($result){
+                                echo "添加商店成功";
+                            }else{
+                                echo "添加商店失败，请重新添加...";	
+                            }
+                       
+                    }else if($identify=='shop_delete_item'){
+                    	$shop=$_POST['shops'];
+                        foreach($shop as $shop_item){
+                            
+                            $sql="delete from shop_info where shop_id= '$shop_item'";
+                            $array=$operatedb->Execsql($sql,$conn);
+                            
+                            if($array){
+                                echo "<div>";
+                                echo "删除商店成功";
+                                echo "</div>";
+                                echo "<br />";
+                            }else{
+                                echo "<div>";
+                                echo "删除商店失败，请重新删除...";	
+                                echo "</div>";
+                                echo "<br />";
+                            }
+                        }
+                    }
+                }
+            ?>
+        </div>
     </body>
 </html>
 <?php
