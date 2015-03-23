@@ -33,7 +33,12 @@
                             <input name="shop_keeper" type="text" placeholder="店主名称"/>
                         </div>
                         <div class="search_container">
-                            <input name="shop_type" type="text" placeholder="商店类型名称"/>
+                            <label>商店类型</label>
+                            <select name="shop_type">
+                                <option name="shipin" value="食品类">食品类</option>
+                                <option name="fuzhuang" value="服装类">服装类</option>
+                                <option name="dianzishebei" value="电子设备类">电子设备类</option>
+                            </select>
                         </div>
                         <div class="search_container">
                             <input name="submit" type="submit" value="商店查询"/>
