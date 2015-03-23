@@ -123,9 +123,15 @@
                             $array=$operatedb->Execsql($sql,$conn);
                             
                             if($array){
+                                echo "<div>";
                                 echo "删除商店成功";
+                                echo "</div>";
+                                echo "<br />";
                             }else{
+                                echo "<div>";
                                 echo "删除商店失败，请重新删除...";	
+                                echo "</div>";
+                                echo "<br />";
                             }
                         }
                     }
