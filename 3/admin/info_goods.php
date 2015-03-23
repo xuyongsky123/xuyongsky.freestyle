@@ -103,9 +103,8 @@
                                     echo "<div>";
                                     echo "<span><input name='goods[]' type='checkbox' value='".$item['id']."'>".$item['shop_name']."</span>";
                                     echo "<span>".$item['shop_keeper']."</span>";
-                                    echo "<span>".$item['shop_type']."</span>";
-                                    echo "<span>".$item['shop_style_top']."</span>";
-                                    echo "<span>".$item['shop_style_bottom']."</span>";
+                                    echo "<span>".$item['goods_name']."</span>";
+                                    echo "<span>".$item['goods_price']."</span>";
                                     echo "</div>";
                                 }
                             }else{
