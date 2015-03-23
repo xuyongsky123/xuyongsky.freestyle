@@ -88,7 +88,34 @@
                     </form>
                 </div>
                 <div id="delete_item" class="group_content">
-                    开发中...
+                    <form id="search_form" action="./info_goods_show.php" method="post">
+                        
+                        <input name="shop_identify" type="hidden" value="shop_delete_item" />
+                        
+                        <?php  
+                            require("./database/connDB.inc.php");
+							$sql="select * from shop_info";
+                            $array=$operatedb->Execsql($sql,$conn);
+                            
+                            
+                            if($array){
+                                foreach($array as $item){
+                                    echo "<div>";
+                                    echo "<span><input name='shops[]' type='checkbox' value='".$item['shop_id']."'>".$item['shop_name']."</span>";
+                                    echo "<span>".$item['shop_keeper']."</span>";
+                                    echo "<span>".$item['shop_type']."</span>";
+                                    echo "<span>".$item['shop_style_top']."</span>";
+                                    echo "<span>".$item['shop_style_bottom']."</span>";
+                                    echo "</div>";
+                                }
+                            }else{
+                                    echo "没有查到相关商店信息...";
+                            }
+						?>
+                        <div class="search_container">
+                            <input name="submit" type="submit" value="删除商店"/>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div> 
