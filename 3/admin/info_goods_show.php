@@ -122,7 +122,7 @@
                     	$shop=$_POST['goods'];
                         foreach($shop as $shop_item){
                             
-                            $sql="delete from shop_single_detail where shop_id= '$shop_item'";
+                            $sql="delete from shop_single_detail where id= '$shop_item'";
                             $array=$operatedb->Execsql($sql,$conn);
                             
                             if($array){
