@@ -122,7 +122,7 @@
                                     echo "</div>";
                                     
                                     echo "<div>";
-                                    echo "<span><input type='checkbox' value='".$item['shop_name']."'>".$item['shop_name']."</span>";
+                                    echo "<span><input type='checkbox' value='".$item['shop_id']."'>".$item['shop_name']."</span>";
                                     echo "<span>".$item['shop_keeper']."</span>";
                                     echo "<span>".$item['shop_type']."</span>";
                                     echo "<span>".$item['shop_style_top']."</span>";
