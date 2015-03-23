@@ -107,9 +107,9 @@
                         $result=$operatedb->Execsql($sql,$conn);
 			
                         if($result){
-                            echo "<script language='javascript'>alert('保存编辑到数据库成功');history.back();</script>";
+                            echo "<script language='javascript'>alert('添加商店成功');history.back();</script>";
                         }else{
-                            echo "<script language='javascript'>alert('保存编辑到数据库失败');history.back();</script>";	
+                            echo "<script language='javascript'>alert('添加商店失败，请重新添加...');history.back();</script>";	
                         }
                    
                 }
