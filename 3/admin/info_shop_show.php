@@ -118,9 +118,14 @@
                     }else if($identify=='shop_delete_item'){
                     	$shop=$_POST['shops'];
                         foreach($shop as $shop_item){
-                            echo $shop_item;
-                            for($i=0;$i<count($shop_item);$i++){
-                            	echo $shop_item[$i];
+                            
+                            $sql="delete from shop_info where shop_id= '$shop_item'";
+                            $array=$operatedb->Execsql($sql,$conn);
+                            
+                            if($result){
+                                echo "删除商店成功";
+                            }else{
+                                echo "伤删除商店失败，请重新添加...";	
                             }
                         }
                     }
