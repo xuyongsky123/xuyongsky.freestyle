@@ -103,10 +103,10 @@
                         $shop_keeper=$_POST['shop_keeper'];
                         $shop_type=$_POST['shop_type'];
                         $shop_upcolor=$_POST['up_color'];
-                        $sho_downcolor=$_POST['down_color'];
+                        $shop_downcolor=$_POST['down_color'];
                         
                         
-                            $sql="insert into shop_info (shop_name,shop_keeper,shop_type,shop_style_top,shop_style_bottom) values ('$shop_name','$shop_keeper','$shop_type','$shop_upcolor','$sho_downcolor') ";
+                            $sql="insert into shop_info (shop_name,shop_keeper,shop_type,shop_style_top,shop_style_bottom) values ('$shop_name','$shop_keeper','$shop_type','$shop_upcolor','$shop_downcolor') ";
                             $result=$operatedb->Execsql($sql,$conn);
                 
                             if($result){
