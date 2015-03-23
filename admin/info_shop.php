@@ -61,13 +61,6 @@
                                 <option name="shipin" value="食品类">食品类</option>
                                 <option name="fuzhuang" value="服装类">服装类</option>
                                 <option name="dianzishebei" value="电子设备类">电子设备类</option>
-                                <option name="palette-amethyst" value="palette-amethyst">palette-amethyst</option>
-                                <option name="palette-wet-asphalt" value="palette-wet-asphalt">palette-wet-asphalt</option>
-                                <option name="palette-sun-flower" value="palette-sun-flower">palette-sun-flower</option>
-                                <option name="palette-carrot" value="palette-carrot">palette-carrot</option>
-                                <option name="palette-alizarin" value="palette-alizarin">palette-alizarin</option>
-                                <option name="palette-clouds" value="palette-clouds">palette-clouds</option>
-                                <option name="palette-concrete" value="palette-concrete">palette-concrete</option>
                             </select>
                         </div>
                         <div class="search_container">
