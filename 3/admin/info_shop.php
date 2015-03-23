@@ -71,7 +71,7 @@
                                 <option name="palette-alizarin" value="palette-alizarin">palette-alizarin</option>
                                 <option name="palette-clouds" value="palette-clouds">palette-clouds</option>
                                 <option name="palette-concrete" value="palette-concrete">palette-concrete</option>
-                            </select><br/>
+                            </select>
                         </div>
                         <div class="search_container">
                             <label>商店展示下半部分背景</label>
@@ -86,7 +86,7 @@
                                 <option name="palette-pomegranate" value="palette-pomegranate">palette-pomegranate</option>
                                 <option name="palette-silver" value="palette-silver">palette-silver</option>
                                 <option name="palette-asbestos" value="palette-asbestos">palette-asbestos</option>
-                            </select><br/>
+                            </select>
                         </div>
                         <div class="search_container">
                             <input name="submit" type="submit" value="添加商店"/>
