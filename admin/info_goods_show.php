@@ -114,9 +114,9 @@
                             $result=$operatedb->Execsql($sql,$conn);
                 
                             if($result){
-                                echo "添加商店成功";
+                                echo "添加商品成功";
                             }else{
-                                echo "添加商店失败，请重新添加...";	
+                                echo "添加商品失败，请重新添加...";	
                             }
                        
                     }else if($identify=='shop_delete_item'){
