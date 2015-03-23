@@ -71,19 +71,6 @@
                                 <option name="palette-alizarin" value="palette-alizarin">palette-alizarin</option>
                                 <option name="palette-clouds" value="palette-clouds">palette-clouds</option>
                                 <option name="palette-concrete" value="palette-concrete">palette-concrete</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
                             </select><br/>
                         </div>
                         <div class="search_container">
@@ -99,15 +86,6 @@
                                 <option name="palette-pomegranate" value="palette-pomegranate">palette-pomegranate</option>
                                 <option name="palette-silver" value="palette-silver">palette-silver</option>
                                 <option name="palette-asbestos" value="palette-asbestos">palette-asbestos</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
-                                <option name="trousers" value="裤子">裤子</option>
                             </select><br/>
                         </div>
                         <div class="search_container">
