@@ -122,10 +122,10 @@
                             $sql="delete from shop_info where shop_id= '$shop_item'";
                             $array=$operatedb->Execsql($sql,$conn);
                             
-                            if($result){
-                                echo "<script language='javascript'>alert('删除商店成功');history.back();</script>";
+                            if($array){
+                                echo "删除商店成功";
                             }else{
-                                echo "<script language='javascript'>alert('删除商店失败，请重新删除...');history.back();</script>";	
+                                echo "删除商店失败，请重新删除...";	
                             }
                         }
                     }
