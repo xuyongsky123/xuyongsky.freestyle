@@ -105,6 +105,9 @@
                 </div>
                 <div id="delete_item" class="group_content">
                 	<form id="search_form" action="./info_shop_show.php" method="post">
+                        
+                        <input name="shop_identify" type="hidden" value="shop_delete_item" />
+                        
                         <?php  
                             require("./database/connDB.inc.php");
 							$sql="select * from shop_info";
