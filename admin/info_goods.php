@@ -94,7 +94,7 @@
                         
                         <?php  
                             require("./database/connDB.inc.php");
-							$sql="select * from shop_info";
+							$sql="select * from shop_single_detail";
                             $array=$operatedb->Execsql($sql,$conn);
                             
                             
