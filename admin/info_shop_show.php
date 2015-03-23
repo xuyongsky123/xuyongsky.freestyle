@@ -115,6 +115,9 @@
                                 echo "添加商店失败，请重新添加...";	
                             }
                        
+                    }else if($identify=='shop_delete_item'){
+                    	$shop=$_POST['shops'];
+                        echo $shop;
                     }
                 }
             ?>
