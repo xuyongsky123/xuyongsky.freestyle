@@ -107,18 +107,10 @@
                         $array=$operatedb->Execsql($sql,$conn);
                         
                      
-                        if($array){
-                            foreach($array as $item){
-                                echo "<div>";
-                                echo "<span>".$item['shop_name']."</span>";
-                                echo "<span>".$item['shop_keeper']."</span>";
-                                echo "<span>".$item['shop_type']."</span>";
-                                echo "<span>".$item['shop_style_top']."</span>";
-                                echo "<span>".$item['shop_style_bottom']."</span>";
-                                echo "</div>";
-                            }
+                        if($result){
+                            echo "<script language='javascript'>alert('新增商店成功');history.back();</script>";
                         }else{
-                                echo "没有查到相关商店信息...";
+                            echo "<script language='javascript'>alert('新增商店失败，请重新增加...');history.back();</script>";	
                         }
                    
                 }
