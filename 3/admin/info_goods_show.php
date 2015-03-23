@@ -53,7 +53,7 @@
                 	if(!isset($identify))
                     {
                         echo "<script type='text/javascript'>alert('数据操作失败，请重新操作...');window.location.href='./main.php';</script>";
-                    }else if($identify=='shop_select_item'){
+                    }else if($identify=='goods_select_item'){
                         $shop_name=$_POST['shop_name'];
                         $shop_keeper=$_POST['shop_keeper'];
                         $shop_type=$_POST['shop_type'];
@@ -118,7 +118,7 @@
                                 echo "添加商品失败，请重新添加...";	
                             }
                        
-                    }else if($identify=='shop_delete_item'){
+                    }else if($identify=='goods_delete_item'){
                     	$shop=$_POST['shops'];
                         foreach($shop as $shop_item){
                             
