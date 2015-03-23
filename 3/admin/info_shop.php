@@ -61,18 +61,52 @@
                         <div class="search_container">
                             <label>商店展示上半部分背景</label>
                             <select name="up_color">
-                                <option name="clothes" value="上衣">上衣</option>
-                                <option name="shoes" value="鞋子">鞋子</option>
-                                <option name="socket" value="袜子">袜子</option>
+                                <option name="palette-turquoise" value="palette-turquoise">palette-turquoise</option>
+                                <option name="palette-emerald" value="palette-emerald">palette-emerald</option>
+                                <option name="palette-peter-river" value="palette-peter-river">palette-peter-river</option>
+                                <option name="palette-amethyst" value="palette-amethyst">palette-amethyst</option>
+                                <option name="palette-wet-asphalt" value="palette-wet-asphalt">palette-wet-asphalt</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
                                 <option name="trousers" value="裤子">裤子</option>
                             </select><br/>
                         </div>
                         <div class="search_container">
                             <label>商店展示下半部分背景</label>
                             <select name="down_color">
-                                <option name="clothes" value="上衣">上衣</option>
-                                <option name="shoes" value="鞋子">鞋子</option>
-                                <option name="socket" value="袜子">袜子</option>
+                                <option name="palette-green-sea" value="palette-green-sea">palette-green-sea</option>
+                                <option name="palette-nephritis" value="palette-nephritis">palette-nephritis</option>
+                                <option name="palette-belize-hole" value="palette-belize-hole">palette-belize-hole</option>
+                                <option name="palette-wisteria" value="palette-wisteria">palette-wisteria</option>
+                                <option name="palette-midnight-blue" value="palette-midnight-blue">palette-midnight-blue</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
+                                <option name="trousers" value="裤子">裤子</option>
                                 <option name="trousers" value="裤子">裤子</option>
                             </select><br/>
                         </div>
