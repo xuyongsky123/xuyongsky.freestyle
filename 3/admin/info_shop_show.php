@@ -123,9 +123,9 @@
                             $array=$operatedb->Execsql($sql,$conn);
                             
                             if($result){
-                                echo "删除商店成功";
+                                echo "<script language='javascript'>alert('删除商店成功');history.back();</script>";
                             }else{
-                                echo "伤删除商店失败，请重新删除...";	
+                                echo "<script language='javascript'>alert('删除商店失败，请重新删除...');history.back();</script>";	
                             }
                         }
                     }
