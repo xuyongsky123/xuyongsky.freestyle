@@ -104,13 +104,12 @@
                     
                     
                     	$sql="insert into shop_info (shop_name,shop_keeper,shop_type,shop_style_top,shop_style_bottom) values ('$shop_name','$shop_keeper','$shop_type','$shop_upcolor','$sho_downcolor') ";
-                        $array=$operatedb->Execsql($sql,$conn);
-                        
-                     
+                        $result=$operatedb->Execsql($sql,$conn);
+			
                         if($result){
-                            echo "<script language='javascript'>alert('新增商店成功');history.back();</script>";
+                            echo "<script language='javascript'>alert('保存编辑到数据库成功');history.back();</script>";
                         }else{
-                            echo "<script language='javascript'>alert('新增商店失败，请重新增加...');history.back();</script>";	
+                            echo "<script language='javascript'>alert('保存编辑到数据库失败');history.back();</script>";	
                         }
                    
                 }
