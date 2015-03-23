@@ -110,7 +110,7 @@
                         $goods_class=$_POST['goods_class'];
                         
                         
-                            $sql="insert into shop_single_detail (shop_name,shop_keeper,goods_name,goods_price,goods_detail,goods_style_top,goods_style_bottom,goods_image_url,goods_class) values ('$shop_name','$shop_keeper','$shop_type','$shop_upcolor','$sho_downcolor') ";
+                            $sql="insert into shop_single_detail (shop_name,shop_keeper,goods_name,goods_price,goods_detail,goods_style_top,goods_style_bottom,goods_image_url,goods_class) values ('$shop_name','$shop_keeper','$goods_name','$goods_price','$goods_detail','$goods_upcolor','$goods_downcolor','$goods_image_url','$goods_class') ";
                             $result=$operatedb->Execsql($sql,$conn);
                 
                             if($result){
