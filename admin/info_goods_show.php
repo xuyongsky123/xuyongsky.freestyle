@@ -98,7 +98,7 @@
                         }
                         
                         
-                    }else if($identify=='shop_add_item'){
+                    }else if($identify=='goods_add_item'){
                         $shop_name=$_POST['shop_name'];
                         $shop_keeper=$_POST['shop_keeper'];
                         $goods_name=$_POST['goods_name'];
@@ -109,16 +109,6 @@
                         $goods_image_url=$_POST['goods_image_url'];
                         $goods_class=$_POST['goods_class'];
                         
-                        echo $shop_name;
-                            echo $shop_keeper;
-                            echo $goods_name;
-                            echo $goods_price;
-                            echo $goods_detail;
-                            echo $goods_upcolor;
-                            echo $goods_downcolor;
-                            echo $goods_image_url;
-                            echo $goods_class;
-                            
                             $sql="insert into shop_single_detail (shop_name,shop_keeper,goods_name,goods_price,goods_detail,goods_style_top,goods_style_bottom,goods_image_url,goods_class) values ('$shop_name','$shop_keeper','$goods_name','$goods_price','$goods_detail','$goods_upcolor','$goods_downcolor','$goods_image_url','$goods_class') ";
                             $result=$operatedb->Execsql($sql,$conn);
                 
