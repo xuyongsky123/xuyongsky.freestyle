@@ -60,7 +60,7 @@
                         </div>
                         <div class="search_container">
                             <label>商店展示上半部分背景</label>
-                            <select name="pice">
+                            <select name="up_color">
                                 <option name="clothes" value="上衣">上衣</option>
                                 <option name="shoes" value="鞋子">鞋子</option>
                                 <option name="socket" value="袜子">袜子</option>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="search_container">
                             <label>商店展示下半部分背景</label>
-                            <select name="pice">
+                            <select name="down_color">
                                 <option name="clothes" value="上衣">上衣</option>
                                 <option name="shoes" value="鞋子">鞋子</option>
                                 <option name="socket" value="袜子">袜子</option>
