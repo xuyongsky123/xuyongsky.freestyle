@@ -108,11 +108,11 @@
                                     echo "</div>";
                                 }
                             }else{
-                                    echo "没有查到相关商店信息...";
+                                    echo "没有查到相关商品信息...";
                             }
 						?>
                         <div class="search_container">
-                            <input name="submit" type="submit" value="删除商店"/>
+                            <input name="submit" type="submit" value="删除商品"/>
                         </div>
                     </form>
                 </div>
