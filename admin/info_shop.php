@@ -117,7 +117,7 @@
                             if($array){
                                 foreach($array as $item){
                                     echo "<div>";
-                                    echo "<span><input name='shop[]' type='checkbox' value='".$item['shop_id']."'>".$item['shop_name']."</span>";
+                                    echo "<span><input name='shops[]' type='checkbox' value='".$item['shop_id']."'>".$item['shop_name']."</span>";
                                     echo "<span>".$item['shop_keeper']."</span>";
                                     echo "<span>".$item['shop_type']."</span>";
                                     echo "<span>".$item['shop_style_top']."</span>";
