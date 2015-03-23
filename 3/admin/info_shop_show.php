@@ -108,9 +108,9 @@
                         
                      
                         if($result){
-                            echo "<script language='javascript'>alert('新增商店成功');history.back();</script>";
+                            echo '新增商店成功';
                         }else{
-                            echo "<script language='javascript'>alert('新增商店失败，请重新增加...');history.back();</script>";	
+                            echo '新增商店失败，请重新增加...';	
                         }
                    
                 }
