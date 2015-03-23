@@ -26,8 +26,12 @@
                 <div id="modify_item" class="group_content">
                 	开发中...
                 </div>
-                <div id="add_item" class="group_content">开发中...</div>
-                <div id="delete_item" class="group_content">开发中...</div>
+                <div id="add_item" class="group_content">
+                    开发中...
+                </div>
+                <div id="delete_item" class="group_content">
+                    开发中...
+                </div>
             </div>
         </div> 
         
