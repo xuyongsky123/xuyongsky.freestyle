@@ -60,7 +60,7 @@
                             <select name="shop_type">
                                 <option name="shipin" value="食品类">食品类</option>
                                 <option name="fuzhuang" value="服装类">服装类</option>
-                                <option name="palette-peter-river" value="palette-peter-river">palette-peter-river</option>
+                                <option name="dianzishebei" value="电子设备类">电子设备类</option>
                                 <option name="palette-amethyst" value="palette-amethyst">palette-amethyst</option>
                                 <option name="palette-wet-asphalt" value="palette-wet-asphalt">palette-wet-asphalt</option>
                                 <option name="palette-sun-flower" value="palette-sun-flower">palette-sun-flower</option>
