@@ -118,7 +118,7 @@
                     }else if($identify=='shop_delete_item'){
                     	$shop=$_POST['shops'];
                         foreach($shop as $shop_item){
-                            for($i, $i<count($shop),$i++){
+                            for($i, $i<count($shop_item),$i++){
                             	$shop_sub=$_POST[$i];
                         		echo $shop_sub;
                             }
