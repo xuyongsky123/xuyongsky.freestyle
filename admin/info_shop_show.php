@@ -110,9 +110,9 @@
                             $result=$operatedb->Execsql($sql,$conn);
                 
                             if($result){
-                                echo "<script language='javascript'>alert('添加商店成功');history.back();</script>";
+                                echo "添加商店成功";
                             }else{
-                                echo "<script language='javascript'>alert('添加商店失败，请重新添加...');history.back();</script>";	
+                                echo "添加商店失败，请重新添加...";	
                             }
                        
                     }
