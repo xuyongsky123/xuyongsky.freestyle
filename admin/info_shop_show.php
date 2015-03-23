@@ -102,8 +102,25 @@
                     $shop_upcolor=$_POST['up_color'];
                     $sho_downcolor=$_POST['down_color'];
                     
-                    echo $shop_upcolor;
-                    echo $sho_downcolor;
+                    
+                    	$sql="insert into shop_info (shop_name,shop_keeper,shop_type,shop_style_top,shop_style_bottom) values ('$shop_name','$shop_keeper','$shop_type','$shop_upcolor','$sho_downcolor') ";
+                        $array=$operatedb->Execsql($sql,$conn);
+                        
+                     
+                        if($array){
+                            foreach($array as $item){
+                                echo "<div>";
+                                echo "<span>".$item['shop_name']."</span>";
+                                echo "<span>".$item['shop_keeper']."</span>";
+                                echo "<span>".$item['shop_type']."</span>";
+                                echo "<span>".$item['shop_style_top']."</span>";
+                                echo "<span>".$item['shop_style_bottom']."</span>";
+                                echo "</div>";
+                            }
+                        }else{
+                                echo "没有查到相关商店信息...";
+                        }
+                   
                 }
             ?>
         </div>
