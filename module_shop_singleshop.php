@@ -16,7 +16,7 @@
                 <div class="col-xs-2">
                     <div class="todo">
                         <div class="todo-search">
-                          <input class="todo-search-field" type="search" value="" readonly="readonly" placeholder="店铺类型" />
+                          <input class="todo-search-field" type="search" value="" readonly="readonly" placeholder="产品类型" />
                         </div>
                         <ul>
                             <?php include("./module_shop_singleshopshowlist.php"); ?>
