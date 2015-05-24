@@ -19,6 +19,9 @@
       </div>
 <header style="height:100px;font-size:5rem;min-width:700px;">
     <div id="logo" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:left;">
+        	平安直通资讯有限公司
+        </div>
+    <div id="logo" style="display:none;text-align:left;padding:7px 0 7px 7px;display:inline-block;float:left;">
         	College Mall
         </div>
     <?php if(isset($_GET["shop_name"])){ ?>
