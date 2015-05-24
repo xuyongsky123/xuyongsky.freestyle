@@ -55,7 +55,7 @@
                         <input name="shop_identify" type="hidden" value="shop_add_item" />
                         
                     	<div class="search_container">
-                            <input name="shop_name" type="text" placeholder="商店名称"/>
+                            <input name="shop_name" type="text" placeholder="产品类型名称"/>
                         </div>
                         <div class="search_container">
                             <input name="shop_keeper" type="text" placeholder="店主名称"/>
@@ -63,9 +63,9 @@
                         <div class="search_container">
                             <label>产品类型</label>
                             <select name="shop_type">
-                                <option name="shipin" value="食品类">保险类</option>
-                                <option name="fuzhuang" value="服装类">理财类</option>
-                                <option name="dianzishebei" value="电子设备类">其他</option>
+                                <option name="shipin" value="保险类">保险类</option>
+                                <option name="fuzhuang" value="理财类">理财类</option>
+                                <option name="dianzishebei" value="其他">其他</option>
                             </select>
                         </div>
                         <div class="search_container">
