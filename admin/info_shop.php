@@ -35,9 +35,9 @@
                         <div class="search_container">
                             <label>产品类型</label>
                             <select name="shop_type">
-                                <option name="shipin" value="食品类">保险类</option>
-                                <option name="fuzhuang" value="服装类">理财类</option>
-                                <option name="dianzishebei" value="电子设备类">其他</option>
+                                <option name="shipin" value="保险类">保险类</option>
+                                <option name="fuzhuang" value="理财类">理财类</option>
+                                <option name="dianzishebei" value="其他">其他</option>
                             </select>
                         </div>
                         <div class="search_container">
