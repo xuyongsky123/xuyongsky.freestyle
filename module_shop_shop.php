@@ -6,7 +6,7 @@
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
-	<title>大学电商专栏</title>
+	<title>平安直通咨询</title>
   </head>
   <body>
       <?php include("./module_shop_templetheader.php"); ?>
