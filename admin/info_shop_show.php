@@ -24,7 +24,7 @@
         	<link href="./css/main_style.css" rel="stylesheet" />
         
         
-        <title>管理商店操作界面</title>
+        <title>管理产品类型操作界面</title>
         <style type="text/css">
         </style>	
     </head>
@@ -59,7 +59,7 @@
                         $shop_type=$_POST['shop_type'];
                         $submit_value=$_POST['submit'];
                         
-                        if($submit_value=="商店查询"){
+                        if($submit_value=="产品类型查询"){
                             $sql="select * from shop_info where shop_name = '$shop_name' or shop_keeper= '$shop_keeper' or shop_type= '$shop_type' ";
                             $array=$operatedb->Execsql($sql,$conn);
                             
@@ -75,7 +75,7 @@
                                     echo "</div>";
                                 }
                             }else{
-                                    echo "没有查到相关商店信息...";
+                                    echo "没有查到相关产品类型信息...";
                             }
                         }else{
                             $sql="select * from shop_info";
@@ -93,7 +93,7 @@
                                     echo "</div>";
                                 }
                             }else{
-                                    echo "没有查到相关商店信息...";
+                                    echo "没有查到相关产品类型信息...";
                             }
                         }
                         
@@ -110,9 +110,9 @@
                             $result=$operatedb->Execsql($sql,$conn);
                 
                             if($result){
-                                echo "添加商店成功";
+                                echo "添加产品类型成功";
                             }else{
-                                echo "添加商店失败，请重新添加...";	
+                                echo "添加产品类型失败，请重新添加...";	
                             }
                        
                     }else if($identify=='shop_delete_item'){
@@ -124,12 +124,12 @@
                             
                             if($array){
                                 echo "<div>";
-                                echo "删除商店成功";
+                                echo "删除产品类型成功";
                                 echo "</div>";
                                 echo "<br />";
                             }else{
                                 echo "<div>";
-                                echo "删除商店失败，请重新删除...";	
+                                echo "删除产品类型失败，请重新删除...";	
                                 echo "</div>";
                                 echo "<br />";
                             }
