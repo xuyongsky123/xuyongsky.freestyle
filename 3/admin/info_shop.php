@@ -33,7 +33,7 @@
                             <input name="shop_keeper" type="text" placeholder="店主名称"/>
                         </div>
                         <div class="search_container">
-                            <label>商店类型</label>
+                            <label>产品类型</label>
                             <select name="shop_type">
                                 <option name="shipin" value="食品类">保险类</option>
                                 <option name="fuzhuang" value="服装类">理财类</option>
@@ -41,8 +41,8 @@
                             </select>
                         </div>
                         <div class="search_container">
-                            <input name="submit" type="submit" value="商店查询"/>
-                            <input name="submit" type="submit" value="全部商店查询"/>
+                            <input name="submit" type="submit" value="产品类型查询"/>
+                            <input name="submit" type="submit" value="全部产品类型查询"/>
                         </div>
                     </form>
             	</div>
@@ -61,15 +61,15 @@
                             <input name="shop_keeper" type="text" placeholder="店主名称"/>
                         </div>
                         <div class="search_container">
-                            <label>商店类型</label>
+                            <label>产品类型</label>
                             <select name="shop_type">
-                                <option name="shipin" value="食品类">食品类</option>
-                                <option name="fuzhuang" value="服装类">服装类</option>
-                                <option name="dianzishebei" value="电子设备类">电子设备类</option>
+                                <option name="shipin" value="食品类">保险类</option>
+                                <option name="fuzhuang" value="服装类">理财类</option>
+                                <option name="dianzishebei" value="电子设备类">其他</option>
                             </select>
                         </div>
                         <div class="search_container">
-                            <label>商店展示上半部分背景</label>
+                            <label>产品展示上半部分背景</label>
                             <select name="up_color">
                                 <option name="palette-turquoise" value="palette-turquoise">palette-turquoise</option>
                                 <option name="palette-emerald" value="palette-emerald">palette-emerald</option>
@@ -84,7 +84,7 @@
                             </select>
                         </div>
                         <div class="search_container">
-                            <label>商店展示下半部分背景</label>
+                            <label>产品展示下半部分背景</label>
                             <select name="down_color">
                                 <option name="palette-green-sea" value="palette-green-sea">palette-green-sea</option>
                                 <option name="palette-nephritis" value="palette-nephritis">palette-nephritis</option>
@@ -125,11 +125,11 @@
                                     echo "</div>";
                                 }
                             }else{
-                                    echo "没有查到相关商店信息...";
+                                    echo "没有查到相关产品类型信息...";
                             }
 						?>
                         <div class="search_container">
-                            <input name="submit" type="submit" value="删除商店"/>
+                            <input name="submit" type="submit" value="删除产品类型"/>
                         </div>
                     </form>
                 </div>
