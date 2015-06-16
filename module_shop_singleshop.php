@@ -39,7 +39,7 @@
                                         
                                         if($array_search){
                                             foreach($array_search as $item_search){
-                                                echo '<a href="">';
+                                                echo '<a href="./module_shop_goodsdetail.php?id='.$item_search["id"].'">';
                                                 echo '<div class="pallete-item xuyong_fixitem">';
                                                 echo '<dl class="palette '.$item_search["goods_style_top"].'">';
                                                 //echo $item_search["goods_image"];
