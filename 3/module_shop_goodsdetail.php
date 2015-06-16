@@ -32,7 +32,11 @@
       
       <div class="row demo-samples">
           <?php 
-
+                if(isset($_SESSION['id'])){
+                	$user_id=$_SESSION['id'];
+                }else{
+                	$user_id=null;
+                }
                 if(isset($_GET['id'])){
                     
                     $shop_search=$_GET['id'];
