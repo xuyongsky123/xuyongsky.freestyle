@@ -20,7 +20,7 @@
                     if($array_search){
                         foreach($array_search as $item_search){
                             echo '<div class="col-xs-3"></div>';
-                            echo '<div class="col-xs-6">'.$item_search["goods_id"].'test</div>';
+                            echo '<div class="col-xs-6">'.$item_search["goods_id"].'</div>';
                             echo '<div class="col-xs-3"></div>';
                         }
                     }else{
