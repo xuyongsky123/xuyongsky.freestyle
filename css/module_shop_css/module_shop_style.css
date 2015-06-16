@@ -110,7 +110,7 @@
 	height:310px;overflow:hidden;text-overflow:ellipsis;
 }
 .detail-cart,.detail-buy {
-	border:1px solid #F08080;color:#F08080;display:block;text-align:center;
+	border:1px solid #F08080;color:#F08080;display:block;text-align:center;margin-top:20px;
 }
 
 
