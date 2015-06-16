@@ -110,7 +110,7 @@
 	max-height:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 .detail-cart,.detail-buy {
-	border:1px solid #F08080;color:#F08080;display;block;
+	border:1px solid #F08080;color:#F08080;display:block;
 }
 
 
