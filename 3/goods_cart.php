@@ -28,8 +28,8 @@
                             echo '<div class="col-xs-3 common-line-height">'.$item_search["goods_price"].'</div>';    
                             echo '</a></div>';
                             echo '<div class="col-xs-2 common-line-height">删除</div>';
-                            echo '<div class="col-xs-12" style="height:20px;margin:1px 0;"></div>';
                             echo '</div>';
+                            echo '<div class="col-xs-12" style="height:20px;margin:1px 0;"></div>';
                         }
                     }else{
                         echo '<div>';
