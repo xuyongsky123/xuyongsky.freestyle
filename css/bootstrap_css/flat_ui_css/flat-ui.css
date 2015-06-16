@@ -377,6 +377,7 @@ a:hover,
 a:focus {
   color: #1abc9c;
   text-decoration: none;
+    border:none;
   }
 a:focus {
   outline: none;
