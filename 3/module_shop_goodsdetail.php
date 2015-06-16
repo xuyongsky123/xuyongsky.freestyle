@@ -18,6 +18,7 @@
                   },
                   "text"
               );
+              windows.location.href="./module_shop_handle_ajax.php";
           }
       </script>
   </head>
