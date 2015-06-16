@@ -9,7 +9,8 @@
         }else{
             return false;
         }
-    }else($_REQUEST['action']=="deleteFromCart"){
+    }
+	if($_REQUEST['action']=="deleteFromCart"){
     	$sql_search="delete from goods_cart where user_id=".$_REQUEST['user_id']." and goods_id=".$_REQUEST['goods_id'];
         $array_search=$operatedb->Execsql($sql_search,$conn);
     
