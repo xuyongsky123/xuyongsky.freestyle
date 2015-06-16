@@ -9,7 +9,7 @@
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
 	<title>商品详情页</title>
       <script>
-          function addToCart(id,user_id){
+          function addToCart(){
               alert(id);
               if(user_id==null || user_id==''){
               	alert("请先登录！");
