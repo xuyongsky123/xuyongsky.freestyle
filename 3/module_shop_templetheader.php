@@ -29,6 +29,7 @@
         	<span style="display:none;">......</span>
         </div>
     <?php } ?> 
+    <div>购物车</div>
     
     
     </header>
