@@ -47,7 +47,26 @@
                     </form>
             	</div>
                 <div id="modify_item" class="group_content">
-                	开发中...
+                	<?php  
+                            require("./database/connDB.inc.php");
+							$sql="select * from shop_info";
+                            $array=$operatedb->Execsql($sql,$conn);
+                            
+                            
+                            if($array){
+                                foreach($array as $item){
+                                    echo "<div>";
+                                    echo "<span><input name='shops[]' type='checkbox' value='".$item['shop_id']."'>".$item['shop_name']."</span>";
+                                    echo "<span>".$item['shop_keeper']."</span>";
+                                    echo "<span>".$item['shop_type']."</span>";
+                                    echo "<span>".$item['shop_style_top']."</span>";
+                                    echo "<span>".$item['shop_style_bottom']."</span>";
+                                    echo "</div>";
+                                }
+                            }else{
+                                    echo "没有查到相关产品类型信息...";
+                            }
+						?>
                 </div>
                 <div id="add_item" class="group_content">
                 	<form id="search_form" action="./info_shop_show.php" method="post">
