@@ -31,13 +31,13 @@
       
       <div class="row demo-samples">
           <?php 
-                if(isset($_SESSION['id'])){
-                	$user_id=$_SESSION['id'];
-                }else{
-                	$user_id='';
-                }
+                
                 if(isset($_GET['id'])){
-                    
+                    if(isset($_SESSION['id'])){
+                        $user_id=$_SESSION['id'];
+                    }else{
+                        $user_id='';
+                    }
                     $shop_search=$_GET['id'];
                     $sql_search="select * from shop_single_detail where id = '$shop_search'";
                     $array_search=$operatedb->Execsql($sql_search,$conn);
