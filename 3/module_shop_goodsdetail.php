@@ -10,6 +10,13 @@
 	<title>商品详情页</title>
       <script>
           function addToCart(id,user_id){
+              $.post(
+                  "./module_shop_handle_ajax.php",
+                  {goods_id:id,user_id:user_id},
+                  function(data){
+                      alert(data);
+                  }
+              );
           	alert(id);
               alert(user_id);
           }
