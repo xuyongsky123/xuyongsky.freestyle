@@ -36,7 +36,7 @@
                     if(isset($_SESSION['id'])){
                         $user_id=$_SESSION['id'];
                     }else{
-                        $user_id='';
+                        $user_id='wu';
                         var_dump($user_id);
                         exit; 
                     }
