@@ -23,7 +23,7 @@
                     if($array_search){
                         foreach($array_search as $item_search){
                             echo '<div class="col-xs-5">';
-                            echo '<img src="'.$item_search["goods_detail_image_url"].'">';
+                            echo '<img class="detail-style" src="'.$item_search["goods_detail_image_url"].'">';
                             echo '</div>';
                             echo '<a href="./module_shop_goodsdetail.php?id='.$item_search["id"].'">';
                             echo '<div class="pallete-item xuyong_fixitem">';
