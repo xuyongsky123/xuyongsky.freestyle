@@ -22,22 +22,22 @@
                     $array_search=$operatedb->Execsql($sql_search,$conn);
                     if($array_search){
                         foreach($array_search as $item_search){
-                            echo '<div class="col-xs-5 row">';
                             echo '<div class="col-xs-1"></div>';
+                            echo '<div class="col-xs-5">';
                             echo '<img class="detail-style" src="'.$item_search["goods_detail_image_url"].'">';
                             echo '</div>';
-                            echo '<div class="col-xs-7 row">';
+                            echo '<div class="col-xs-5">';
                             echo '<div class="detail-name-xy">'.$item_search["goods_name"].'</div>';
                             echo '<div class="detail-price-xy">'.$item_search["goods_price"].'</div>';
                             echo '<div class="col-xs-1"></div>';
                             echo '<div class="detail-detail-xy">'.$item_search["goods_detail"].'</div>';
-                            echo '<div class="col-xs-1"></div>';
                             echo '<div class="col-xs-1"></div>';
                             echo '<a class="col-xs-2 detail-cart">加入购物车</a>';
                             echo '<div class="col-xs-1"></div>';
                             echo '<a class="col-xs-2 detail-buy">立即购买</a>';
                             echo '<div class="col-xs-1"></div>';
                             echo '</div>';
+                            echo '<div class="col-xs-1"></div>';
                         }
                     }else{
                         echo '<div>';
