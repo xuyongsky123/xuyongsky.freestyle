@@ -29,6 +29,8 @@
                             echo '<div>'.$item_search["goods_name"].'</div>';
                             echo '<div>'.$item_search["goods_price"].'</div>';
                             echo '<div>'.$item_search["goods_detail"].'</div>';
+                            echo '<a>加入购物车</a>';
+                            echo '<a>立即购买</a>';
                             echo '</div>';
                         }
                     }else{
