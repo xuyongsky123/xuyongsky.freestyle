@@ -16,7 +16,7 @@
               }else{
               	$.post(
                       "./module_shop_handle_ajax.php",
-                      {goods_id:id,user_id:user_id},
+                    {goods_id:id,user_id:user_id,action:'addToCart'},
                       function(data){
                           alert("加入购物车成功！");
                       }
