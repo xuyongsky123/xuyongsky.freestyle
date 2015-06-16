@@ -54,7 +54,7 @@
                             echo '<div class="col-xs-1"></div>';
                             echo '<a onclick="addToCart('.$item_search["id"].','.$user_id .')" class="col-xs-4 detail-cart">加入购物车</a>';
                             echo '<div class="col-xs-2"></div>';
-                            echo '<a class="col-xs-4 detail-buy">立即购买</a>';
+                            echo '<a onclick="buyGoods()" class="col-xs-4 detail-buy">立即购买</a>';
                             echo '<div class="col-xs-1"></div>';
                             echo '</div>';
                             echo '<div class="col-xs-1"></div>';
