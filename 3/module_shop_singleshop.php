@@ -54,7 +54,7 @@
                                                 echo '</dd>';
                                                 echo '</dl>';
                                                 echo '</div>';
-                                                echo '</a>;'
+                                                echo '</a>';
                                             }
                                         }else{
                                             echo '<div>';
