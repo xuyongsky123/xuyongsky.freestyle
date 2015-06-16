@@ -21,6 +21,8 @@
                     $sql_search="select * from shop_single_detail where shop_name = '$shop_search'";
                     $array_search=$operatedb->Execsql($sql_search,$conn);
                     
+                                        var_dump($array_search);
+                                        exit;
                     if($array_search){
                         foreach($array_search as $item_search){
                             echo '<a href="./module_shop_goodsdetail.php?id='.$item_search["id"].'">';
