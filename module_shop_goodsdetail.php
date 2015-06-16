@@ -35,10 +35,10 @@
                 if(isset($_GET['id'])){
                     if(isset($_SESSION['id'])){
                         $user_id=$_SESSION['id'];
-                        var_dump($user_id);
-                        exit; 
                     }else{
                         $user_id='';
+                        var_dump($user_id);
+                        exit; 
                     }
                     $shop_search=$_GET['id'];
                     $sql_search="select * from shop_single_detail where id = '$shop_search'";
