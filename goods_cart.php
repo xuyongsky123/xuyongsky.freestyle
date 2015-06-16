@@ -8,6 +8,17 @@
     <?php include('./frame_bootstrap_templethead.php'); ?>
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
 	<title>购物车</title> 
+      <script>
+          function deleteFromCart(user_id,goods_id){
+          	$.post(
+                "./module_shop_handle_ajax.php",
+                {goods_id:goods_id,user_id:user_id,action:'deleteFromCart'},
+                function(data){
+                    alert("加入购物车成功！");
+                }
+            );
+          }
+      </script>
   </head>
   <body>
       <?php include("./module_shop_templetheader.php"); ?>
