@@ -19,6 +19,7 @@
       
       <div class="row demo-samples">
           <?php 
+echo $_SESSION['id'];
 
                 if(isset($_GET['id'])){
                     
