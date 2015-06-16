@@ -9,8 +9,9 @@
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
 	<title>商品详情页</title>
       <script>
-          function addToCart(id){
+          function addToCart(id,user_id){
           	alert(id);
+              alert(user_id);
           }
       </script>
   </head>
