@@ -27,7 +27,7 @@
                             echo '<div class="col-xs-3 common-line-height">'.$item_search["goods_name"].'</div>';
                             echo '<div class="col-xs-3 common-line-height">'.$item_search["goods_price"].'</div>';    
                             echo '</a></div>';
-                            echo '<div class="col-xs-2 common-line-height">删除</div>';
+                            echo '<div class="col-xs-2 common-line-height"><a onclick="deleteFromCart('.$user_id.','.$item_search['goods_id'].')">删除</a></div>';
                             echo '</div>';
                             echo '<div class="col-xs-12" style="height:20px;margin:1px 0;"></div>';
                         }
