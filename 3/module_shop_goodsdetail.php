@@ -35,7 +35,7 @@
                 if(isset($_SESSION['id'])){
                 	$user_id=$_SESSION['id'];
                 }else{
-                	$user_id=null;
+                	$user_id='';
                 }
                 if(isset($_GET['id'])){
                     
