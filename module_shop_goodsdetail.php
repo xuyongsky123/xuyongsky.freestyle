@@ -17,8 +17,6 @@
                       alert(data);
                   }
               );
-          	alert(id);
-              alert(user_id);
           }
       </script>
   </head>
