@@ -9,8 +9,8 @@
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
 	<title><?php echo $_GET["shop_name"]; ?></title>
       <script>
-          function addToCart(){
-          	
+          function addToCart(id){
+          	alert(id);
           }
       </script>
   </head>
