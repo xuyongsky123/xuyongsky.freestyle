@@ -7,7 +7,7 @@
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
-	<title><?php echo $_GET["shop_name"]; ?></title>
+	<title>商品详情页</title>
       <script>
           function addToCart(id){
           	alert(id);
