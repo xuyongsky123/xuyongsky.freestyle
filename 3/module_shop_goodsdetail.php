@@ -31,7 +31,9 @@
                             echo '<div class="detail-detail-xy">'.$item_search["goods_detail"].'</div>';
                             echo '<div class="col-xs-1"></div>';
                             echo '<a class="col-xs-2 detail-cart">加入购物车</a>';
+                            echo '<div class="col-xs-1"></div>';
                             echo '<a class="col-xs-2 detail-buy">立即购买</a>';
+                            echo '<div class="col-xs-1"></div>';
                             echo '</div>';
                         }
                     }else{
