@@ -14,14 +14,7 @@
       
       <div class="row demo-samples">
           <?php 
-                
-                if(isset($_GET['id'])){
-                    if(isset($_SESSION['id'])){
-                        $user_id=$_SESSION['id'];
-                    }else{
-                        $user_id=0;
-                    }
-                    $shop_search=$_GET['id'];
+                    $user_id=$_SESSION['id'];
                     $sql_search="select * from shop_single_detail where id = '$shop_search'";
                     $array_search=$operatedb->Execsql($sql_search,$conn);
                     if($array_search){
@@ -47,12 +40,6 @@
                         echo "对不起，您所选择的产品暂时没有，请选择其他产品...";	
                         echo '</div>';
                     }
-                    
-                }else{
-                    echo '<div>';
-                    echo "您未选择任何产品，请从前页选择产品...";
-                    echo '</div>';
-                }
           ?>
       </div>
       
