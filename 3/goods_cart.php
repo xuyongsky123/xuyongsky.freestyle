@@ -14,7 +14,7 @@
                 "./module_shop_handle_ajax.php",
                 {goods_id:goods_id,user_id:user_id,action:'deleteFromCart'},
                 function(data){
-                    alert("加入购物车成功！");
+                    alert("删除成功！");
                 }
             );
           }
