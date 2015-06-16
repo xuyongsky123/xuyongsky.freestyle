@@ -15,7 +15,7 @@
       <div class="row demo-samples">
           <?php 
                     $user_id=$_SESSION['id'];
-                    $sql_search="select * from gooods_cart where user_id = '$user_id'";
+                    $sql_search="select * from goods_cart where user_id = '$user_id'";
                     $array_search=$operatedb->Execsql($sql_search,$conn);
                     if($array_search){
                         foreach($array_search as $item_search){
