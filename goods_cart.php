@@ -20,8 +20,8 @@
 
                     if($array_search){
                         foreach($array_search as $item_search){
-                            echo '<div class="col-xs-3"></div>';
-                            echo '<div class="col-xs-9"><a href="module_shop_goodsdetail.php?id='.$item_search["goods_id"].'">';
+                            echo '<div class="col-xs-2"></div>';
+                            echo '<div class="col-xs-10"><a href="module_shop_goodsdetail.php?id='.$item_search["goods_id"].'">';
                             echo '<div class="col-xs-4"><img src="'.$item_search["goods_image_url"].'"></div>';
                             echo '<div class="col-xs-4">'.$item_search["goods_name"].'</div>';
                             echo '<div class="col-xs-4">'.$item_search["goods_price"].'</div>';    
