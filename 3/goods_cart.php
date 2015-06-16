@@ -19,6 +19,8 @@
                     $array_search=$operatedb->Execsql($sql_search,$conn);
                     if($array_search){
                         foreach($array_search as $item_search){
+                            var_dump($item_search);
+                            exit;
                             echo $item_search['goods_id'];
                         }
                     }else{
