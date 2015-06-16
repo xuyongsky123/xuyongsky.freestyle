@@ -12,7 +12,7 @@
           function addToCart(id,user_id){
               if(user_id==null || user_id==''){
               	alert("请先登录！");
-                  window.location.href="./login.html";
+                window.location.href="./login.html";
               }else{
               	$.post(
                       "./module_shop_handle_ajax.php",
