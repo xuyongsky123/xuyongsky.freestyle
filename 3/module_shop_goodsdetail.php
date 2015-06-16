@@ -26,10 +26,10 @@
                             echo '<img class="detail-style" src="'.$item_search["goods_detail_image_url"].'">';
                             echo '</div>';
                             echo '<div class="col-xs-7">';
+                            echo '<div>'.$item_search["goods_name"].'</div>';
+                            echo '<div>'.$item_search["goods_price"].'</div>';
                             echo '<div>'.$item_search["goods_detail"].'</div>';
                             echo '</div>';
-                            var_dump($item_search["goods_detail"]);
-                            exit;
                         }
                     }else{
                         echo '<div>';
