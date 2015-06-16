@@ -29,6 +29,7 @@
                             echo '<div class="detail-name-xy">'.$item_search["goods_name"].'</div>';
                             echo '<div class="detail-price-xy">'.$item_search["goods_price"].'</div>';
                             echo '<div class="detail-detail-xy">'.$item_search["goods_detail"].'</div>';
+                            echo '<div class="col-xs-1"></div>'
                             echo '<a class="col-xs-2 detail-cart">加入购物车</a>';
                             echo '<a class="col-xs-2 detail-buy">立即购买</a>';
                             echo '</div>';
