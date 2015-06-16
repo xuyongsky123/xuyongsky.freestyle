@@ -10,7 +10,6 @@
 	<title>商品详情页</title>
       <script>
           function addToCart(id,user_id){
-              alert('test');
               if(user_id==null || user_id==''){
               	alert("请先登录！");
                 window.location.href="./login.html";
