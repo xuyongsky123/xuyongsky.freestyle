@@ -25,32 +25,16 @@
                             echo '<div class="col-xs-5">';
                             echo '<img class="detail-style" src="'.$item_search["goods_detail_image_url"].'">';
                             echo '</div>';
-                            echo '<a href="./module_shop_goodsdetail.php?id='.$item_search["id"].'">';
-                            echo '<div class="pallete-item xuyong_fixitem">';
-                            echo '<dl class="palette '.$item_search["goods_style_top"].'">';
-                            //echo $item_search["goods_image"];
-                            echo '<img src="'.$item_search["goods_image_url"].'" />';
-                            echo '</dl>';
-                            echo '<dl class="palette '.$item_search["goods_style_bottom"].'">';
-                            echo '<dt>';
-                            echo $item_search["goods_name"];
-                            echo '</dt>';
-                            echo '<dd>';
-                            echo $item_search["goods_price"];
-                            echo '</dd>';
-                            echo '</dl>';
-                            echo '</div>';
-                            echo '</a>';
                         }
                     }else{
                         echo '<div>';
-                        echo "对不起，您所选择的商店暂时没有商品，请选择其他商店...";	
+                        echo "对不起，您所选择的产品暂时没有，请选择其他产品...";	
                         echo '</div>';
                     }
                     
                 }else{
                     echo '<div>';
-                    echo "您未选择任何商店，请从首页选择商店...";
+                    echo "您未选择任何类型，请从首页选择类型...";
                     echo '</div>';
                 }
           ?>
