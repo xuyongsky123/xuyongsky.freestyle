@@ -15,10 +15,10 @@
                   {goods_id:id,user_id:user_id},
                   function(data){
                       alert(data);
+              windows.location.href="./module_shop_handle_ajax.php";
                   },
                   "text"
               );
-              windows.location.href="./module_shop_handle_ajax.php";
           }
       </script>
   </head>
