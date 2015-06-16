@@ -18,7 +18,7 @@
                 if(isset($_GET['id'])){
                     
                     $shop_search=$_GET['id'];
-                    $sql_search="select * from shop_single_detail where shop_name = '$shop_search'";
+                    $sql_search="select * from shop_single_detail where id = '$shop_search'";
                     $array_search=$operatedb->Execsql($sql_search,$conn);
                     
                                         var_dump($array_search);
