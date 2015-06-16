@@ -19,7 +19,6 @@
       
       <div class="row demo-samples">
           <?php 
-echo $_SESSION['id'];
 
                 if(isset($_GET['id'])){
                     
@@ -37,7 +36,7 @@ echo $_SESSION['id'];
                             echo '<div class="detail-price-xy">'.$item_search["goods_price"].'</div>';
                             echo '<div class="detail-detail-xy">'.$item_search["goods_detail"].'</div>';
                             echo '<div class="col-xs-1"></div>';
-                            echo '<a onclick="addToCart('.$item_search["id"].')" class="col-xs-4 detail-cart">加入购物车</a>';
+                            echo '<a onclick="addToCart('.$item_search["id"].','.$_SESSION["id"].')" class="col-xs-4 detail-cart">加入购物车</a>';
                             echo '<div class="col-xs-2"></div>';
                             echo '<a class="col-xs-4 detail-buy">立即购买</a>';
                             echo '<div class="col-xs-1"></div>';
