@@ -107,7 +107,7 @@
 	font-size:24px;font-weight:bold;color:#F08080;margin:15px 0;
 }
 .detail-detail-xy {
-	max-height:300px;overflow:hidden;white-space:nowrap;
+	max-height:300px;overflow:hidden;text-overflow:ellipsis;
 }
 .detail-cart,.detail-buy {
 	border:1px solid #F08080;color:#F08080;display:block;
