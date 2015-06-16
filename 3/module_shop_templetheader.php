@@ -22,7 +22,7 @@
         	平安直通资讯有限公司
         </div>
     <?php if(isset($_GET["shop_name"])){ ?>
-    <div id="shop_detail" style="text-align:left;padding:7px 0 7px 7px;display:inline-block;float:right;font-size:16px;margin-top:55px;">
+    <div id="shop_detail" style="display:none;text-align:left;padding:7px 0 7px 7px;display:inline-block;float:right;font-size:16px;margin-top:55px;">
             <span>店名：<?php echo $_GET["shop_name"]; ?></span>
             <span>店主：<?php echo $_GET["shop_keeper"]; ?></span>
         	<span style="display:none;">店家联系方式</span>
