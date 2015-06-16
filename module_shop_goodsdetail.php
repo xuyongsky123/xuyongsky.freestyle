@@ -37,8 +37,6 @@
                         $user_id=$_SESSION['id'];
                     }else{
                         $user_id=0;
-                        var_dump($user_id);
-                        exit; 
                     }
                     $shop_search=$_GET['id'];
                     $sql_search="select * from shop_single_detail where id = '$shop_search'";
