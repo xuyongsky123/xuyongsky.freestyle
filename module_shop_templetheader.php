@@ -29,7 +29,9 @@
         	<span style="display:none;">......</span>
         </div>
     <?php } ?> 
+    <?php if(isset($_GET["shop_name"])){ ?>
     <div>购物车</div>
+    <?php } ?>
     
     
     </header>
