@@ -20,11 +20,11 @@
                     $shop_search=$_GET['id'];
                     $sql_search="select * from shop_single_detail where id = '$shop_search'";
                     $array_search=$operatedb->Execsql($sql_search,$conn);
-                    
-                                        var_dump($array_search);
-                                        exit;
                     if($array_search){
                         foreach($array_search as $item_search){
+                            echo '<div class="col-xs-5">';
+                            echo '<img src="'.$item_search["goods_detail_image_url"].'">';
+                            echo '</div>';
                             echo '<a href="./module_shop_goodsdetail.php?id='.$item_search["id"].'">';
                             echo '<div class="pallete-item xuyong_fixitem">';
                             echo '<dl class="palette '.$item_search["goods_style_top"].'">';
