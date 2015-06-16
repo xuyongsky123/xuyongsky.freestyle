@@ -25,6 +25,9 @@
                             echo '<div class="col-xs-5">';
                             echo '<img class="detail-style" src="'.$item_search["goods_detail_image_url"].'">';
                             echo '</div>';
+                            echo '<div class="col-xs-7">';
+                            echo '<div>'.$item_search["goods_detail"].'</div>';
+                            echo '</div>';
                         }
                     }else{
                         echo '<div>';
