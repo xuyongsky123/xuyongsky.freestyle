@@ -47,6 +47,7 @@
                     </form>
             	</div>
                 <div id="modify_item" class="group_content">
+                    <div>
                 	<?php  
                             require("./database/connDB.inc.php");
 							$sql="select * from shop_info";
@@ -67,6 +68,7 @@
                                     echo "没有查到相关产品类型信息...";
                             }
 						?>
+                    </div>
                 </div>
                 <div id="add_item" class="group_content">
                 	<form id="search_form" action="./info_shop_show.php" method="post">
