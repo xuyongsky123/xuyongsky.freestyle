@@ -22,9 +22,9 @@
                         foreach($array_search as $item_search){
                             echo '<div class="col-xs-1"></div>';
                             echo '<div class="col-xs-9"><a href="module_shop_goodsdetail.php?id='.$item_search["goods_id"].'">';
-                            echo '<div class="col-xs-4"><img src="'.$item_search["goods_image_url"].'"></div>';
-                            echo '<div class="col-xs-4">'.$item_search["goods_name"].'</div>';
-                            echo '<div class="col-xs-4">'.$item_search["goods_price"].'</div>';    
+                            echo '<div class="col-xs-3"><img src="'.$item_search["goods_image_url"].'"></div>';
+                            echo '<div class="col-xs-3">'.$item_search["goods_name"].'</div>';
+                            echo '<div class="col-xs-6">'.$item_search["goods_price"].'</div>';    
                             echo '</a></div>';
                             echo '<div class="col-xs-2">删除</div>';
                             echo '<div class="col-xs-12" style="height:20px;"></div>';
