@@ -24,6 +24,9 @@
               }
               
           }
+          function buyGoods(){
+          	alert("功能模块开发中，敬请期待！！！")
+          }
       </script>
   </head>
   <body>
