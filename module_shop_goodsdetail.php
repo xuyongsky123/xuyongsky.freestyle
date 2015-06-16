@@ -15,7 +15,7 @@
                   {goods_id:id,user_id:user_id},
                   function(data){
                       alert(data);
-                  }
+                  },"json"
               );
           }
       </script>
