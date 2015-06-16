@@ -10,10 +10,6 @@
 	<title>商品详情页</title>
       <script>
           function addToCart(id,user_id){
-              if(user_id==null || user_id==''){
-              	alert("请先登录！");
-                window.location.href="./login.html";
-              }else{
               	$.post(
                       "./module_shop_handle_ajax.php",
                       {goods_id:id,user_id:user_id},
@@ -21,7 +17,6 @@
                           alert("加入购物车成功！");
                       }
                   );
-              }
               
           }
       </script>
