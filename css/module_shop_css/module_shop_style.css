@@ -125,5 +125,7 @@
 .cart-img img {
 	height:150px;width:300px
 }
-
+.common-line-height {
+	line-height:150px;
+}
 
