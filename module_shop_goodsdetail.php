@@ -41,8 +41,6 @@
                     echo '</div>';
                 }
           ?>
-          <div class="col-xs-5"></div>
-          <div class="col-xs-7"></div>
       </div>
       
       <?php include("./module_shop_templetfooter.php"); ?>
