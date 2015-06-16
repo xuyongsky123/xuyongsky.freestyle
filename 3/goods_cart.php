@@ -15,6 +15,7 @@
                 {goods_id:goods_id,user_id:user_id,action:'deleteFromCart'},
                 function(data){
                     alert("删除成功！");
+                    window.location.href="./goods_cart.php"
                 }
             );
           }
