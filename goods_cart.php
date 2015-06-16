@@ -19,7 +19,7 @@
                     $array_search=$operatedb->Execsql($sql_search,$conn);
                     if($array_search){
                         foreach($array_search as $item_search){
-                            echo '<div>'.$item_search["goods_id"].'</div>';
+                            echo '<div>'.$item_search["goods_id"].'test</div>';
                         }
                     }else{
                         echo '<div>';
