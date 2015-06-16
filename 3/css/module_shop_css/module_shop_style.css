@@ -116,5 +116,7 @@
   border:1px solid #1abc9c;
 }
 
-
+.to-goods-cart {
+	float:right;background:#EE7600;color:#fff;
+}
 
