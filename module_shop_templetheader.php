@@ -30,7 +30,7 @@
         </div>-->
     <?php } ?> 
     <?php if(isset($_SESSION["id"])){ ?>
-    <div><a class="to-goods-cart" href="">购物车</a></div>
+    <div><a class="to-goods-cart" href="./goods_cart.php">购物车</a></div>
     <?php } ?>
     
     
