@@ -26,7 +26,7 @@
                             echo '<div class="col-xs-4">'.$item_search["goods_name"].'</div>';
                             echo '<div class="col-xs-4">'.$item_search["goods_price"].'</div>';    
                             echo '</a></div>';
-                            echo '<div class="col-xs-2">删除</div>'
+                            echo '<div class="col-xs-2">删除</div>'；
                             echo '<div class="col-xs-12" style="height:20px;"></div>';
                         }
                     }else{
