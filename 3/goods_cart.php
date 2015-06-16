@@ -21,7 +21,7 @@
                         foreach($array_search as $item_search){
                             echo '<div class="col-xs-4"></div>';
                             echo '<div class="col-xs-4"><a href="module_shop_goodsdetail.php?id='.$item_search["goods_id"].'">'.$item_search["goods_id"].'</a></div>';
-                            echo '<div class="col-xs-4"></div>';
+                            echo '<div class="col-xs-4">删除</div>';
                         }
                     }else{
                         echo '<div>';
