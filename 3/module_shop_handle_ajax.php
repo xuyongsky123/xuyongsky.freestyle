@@ -1,4 +1,4 @@
 <?php
 	var_dump($_GET['goods_id']);
-	exit;
+	return $_GET['goods_id'];
 ?>
