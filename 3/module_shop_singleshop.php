@@ -39,6 +39,7 @@
                                         
                                         if($array_search){
                                             foreach($array_search as $item_search){
+                                                echo '<a href="">';
                                                 echo '<div class="pallete-item xuyong_fixitem">';
                                                 echo '<dl class="palette '.$item_search["goods_style_top"].'">';
                                                 //echo $item_search["goods_image"];
@@ -53,7 +54,7 @@
                                                 echo '</dd>';
                                                 echo '</dl>';
                                                 echo '</div>';
-                                                
+                                                echo '</a>;'
                                             }
                                         }else{
                                             echo '<div>';
