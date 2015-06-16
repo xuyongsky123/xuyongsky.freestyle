@@ -14,7 +14,7 @@
                   "./module_shop_handle_ajax.php",
                   {goods_id:id,user_id:user_id},
                   function(data){
-                      alert(data);
+                      alert("加入购物车成功！");
                   }
               );
           }
