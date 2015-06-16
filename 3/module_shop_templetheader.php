@@ -29,8 +29,8 @@
         	<span style="display:none;">......</span>
         </div>
     <?php } ?> 
-    <?php if(isset($_GET["shop_name"])){ ?>
-    <div>购物车</div>
+    <?php if(isset($_SESSION["id"])){ ?>
+    <div><a href="">购物车</a></div>
     <?php } ?>
     
     
