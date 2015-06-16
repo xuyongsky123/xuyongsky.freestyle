@@ -17,8 +17,7 @@
                     $user_id=$_SESSION['id'];
                     $sql_search="select * from goods_cart as a inner join shop_single_detail as b on a.goods_id=b.id where user_id = '$user_id'";
                     $array_search=$operatedb->Execsql($sql_search,$conn);
-var_dump($array_search);
-exit;
+
                     if($array_search){
                         foreach($array_search as $item_search){
                             echo '<div class="col-xs-3"></div>';
