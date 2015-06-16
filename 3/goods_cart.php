@@ -7,7 +7,7 @@
   <head> 
     <?php include('./frame_bootstrap_templethead.php'); ?>
     <link href="./css/module_shop_css/module_shop_style.css" rel="stylesheet" />
-	<title>购物车</title>
+	<title>购物车</title> 
   </head>
   <body>
       <?php include("./module_shop_templetheader.php"); ?>
@@ -28,7 +28,7 @@
                             echo '<div class="col-xs-3 common-line-height">'.$item_search["goods_price"].'</div>';    
                             echo '</a></div>';
                             echo '<div class="col-xs-2 common-line-height">删除</div>';
-                            echo '<div class="col-xs-12" style="height:20px;margin:1px 0"></div>';
+                            echo '<div class="col-xs-12" style="height:20px;margin:1px 0;"></div>';
                             echo '</div>';
                         }
                     }else{
