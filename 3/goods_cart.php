@@ -20,6 +20,7 @@
 
                     if($array_search){
                         foreach($array_search as $item_search){
+                            echo '<div class="single-item-goods">';
                             echo '<div class="col-xs-1"></div>';
                             echo '<div class="col-xs-9"><a href="module_shop_goodsdetail.php?id='.$item_search["goods_id"].'">';
                             echo '<div class="col-xs-6 cart-img"><img src="'.$item_search["goods_image_url"].'"></div>';
@@ -28,6 +29,7 @@
                             echo '</a></div>';
                             echo '<div class="col-xs-2 common-line-height">删除</div>';
                             echo '<div class="col-xs-12" style="height:20px;"></div>';
+                            echo '</div>';
                         }
                     }else{
                         echo '<div>';
