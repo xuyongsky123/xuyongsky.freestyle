@@ -48,14 +48,7 @@
             	</div>
                 <div id="modify_item" class="group_content">
                     <div>
-                	<?php  
-                            require("./database/connDB.inc.php");
-							$sql="select * from shop_info";
-                            $array=$operatedb->Execsql($sql,$conn);
-                            
-                            
-                            
-						?>
+                	开发中...
                     </div>
                 </div>
                 <div id="add_item" class="group_content">
