@@ -90,7 +90,7 @@
                 <div id="delete_item" class="group_content">
                     <form id="search_form" action="./info_goods_show.php" method="post">
                         
-                        <input name="shop_identify" type="hidden" value="shop_delete_item" />
+                        <input name="shop_identify" type="hidden" value="goods_delete_item" />
                         
                         <?php  
                             require("./database/connDB.inc.php");
